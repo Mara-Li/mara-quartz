@@ -2,6 +2,8 @@ name: Sync Files
 on: 
   workflow_dispatch:
   push:
+    paths:
+      - quartz/**
 
 jobs:
   sync:
