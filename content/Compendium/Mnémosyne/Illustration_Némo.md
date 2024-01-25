@@ -1,8 +1,10 @@
 ---
-alias:
+aliases:
   - Illustration Mnémosyne
   - Illustration
-category: Compendium/Mnémosyne
+title: Illustration
+category:
+  - Compendium/Mnémosyne
 date: 2021-10-17
 description: Illustration — Dessin de Némo
 dg-path: Compendium/Mnémosyne/Illustration_Némo.md
@@ -13,7 +15,8 @@ short: Némo
 tags:
   - Mnémosyne
   - Illustration
-type: Illustration
+type:
+  - Illustration
 univers: Références
 ---
 
