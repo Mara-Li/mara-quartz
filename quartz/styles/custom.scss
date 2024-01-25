@@ -15,7 +15,12 @@ ul.overflow {
 }
 
 .page .page-header {
+	position: sticky;
+	top:0;
 	border-bottom: 1px solid var(--lightgray);
+	background-color: var(--light);
+	margin-top: 0 !important;
+	padding: 2rem;
 }
 
 .mobile-only.explorer>#explorer-content:not(.collapsed) {

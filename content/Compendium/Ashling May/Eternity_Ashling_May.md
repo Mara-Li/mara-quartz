@@ -67,7 +67,7 @@ Le souci dans toutes ses histoires, c'est que beaucoup de ces morceaux de caract
 
 <p style="text-align: center;font-weight:bold">━━━─── • ───━━━</p><h1 style="text-align:right">⌈ TECHNOMAGE ⌋</h1>
 
-> [!wiki|table]
+> [!wiki]
 > | Statistiques | Valeur |
 > | ------------ | ------ |
 > | Force        | 20     |
