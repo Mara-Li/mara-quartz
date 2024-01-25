@@ -1,5 +1,6 @@
 group:
   - files:
-      - source: quartz/
-        dest: quartz/
+    - quartz/
+    repos: |
+      ObsidianPublisher/quartz-port
         
