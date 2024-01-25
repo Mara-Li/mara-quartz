@@ -1,3 +1,4 @@
+import exp from "constants"
 import { FolderState } from "../ExplorerNode"
 
 // Current state of folders
@@ -125,7 +126,17 @@ function setupExplorer() {
 
 window.addEventListener("resize", setupExplorer)
 document.addEventListener("nav", () => {
+  const explorer = document.getElementById("explorer")
+  if (explorer) {
+    explorer.classList.add("collapsed")
+    const content = explorer.nextElementSibling as HTMLElement
+    content.classList.add("collapsed")
+    content.style.maxHeight = "0px"
+  }
   setupExplorer()
+  //add collapsed class to all folders
+
+
 
   observer.disconnect()
 
@@ -135,6 +146,8 @@ document.addEventListener("nav", () => {
     observer.observe(lastItem)
   }
 })
+
+
 
 /**
  * Toggles the state of a given folder

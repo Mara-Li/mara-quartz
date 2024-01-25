@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.MobileOnly(Component.Explorer({ title: "Explorer" })),
+    Component.MobileOnly(Component.Explorer({ title: "mobile", folderDefaultState:"collapsed", folderClickBehavior:"link", useSavedState:false })),
     Component.MobileOnly(Component.Spacer()),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -37,13 +37,19 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.Explorer(),
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.TagList(),
   ],
-  right: [],
+  left: [
+    Component.DesktopOnly(Component.Explorer({ title: "" })),
+  ],
+  right: [
+    Component.DesktopOnly(Component.Graph()),
+    //Component.MobileOnly(Component.Explorer({ title: "Explorer"})),
+    Component.TableOfContents(),
+    Component.DesktopOnly(Component.Backlinks()),
+  ],
 }
