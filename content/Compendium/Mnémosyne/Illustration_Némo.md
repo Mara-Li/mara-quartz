@@ -19,29 +19,29 @@ univers: Références
 
 
 > [!grid] Medhas
-> ![[Grimm_Nemo.jpg|Grimm_Nemo.jpg]] ![[Illustration-1701067202831.jpeg|Illustration-1701067202831.jpeg]]
-> ![[../../assets/img/Illustration-1701068321097.png|Illustration-1701068321097.png]] ![[../../assets/img/Illustration-1701068321713.jpeg|Illustration-1701068321713.jpeg]] ![[../../assets/img/Illustration-1701068322156.jpeg|Illustration-1701068322156.jpeg]]
-> ![[../../assets/img/Illustration-1701068322540.png|Illustration-1701068322540.png]] ![[../../assets/img/Illustration-1701068322881.png|Illustration-1701068322881.png]]
-> ![[../../assets/img/Illustration-1701068322877.jpeg|Illustration-1701068322877.jpeg]]
+> ![[../../img/Grimm_Nemo.jpg|Grimm_Nemo.jpg]] ![[../../img/Robe_némo.jpeg|Robe_némo.jpeg]]
+> ![[../../img/Némo_grim_danse.png|Némo_grim_danse.png]] ![[../../img/meme_nemo.jpeg|meme_nemo.jpeg]] ![[../../img/portrait_love_nemo.jpeg|portrait_love_nemo.jpeg]]
+> ![[../../img/fusain.png|fusain.png]] ![[../../img/tenu_jap.png|tenu_jap.png]]
+> ![[../../img/meme_chaa_grim.jpeg|meme_chaa_grim.jpeg]]
 
 > [!GRID] Phil
-> ![[../../assets/img/Illustration-1701068323349.jpeg|Illustration-1701068323349.jpeg]] ![[../../assets/img/Illustration-1701068323445.jpeg|Illustration-1701068323445.jpeg]] ![[../../assets/img/Illustration-1701068323550.png|Illustration-1701068323550.png]]
-> ![[../../assets/img/Illustration-1701068323665.jpeg|Illustration-1701068323665.jpeg]] ![[../../assets/img/Illustration-1701068323911.jpeg|Illustration-1701068323911.jpeg]] ![[../../assets/img/Illustration-1701068324041.jpg|Illustration-1701068324041.jpg]]
-> ![[../../assets/img/Illustration-1701068324265.jpeg|Illustration-1701068324265.jpeg]]
+> ![[../../img/Illustration-1701068323349.jpeg|Illustration-1701068323349.jpeg]] ![[../../img/guirlande.jpeg|guirlande.jpeg]] ![[../../img/portrait.png|portrait]]
+> ![[../../img/Nemo_draft.jpeg|Nemo_draft.jpeg]] ![[../../img/Illustration-1701068323911.jpeg|Illustration-1701068323911.jpeg]] ![[../../img/Illustration-1701068324041.jpg|Illustration-1701068324041.jpg]]
+> ![[../../img/Illustration-1701068324265.jpeg|Illustration-1701068324265.jpeg]]
 
 > [!GRID] Autres
-> ![[../../assets/img/Illustration-1701067208515.jpeg|Illustration-1701067208515.jpeg]]
-> ![[../../assets/img/Illustration-1701067208654.jpeg|Illustration-1701067208654.jpeg]]
-> ![[../../assets/img/Illustration-1701067208718.png|Illustration-1701067208718.png]]
+> ![[../../img/illu_truc.jpeg|illu_truc.jpeg]]
+> ![[../../img/Chaa_Rodon.jpeg|Chaa_Rodon.jpeg]]
+> ![[../../img/Perseith_chaa_collab.png|Perseith_chaa_collab.png]]
 
 
 > [!GRID] Commission
-> ![[../../assets/img/Illustration-1701068324478.jpeg|Illustration-1701068324478.jpeg]] ![[../../assets/img/Illustration-1701068324587.jpeg|Illustration-1701068324587.jpeg]]
+> ![[../../img/Nemo_twitter.jpeg|Nemo_twitter.jpeg]] ![[../../img/qquoee.jpeg|qquoee.jpeg]]
 >
-> ![[../../assets/img/Illustration-1701068324712.png|Illustration-1701068324712.png]]
-> ![[../../assets/img/Illustration-1701068324788.jpeg|Illustration-1701068324788.jpeg]] ![[Némo_lillyth.jpg|Némo_lillyth.jpg]]
-> ![[../../assets/img/Illustration-1701068324913.png|Illustration-1701068324913.png]]
-> ![[../../assets/img/Illustration-1701068325095.png|Illustration-1701068325095.png]]
+> ![[../../img/pixel_art.png|pixel_art.png]]
+> ![[../../img/MOG.jpeg|MOG.jpeg]] ![[../../img/Némo_lillyth.jpg|Némo_lillyth.jpg]]
+> ![[../../img/première_commi.png|première_commi.png]]
+> ![[../../img/semi_realist.png|semi_realist.png]]
 >
-> ![[../../assets/img/Illustration-1701068325219.jpg|Illustration-1701068325219.jpg]]
-> ![[../../assets/img/Illustration-1701068325515.jpg|Illustration-1701068325515.jpg]]
+> ![[../../img/Némo_BG_nom.jpg|Némo_BG_nom.jpg]]
+> ![[../../img/portrait.jpg|portrait.jpg]]
