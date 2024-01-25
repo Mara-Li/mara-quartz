@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.MobileOnly(Component.Explorer({ title: "mobile", folderDefaultState:"collapsed", folderClickBehavior:"link", useSavedState:false })),
+    Component.MobileOnly(Component.Explorer({ title: "mobile", folderDefaultState:"open", folderClickBehavior:"link" })),
     Component.MobileOnly(Component.Spacer()),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),

@@ -126,7 +126,7 @@ function setupExplorer() {
 
 window.addEventListener("resize", setupExplorer)
 document.addEventListener("nav", () => {
-  const explorer = document.getElementById("explorer")
+  const explorer = document.querySelector(".mobile-only #explorer")
   if (explorer) {
     explorer.classList.add("collapsed")
     const content = explorer.nextElementSibling as HTMLElement
