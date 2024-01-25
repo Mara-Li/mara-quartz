@@ -18,7 +18,6 @@ export default (() => {
       const contentDir = `https://${cfg.baseUrl}/${cfg.contentDir}/`;
       ogImagePath = fileData?.frontmatter?.image?.trim() ? sluggify(`${contentDir}${fileData?.frontmatter?.image?.trim()}`) : `https://${cfg.baseUrl}/static/og-image.png`;
     }
-    console.log(ogImagePath);
     return (
       <head>
         <title>{title}</title>
