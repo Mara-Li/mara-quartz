@@ -4,7 +4,7 @@
   height: 20px;
   margin: 0 10px;
 
-  & > .toggle {
+  &>.toggle {
     display: none;
     box-sizing: border-box;
   }
@@ -29,20 +29,22 @@
   color-scheme: light;
 }
 
-:root[saved-theme="dark"] .toggle ~ label {
-  & > #dayIcon {
+:root[saved-theme="dark"] .toggle~label {
+  &>#dayIcon {
     opacity: 0;
   }
-  & > #nightIcon {
+
+  &>#nightIcon {
     opacity: 1;
   }
 }
 
-:root .toggle ~ label {
-  & > #dayIcon {
+:root .toggle~label {
+  &>#dayIcon {
     opacity: 1;
   }
-  & > #nightIcon {
+
+  &>#nightIcon {
     opacity: 0;
   }
 }

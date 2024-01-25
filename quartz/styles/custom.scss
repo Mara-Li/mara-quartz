@@ -1,3 +1,37 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.mobile-only.explorer>#explorer-content:not(.collapsed) {
+	width: 100%;
+	background-color: var(--light);
+	height: 100%;
+	position: fixed;
+	max-height: 100% !important;
+	z-index: 100;
+	//make transition to right
+	transition: all 200ms ease;
+	margin-top: 2rem;
+}
+
+.mobile-only.explorer>#explorer-content.collapsed {
+	left: -100%;
+	width: 0;
+	background-color: var(--light);
+	height: 100%;
+	position: fixed;
+	max-height: 100% !important;
+	z-index: 100;
+	//make transition to right
+	transition: all 200ms ease;
+
+}
+
+.mobile-only #explorer:not(.collapsed) .lucide-menu {
+	transform: rotate(90deg);
+	transition: transform 200ms ease-in-out;
+}
+
+.mobile-only #explorer .lucide-menu {
+	transition: transform 200ms ease-in-out;
+}
