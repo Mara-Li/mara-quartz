@@ -29,7 +29,8 @@ icon: fontawesome/solid/gamepad
 ➤ **Affiliation** : Légion
 ➤ **Classe Sociale** : (Très) aisée
 
-![[../../assets/img/Solow_Ashling.png|+rside]]
+![[../../assets/img/solow.png|+rside]]
+
 ➤ **Apparence** :
 - *Yeux* : Bleus
 - *Cheveux* : Roux
