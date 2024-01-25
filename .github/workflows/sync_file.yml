@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - quartz/**
+      - .github/workflows/**.yml
 
 jobs:
   sync:
