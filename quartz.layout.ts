@@ -7,8 +7,6 @@ export const sharedPageComponents: SharedLayout = {
   header: [
     Component.MobileOnly(Component.Explorer({ title: "mobile", folderDefaultState:"open", folderClickBehavior:"link" })),
     Component.MobileOnly(Component.Spacer()),
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Search(), Component.Darkmode(),
   ],
   footer: Component.Footer({
@@ -25,7 +23,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.DesktopOnly(Component.Explorer({ title: "" })),
+    Component.DesktopOnly(Component.PageTitle()),
+    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"open", useSavedState: true})),
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),
@@ -44,7 +43,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.DesktopOnly(Component.Explorer({ title: "" })),
+    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"open", useSavedState: true })),
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),

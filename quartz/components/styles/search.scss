@@ -1,12 +1,12 @@
 @use "../../styles/variables.scss" as *;
 
 .search {
-  // min-width: fit-content;
-  // max-width: 14rem;
-  // flex-grow: 0.3;
+  min-width: fit-content;
+  max-width: 14rem;
+  flex-grow: 0.3;
 
   &>#search-icon {
-    // background-color: var(--lightgray);
+    background-color: var(--lightgray);
     border-radius: 4px;
     height: 2rem;
     display: flex;
@@ -48,7 +48,6 @@
     overflow-y: auto;
     display: none;
     backdrop-filter: blur(4px);
-    background-color: var(--overlay) !important;
 
     &.active {
       display: inline-block;
@@ -95,8 +94,10 @@
           border: 1px solid var(--lightgray);
           border-bottom: none;
           width: 100%;
+          display: block;
+          box-sizing: border-box;
 
-          // normalize button props
+          // normalize card props
           font-family: inherit;
           font-size: 100%;
           line-height: 1.15;
@@ -105,6 +106,7 @@
           text-align: left;
           background: var(--light);
           outline: none;
+          font-weight: inherit;
 
           & .highlight {
             color: var(--secondary);

@@ -1,6 +1,11 @@
 ---
-title: Welcome to Quartz
+title: Owlly lab
+description: "Je suis Mara, j'ai 26 ans. Je suis étudiante en Santé Publique, et j'ai pour hobby la programmation, le Roleplay et les jeux-vidéos. Ce site me permet de présenter mes projets, mes personnages, mes univers et mes outils."
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+> [!info]
+> coucou
+
+> [!note]
+> coucou
+
