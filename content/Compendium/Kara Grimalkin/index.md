@@ -22,10 +22,10 @@ tags:
 >[!grid]
 > ![[Kara_portrait.jpeg|Kara_portrait.jpeg]]
 > ![[Kara_te_juge.jpeg|Kara_te_juge.jpeg]]
-> ![[../../assets/img/Kara_Kimono-1-1.jpeg|Kara_Kimono-1-1.jpeg]]
-> ![[../../assets/img/Kara_chill-1-1-1.jpg|Kara_chill-1-1-1.jpg]]
+> ![[../../img/Kara_Kimono-1-1.jpeg|Kara_Kimono-1-1.jpeg]]
+> ![[../../img/Kara_chill-1-1-1.jpg|Kara_chill-1-1-1.jpg]]
 > 
-> ![[../../assets/img/Kara_illustration_commission-1-1.png|Kara_illustration_commission-1-1.png]]
+> ![[../../img/Kara_illustration_commission-1-1.png|Kara_illustration_commission-1-1.png]]
 
 #FFXIV #Gardemald
 # ─────༺ Présentation ༻─────
