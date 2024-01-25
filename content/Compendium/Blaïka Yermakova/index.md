@@ -18,7 +18,7 @@ univers: Chroniques du Grimnoir
 
 <b style="text-align:center;display:block;">"Mère Russie n'existe pas"</b>
 
-![[Blaïka.jpg|+side]]
+![[../../img/Blaïka.jpg|+side]]
 
 **Nom** : Yermakova
 **Prénom** : Blaïka
