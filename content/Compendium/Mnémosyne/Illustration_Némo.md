@@ -22,15 +22,15 @@ univers: Références
 
 
 > [!grid] Medhas
-> ![[../../img/Grimm_Nemo.jpg|Grimm_Nemo.jpg]] ![[../../img/Robe_némo.jpeg|Robe_némo.jpeg]]
-> ![[../../img/Némo_grim_danse.png|Némo_grim_danse.png]] ![[../../img/meme_nemo.jpeg|meme_nemo.jpeg]] ![[../../img/portrait_love_nemo.jpeg|portrait_love_nemo.jpeg]]
+> ![[../../img/Grimm_Nemo.jpg|Grimm_Nemo.jpg]] ![[../../img/Robe_nemo.jpeg|Robe_nemo.jpeg]]
+> ![[../../img/Nemo_grim_danse.png|Nemo_grim_danse.png]] ![[../../img/meme_nemo.jpeg|meme_nemo.jpeg]] ![[../../img/portrait_love_nemo.jpeg|portrait_love_nemo.jpeg]]
 > ![[../../img/fusain.png|fusain.png]] ![[../../img/tenu_jap.png|tenu_jap.png]]
 > ![[../../img/meme_chaa_grim.jpeg|meme_chaa_grim.jpeg]]
 
 > [!GRID] Phil
-> ![[../../img/Illustration-1701068323349.jpeg|Illustration-1701068323349.jpeg]] ![[../../img/guirlande.jpeg|guirlande.jpeg]] ![[../../img/portrait.png|portrait]]
-> ![[../../img/Nemo_draft.jpeg|Nemo_draft.jpeg]] ![[../../img/Illustration-1701068323911.jpeg|Illustration-1701068323911.jpeg]] ![[../../img/Illustration-1701068324041.jpg|Illustration-1701068324041.jpg]]
-> ![[../../img/Illustration-1701068324265.jpeg|Illustration-1701068324265.jpeg]]
+> ![[../../img/draft.jpeg|draft.jpeg]] ![[../../img/guirlande.jpeg|guirlande.jpeg]] ![[../../img/portrait.png|portrait]]
+> ![[../../img/Nemo_draft.jpeg|Nemo_draft.jpeg]] ![[../../img/panneau.jpeg|panneau.jpeg]] ![[../../img/portrait_colored.jpg|portrait_colored.jpg]]
+> ![[../../img/chibi.jpeg|chibi.jpeg]]
 
 > [!GRID] Autres
 > ![[../../img/illu_truc.jpeg|illu_truc.jpeg]]
@@ -43,8 +43,8 @@ univers: Références
 >
 > ![[../../img/pixel_art.png|pixel_art.png]]
 > ![[../../img/MOG.jpeg|MOG.jpeg]] ![[../../img/Némo_lillyth.jpg|Némo_lillyth.jpg]]
-> ![[../../img/première_commi.png|première_commi.png]]
+> ![[../../img/premiere_commi.png|premiere_commi.png]]
 > ![[../../img/semi_realist.png|semi_realist.png]]
 >
-> ![[../../img/Némo_BG_nom.jpg|Némo_BG_nom.jpg]]
+> ![[../../img/Nemo_BG_nom.jpg|Nemo_BG_nom.jpg]]
 > ![[../../img/portrait.jpg|portrait.jpg]]
