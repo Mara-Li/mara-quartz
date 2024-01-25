@@ -17,13 +17,16 @@ type: OC
 
 
 $~$
+| LINK                                                                                                   | RP       |
+| ------------------------------------------------------------------------------------------------------ | -------- |
+| [[./Eternity_Ashling_May\|[ETERNITY] ASHLING « SOLA UI » MAY]] | ETERNITY |
 
 
 ---
 
 # ─────༺ Présentation ༻─────
 
-![[../../assets/img/Commission Feilyn.png|+side]]
+![[../../img/Commission Feilyn.png|+side]]
 **Nom** : May
 **Prénoms** : Ashling
 **Surnoms** : Ekraminarok

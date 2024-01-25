@@ -50,7 +50,7 @@ cssclasses:
 # Physique
 ---
 
-![[../../assets/img/Eden-full.png|+rside]]
+![[../../img/Eden-full.png|+rside]]
 
 Éden est un petit brin de femme assez marquée par la vie et les expériences qu’elle a vécu au sein de l’institut. Mesurant 1m60 et assez mince, elle a toujours ce drôle de regard, souvent sombre, comme si elle s’ennuyait.
 Surnommée la « zombie » à cause de ses cernes, elle possède des yeux rouges très sombres, une peau excessivement pâle dans laquelle on peut distinguer ses veines noires. Cela ne la défigure pas totalement, car la gardienne de nuit possède tout de même un joli visage en cœur, constellé de tâches de rousseurs, avec un petit nez tout à fait à sa place. Enfin, elle a des cheveux décolorés, naturellement, avec des racines brunes qui deviennent blanches sur les bouts. Généralement, ses cheveux sont coupés mi-long, et elle les attache dans une queue de cheval fouillis.

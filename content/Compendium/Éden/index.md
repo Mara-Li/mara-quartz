@@ -10,6 +10,10 @@ univers: Zombie Project
 ---
 
 
+| image                                                                                   | LINK                                                                                     | univers                                                                                                |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| ![[../../img/eden_portrait.png\|eden_portrait.png]]                              | [[./Eden_Loiseau\|Éden « 28500 » Loiseau]] | [[Asylum of enchantments\|Asylum of enchantments]] |
+| ![[Eden « 28500 » Loiseau-1701067202835.png\|Eden « 28500 » Loiseau-1701067202835.png]] | [[./Éden 28500\|Éden 28500]]                            | Vélum                                                                                                  |
 
 
 %% Inspirée de [[../Ambre Loiseau|Ambre Loiseau]] %%

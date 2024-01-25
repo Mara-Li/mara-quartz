@@ -48,7 +48,7 @@ Difficile de savoir pourquoi elle fait se métier, ce qu'elle fera après ou com
 
 **[DESCRIPTION PHYSIQUE]**: 
 > [!wiki] 
-> ![[../assets/img/Pasted image 20231226134811.png|Pasted image 20231226134811.png]]
+> ![[../img/Full_liberi_Ambrose.png|Full_liberi_Ambrose.png]]
 > ## Apparence
 > | | |
 > |:--:|:--:|
