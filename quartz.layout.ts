@@ -24,7 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"open", useSavedState: true})),
+    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"collapsed", useSavedState: true})),
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),
@@ -43,7 +43,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"open", useSavedState: true })),
+    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"collapsed", useSavedState: true })),
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),
