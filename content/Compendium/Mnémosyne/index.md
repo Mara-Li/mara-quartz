@@ -19,11 +19,14 @@ cssclasses:
   - cards-cols-5
 ---
 
+| image                                                                                                                    | LINK                                                                                     | univers   |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | --------- |
+| ![[../../img/Némo_Commission_BG+name.png\|Némo_Commission_BG+name.png]] | [[Laurenzia « Mnémosyne » Azriel\|Mnémosyne]] | Arknights |
 
 
 ---
 > [!info]- Informations principales.
->  ![[Némo_lillyth.jpg|+side]]
+>  ![[../../img/Némo_lillyth.jpg|+side]]
 > **Prénom et nom** : Mnémosyne
 > _Alias :_ Némo
 >
