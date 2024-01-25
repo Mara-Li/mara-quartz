@@ -1,4 +1,4 @@
-import { FullSlug, _stripSlashes, joinSegments, pathToRoot } from "../util/path"
+import { FullSlug, _stripSlashes, joinSegments, pathToRoot, sluggify } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
@@ -13,8 +13,12 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = fileData?.frontmatter?.image?.trim() ?? `https://${cfg.baseUrl}/static/og-image.png`
-
+    let ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`;
+    if (cfg.contentDir) {
+      const contentDir = `https://${cfg.baseUrl}/${cfg.contentDir}/`;
+      ogImagePath = fileData?.frontmatter?.image?.trim() ? sluggify(`${contentDir}${fileData?.frontmatter?.image?.trim()}`) : `https://${cfg.baseUrl}/static/og-image.png`;
+    }
+    console.log(ogImagePath);
     return (
       <head>
         <title>{title}</title>

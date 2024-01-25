@@ -10,6 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "lisandra-dev.github.io/mara-quartz",
+    contentDir: "img",
     ignorePatterns: ["private", "templates", ".obsidian", "hidden"],
     defaultDateType: "created",
     theme: {

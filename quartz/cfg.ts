@@ -34,6 +34,7 @@ export interface GlobalConfiguration {
    *   Quartz will avoid using this as much as possible and use relative URLs most of the time
    */
   baseUrl?: string
+  contentDir?: string
   theme: Theme
 }
 
