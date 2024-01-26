@@ -6,7 +6,7 @@ univers: "[[Asylum of Enchantments]]"
 type: Fiche
 category:
   - Compendium/Éden
-image: "[[eden_portrait.png]]"
+image: eden_portrait.png
 title: Éden « 28500 » Loiseau
 name: Eden_Loiseau
 original:
@@ -20,12 +20,11 @@ cssclasses:
 
 
 
-
 <h5 style="color: grey;text-align: right;"> Fiche personnelle de <span style="border-radius: 5px; background-color: #4b4b4b91;padding:0 5px; color: var(--md-default-fg-color--light);">Mara Li</span></h5>
 
 > [!wiki]
 > # Éden Loiseau
-> ![[eden_portrait.png]]
+> ![[../../img/eden_portrait.png|eden_portrait.png]]
 >
 > |  |  |
 > | ---- | ---- |
