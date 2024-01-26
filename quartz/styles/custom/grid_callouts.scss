@@ -334,7 +334,7 @@ body {
 	margin: 0;
 	margin-left: 8px;
 	width: 30vh;
-	float: right;
+	float: left;
 }
 
 :is(.is-phone) .callout[data-callout~="wiki"],
@@ -456,11 +456,6 @@ body {
 	border-radius: 0% !important;
 }
 
-.callout[data-callout~="wiki"] p,
-.callout[data-callout~="infobox"] p {
-	padding-left: 5px;
-}
-
 .callout[data-callout~="wiki"][data-callout-metadata~="left"],
 .callout[data-callout~="infobox"][data-callout-metadata~="left"] {
 	margin-right: 15px;
@@ -494,6 +489,10 @@ body {
 
 .callout[data-callout~="wiki"] table {
 	font-family: "Ubuntu", var(--font-interface);
+}
+
+.wiki-right .callout.wiki {
+	float: right;
 }
 
 /** Image Grid **/

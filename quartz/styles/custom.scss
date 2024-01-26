@@ -29,3 +29,20 @@ ul.overflow {
 hr {
 	width: auto !important;
 }
+
+.hr-title hr {
+	position: relative;
+	top: -1em;
+	border-bottom: 1px solid var(--md-default-fg-color--light);
+}
+
+.rside-10 img[alt*="+rside"] {
+	width: 10em;
+}
+
+.wiki-right .callout.wiki h1,
+.wiki-right .callout.wiki h3 {
+	background-color: var(--lightgray);
+}
+
+  
