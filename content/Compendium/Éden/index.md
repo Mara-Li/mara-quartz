@@ -11,9 +11,8 @@ univers: Zombie Project
 
 
 
-
 %% Inspirée de [[../Ambre Loiseau|Ambre Loiseau]] %%
-![[Éden 28500-1690707934679.png|Éden 28500-1690707934679.png]]
+![[../../img/eden_portrait.png|+rside]]
 # ─────༺ Présentation ༻─────
 **Nom** : Éden
 **Âge** : Apparence fin de vingtaine
