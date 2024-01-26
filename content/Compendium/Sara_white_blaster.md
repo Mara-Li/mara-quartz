@@ -20,7 +20,7 @@ share_updated: 2023-12-29T23:01:31+01:00
 ---
 > [!wiki]
 > # SARA WHITE
-> ![[Sara-portrait.jpg]]
+> ![[Sara-portrait.jpg|parseME]]
 >
 > |  |  |
 > | ---- | ---- |
