@@ -8,7 +8,6 @@ title: Illustration
 type: Illustration
 ---
 
-
 # 2017
 
 >[!GRID]

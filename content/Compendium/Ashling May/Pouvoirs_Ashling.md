@@ -13,7 +13,6 @@ tags:
   - Futuriste
 ---
 
-
 %% Ref: [[./index|Ash]] %%
 
 # Technomage : Invocation d'armes
