@@ -6,7 +6,7 @@ univers:
 type: Fiche
 category:
   - Compendium
-image: Sara-portrait.jpg
+image: Sara-portrait.jpg|parseME
 title: Sara « Blaster » White
 name: Sara_white_blaster
 cssclasses:
@@ -20,7 +20,7 @@ share_updated: 2023-12-29T23:01:31+01:00
 ---
 > [!wiki]
 > # SARA WHITE
-> ![[Sara-portrait.jpg|parseME]]
+> ![[../img/Sara-portrait.jpg|parseME]]
 >
 > |  |  |
 > | ---- | ---- |
