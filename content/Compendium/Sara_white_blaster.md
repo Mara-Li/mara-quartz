@@ -6,7 +6,7 @@ univers:
 type: Fiche
 category:
   - Compendium
-image: Quanxi-Sara-White.jpg
+image: Sara-portrait.jpg
 title: Sara « Blaster » White
 name: Sara_white_blaster
 cssclasses:
@@ -21,7 +21,7 @@ share_updated: 2023-12-29T23:01:31+01:00
 
 > [!wiki|tbl-cln]
 > # SARA WHITE
-> ![[Quanxi-Sara-White.jpg]]
+> ![[Sara-portrait.jpg]]
 >
 > |  |  |
 > | ---- | ---- |
