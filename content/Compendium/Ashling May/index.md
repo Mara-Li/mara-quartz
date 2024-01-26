@@ -1,18 +1,20 @@
 ---
-alias: Ashling, Ash, index
-category: Compendium/Ashling May
+aliases:
+  - Ashling
+  - Ash
+  - index
+category:
+  - Compendium/Ashling May
 cover: https://www.mara-li.fr/assets/img/Commission%20Feilyn.png
 date: 2020-06-12
 description: Ashling May, mon premier et meilleur des OC. Une étudiante douée d'untalent certains en informatique, fan de jeux vidéos et doté d'un énorme égo. Lâche et égoïste, ainsi que très vénale.
-dg-path: Compendium/Ashling May/Ashling May.md
 dg-publish: true
-doc: Personnalisé
-genre: PJ
-image: Commission Feilyn.png
+image: "[[Commission Feilyn.png]]"
 name: Ashling May
 share: true
 title: Ashling May
-type: OC
+type:
+  - OC
 ---
 
 
@@ -23,7 +25,7 @@ $~$
 
 # ─────༺ Présentation ༻─────
 
-![[../../img/Commission Feilyn.png|+side]]
+![[Commission Feilyn.png|+side]]
 **Nom** : May
 **Prénoms** : Ashling
 **Surnoms** : Ekraminarok

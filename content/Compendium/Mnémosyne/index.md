@@ -19,14 +19,11 @@ cssclasses:
   - cards-cols-5
 ---
 
-| image                                                                                                                    | LINK                                                                                     | univers   |
-| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | --------- |
-| ![[../../img/Némo_Commission_BG+name.png\|Némo_Commission_BG+name.png]] | [[Laurenzia « Mnémosyne » Azriel\|Mnémosyne]] | Arknights |
 
 
 ---
 > [!info]- Informations principales.
->  ![[../../img/Némo_lillyth.jpg|+side]]
+>  ![[../../img/Nemo_lillyth.jpg|+side]]
 > **Prénom et nom** : Mnémosyne
 > _Alias :_ Némo
 >
@@ -142,7 +139,7 @@ cssclasses:
 > **Style vestimentaire** : Elle a un style plutôt décontracté, presque sportif. Elle apprécie les bottines, les longs manteaux en cuir souples, les pulls, mais aussi les pantalons cargo ou les jupes souples. Cela dit, puisqu'elle est aveugle, elle ne fait pas vraiment attention à son apparence.
 > Généralement, les couleurs qu'elle portera seront plutôt neutre, type marron, beige, voire bordeaux.
 >
-> → [[./Illustration_Némo|Illustration]]
+> → [[./Illustration_Nemo|Illustration]]
 >
 > # Divers
 > **Habitudes** :
@@ -164,4 +161,4 @@ cssclasses:
 %% [[Echo|Echo]]:: #Gardien %%
 
 ---
-![[./Illustration_Némo|Illustration_Némo]]
+![[./Illustration_Nemo|Illustration_Nemo]]
