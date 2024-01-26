@@ -162,10 +162,6 @@ document.addEventListener("nav", () => {
   }
 })
 
-document.addEventListener("click", (evt) => {
-  console.log("click")
-});
-
 /**
  * Toggles the state of a given folder
  * @param folderElement <div class="folder-outer"> Element of folder (parent)
