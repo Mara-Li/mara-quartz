@@ -3,8 +3,7 @@ date: 2023-11-28
 share: true
 description: Sara White, une soldate PSI du future. Possède la capacité de tirer des rayons de lumière
 univers: 
-type:
-  - Fiche
+type: Fiche
 category:
   - Compendium
 image: Sara-portrait.jpg
@@ -16,6 +15,8 @@ cssclasses:
   - rside-10
 disabled rules:
   - heading-blank-lines
+share_link: https://share.note.sx/0dd978ex
+share_updated: 2023-12-29T23:01:31+01:00
 ---
 
 > [!wiki|tbl-cln]
