@@ -22,6 +22,21 @@ function toggleExplorer(this: HTMLElement) {
   const content = this.nextElementSibling as HTMLElement
   content.classList.toggle("collapsed")
   content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px"
+  //prevent scroll under
+  if (document.querySelector(".mobile-only #explorer")){
+    const article = document.querySelectorAll(".popover-hint");
+    const header = document.querySelector(".page .page-header");
+    if (article)
+      article.forEach((element) => {
+        element.classList.toggle("no-scroll");
+      });
+    if (header)
+      header.classList.toggle("fixed");
+    const footer = document.querySelector("footer");
+    if (footer)
+      footer.classList.toggle("no-scroll");
+  }
+
 }
 
 function toggleFolder(evt: MouseEvent) {
@@ -147,7 +162,9 @@ document.addEventListener("nav", () => {
   }
 })
 
-
+document.addEventListener("click", (evt) => {
+  console.log("click")
+});
 
 /**
  * Toggles the state of a given folder

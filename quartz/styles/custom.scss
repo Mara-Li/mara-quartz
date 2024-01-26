@@ -4,6 +4,7 @@
 @use "./custom/image_grid_float.scss";
 @use "./custom/explorer.scss";
 @use "./custom/grid_callouts.scss";
+@use "./variables.scss" as *;
 
 // put your custom CSS here!
 ul.overflow,
@@ -16,15 +17,28 @@ ul.overflow {
 	max-height: max-content;
 }
 
+@media all and (min-width: $mobileBreakpoint) {
+	.page .page-header {
+		padding: 2rem;
+	}
+}
+
+@media all and (max-width: $mobileBreakpoint) {
+	.page .page-header {
+		padding: 1rem;
+	}
+}
+
 .page .page-header {
 	position: sticky;
 	top:0;
 	border-bottom: 1px solid var(--lightgray);
 	background-color: var(--light);
-	margin-top: 0 !important;
-	padding: 2rem;
 	z-index: 100;
+	margin-top: 0 !important;
 }
+
+
 
 hr {
 	width: auto !important;
