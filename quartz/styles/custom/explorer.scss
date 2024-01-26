@@ -1,40 +1,40 @@
-.mobile-only.explorer>#explorer-content:not(.collapsed) {
-	width: 100%;
-	background-color: var(--light);
-	height: 80vh;
-	position: absolute;
-	z-index: 100;
-	max-height: max-content !important;
-	//make transition to right
-	transition: all 300ms ease;
-	margin-top: 2rem;
-	overflow: hidden;
-	top: 5rem;
-}
+.mobile-only.explorer {
+  #explorer-content:not(.collapsed) {
+    width: 100%;
+    background-color: var(--light);
+    height: 80vh;
+    position: absolute;
+    z-index: 100;
+    max-height: max-content !important;
+    transition: all 300ms ease;
+    margin-top: 2rem;
+    overflow: hidden;
+    top: 5rem;
+  }
 
-.mobile-only.explorer>#explorer-content.collapsed {
-	left: 0;
-	width: 0;
-	background-color: var(--light);
-	height: 80vh;
-	position: absolute;
-	max-height: max-content !important;
-	z-index: 100;
-	//make transition to right
-	transition: all 300ms ease;
-}
+  #explorer-content.collapsed {
+    left: 0;
+    width: 0;
+    background-color: var(--light);
+    height: 80vh;
+    position: absolute;
+    max-height: max-content !important;
+    z-index: 100;
+    transition: all 300ms ease;
+  }
 
-.no-scroll {
-	opacity: 0;
-	overflow: hidden;
-}
+  .no-scroll {
+    opacity: 0;
+    overflow: hidden;
+  }
 
-.mobile-only #explorer:not(.collapsed) .lucide-menu {
-	transform: rotate(90deg);
-	transition: transform 200ms ease-in-out;
-}
+  #explorer:not(.collapsed) .lucide-menu {
+    transform: rotate(90deg);
+    transition: transform 200ms ease-in-out;
+  }
 
-.mobile-only #explorer .lucide-menu {
-	transition: transform 200ms ease-in-out;
-	stroke: var(--darkgray);
+  #explorer .lucide-menu {
+    transition: transform 200ms ease-in-out;
+    stroke: var(--darkgray);
+  }
 }

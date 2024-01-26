@@ -1,4 +1,3 @@
-
 @use "./base.scss";
 @use "./custom/callouts.scss";
 @use "./custom/image_grid_float.scss";
@@ -6,61 +5,62 @@
 @use "./custom/grid_callouts.scss";
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Put your custom CSS here!
+
 ul.overflow,
-#explorer-content,.page>#quartz-body .sidebar.left,
+#explorer-content,
+.page>#quartz-body .sidebar.left,
 .explorer.desktop-only {
-	height: 100%;
+  height: 100%;
 }
 
 ul.overflow {
-	max-height: max-content;
+  max-height: max-content;
 }
 
 @media all and (min-width: $mobileBreakpoint) {
-	.page .page-header {
-		padding: 2rem;
-	}
+  .page .page-header {
+    padding: 2rem;
+  }
 }
 
 @media all and (max-width: $mobileBreakpoint) {
-	.page .page-header {
-		padding: 1rem;
-	}
+  .page .page-header {
+    padding: 1rem;
+  }
 }
 
 .page .page-header {
-	position: sticky;
-	top:0;
-	border-bottom: 1px solid var(--lightgray);
-	background-color: var(--light);
-	z-index: 100;
-	margin-top: 0 !important;
-	width: 100%;
-}
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--lightgray);
+  background-color: var(--light);
+  z-index: 100;
+  margin-top: 0 !important;
+  width: 100%;
 
-.page-header.fixed {
-	border-bottom: 0;
+  &.fixed {
+    border-bottom: 0;
+  }
 }
-
 
 hr {
-	width: auto !important;
-}
+  width: auto !important;
 
-.hr-title hr {
-	position: relative;
-	top: -1em;
-	border-bottom: 1px solid var(--md-default-fg-color--light);
+  &.hr-title {
+    hr {
+      position: relative;
+      top: -1em;
+      border-bottom: 1px solid var(--md-default-fg-color--light);
+    }
+  }
 }
 
 .rside-10 img[alt*="+rside"] {
-	width: 10em;
+  width: 10em;
 }
 
 .wiki-right .callout.wiki h1,
 .wiki-right .callout.wiki h3 {
-	background-color: var(--lightgray);
+  background-color: var(--lightgray);
 }
-
-  
