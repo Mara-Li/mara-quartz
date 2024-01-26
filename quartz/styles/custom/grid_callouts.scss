@@ -510,7 +510,7 @@ body {
 	margin-right: 0;
 }
 
-.callout[data-callout="grid"] .callout-content {
+.callout[data-callout="grid"] {
 	display: block;
 	width: 100%;
 	border: 0;
@@ -523,7 +523,7 @@ body {
 	display: none;
 }
 
-.callout[data-callout="grid"] .callout-content p {
+.callout[data-callout="grid"] p:not(.callout-title) {
 	display: flex;
 	margin-block-start: 0;
 	margin-block-end: 0;
@@ -534,7 +534,7 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	padding: 1px;
-	max-height: 35vh;
+    max-height: 35vh;
 }
 
 .callout[data-callout="grid"] img[alt="wfull"] {
