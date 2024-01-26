@@ -6,7 +6,7 @@ univers:
 type: Fiche
 category:
   - Compendium
-image: Sara-portrait.jpg|parseME
+image: Sara-portrait.jpg
 title: Sara « Blaster » White
 name: Sara_white_blaster
 cssclasses:
