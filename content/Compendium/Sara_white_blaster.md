@@ -18,7 +18,6 @@ disabled rules:
 share_link: https://share.note.sx/0dd978ex
 share_updated: 2023-12-29T23:01:31+01:00
 ---
-
 > [!wiki]
 > # SARA WHITE
 > ![[Sara-portrait.jpg]]
