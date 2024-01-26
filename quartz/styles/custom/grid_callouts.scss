@@ -1,9 +1,4 @@
-/*
-@media (hover: hover) {
-    .markdown-source-view.mod-cm6 .cm-embed-block:hover {
-        overflow: visible !important;
-    }
-}*/
+@use "../variables.scss" as *;
 
 body:not(.is-phone) .markdown-source-view.mod-cm6 .cm-content>.cm-embed-block.cm-callout[contenteditable=false]:has([data-callout="wiki"]),
 body:not(.is-phone) .markdown-source-view.mod-cm6 .cm-content>.cm-embed-block.cm-callout[contenteditable=false]:has([data-callout="infobox"]) {
@@ -11,6 +6,12 @@ body:not(.is-phone) .markdown-source-view.mod-cm6 .cm-content>.cm-embed-block.cm
 	overflow: visible !important;
 }
 
+
+@media all and (min-width: $mobileBreakpoint) {
+	.callout.wiki {
+		width: 100%;
+	}
+}
 
 .callout-content p {
 	margin-bottom: 0;
