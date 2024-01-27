@@ -12,34 +12,32 @@ sticker: 1f3d3
 title: "[ETERNITY] ASHLING « SOLA UI » MAY"
 type: Fiche
 univers: ETERNITY
-icon: fontawesome/solid/gamepad
+icon: boxicons/BxsGame
 ---
 
 %% original : [[./index|Ashling May]] %%
 
 <p style="text-align:center;font-weight: bold">━━━━━━━━━▲━━━━━━━━━</p><h1 style="text-align:right">IDENTITÉ</h1>
 
-![[../../assets/img/Commission Feilyn.png|+side]]$~~$
+![[../../img/Commission Feilyn.png|+side]]$~~$
 
 ➤ **Prénom** : Ashling
 ➤ **Nom** : May
-➤ _Alias_ : « Sola-UI » | « Ekraminarok »
+➤ *Alias* : « Sola-UI » | « Ekraminarok »
 ➤ **Âge** : 26
-➤ _Anniversaire_ : 30/10
+➤ *Anniversaire* : 30/10
 ➤ **Affiliation** : Légion
 ➤ **Classe Sociale** : (Très) aisée
 
-![[../../assets/img/solow.png|+rside]]
-
+![[../../img/futaba 2.png|+rside]]
 ➤ **Apparence** :
-
-- _Yeux_ : Bleus
-- _Cheveux_ : Roux
-- _Taille :_ 1.70
-- _Poids_ : 55kg, fluette et frêle
-- _Peau_ : Blanche, avec de nombreuses taches de rousseurs
-- _Traits notables :_ Elle est myope comme une taupe en absence de ses lunettes.
-- _Style vestimentaire :_ Généralement, Ashling est vêtue de vêtement coloré, de jupe et de robes. Il est difficile de le croire, car Ashling se montre peu féminine, mais elle trouve ces vêtements plus confortables que les pantalons. Pour ses chaussures, elle porte systématiquement de hautes bottes à sangles. Lorsqu'elle ne sort pas, elle apprécie les tenues décontractées…
+- *Yeux* : Bleus
+- *Cheveux* : Roux
+- *Taille :* 1.70
+- *Poids* : 55kg, fluette et frêle
+- *Peau* : Blanche, avec de nombreuses taches de rousseurs
+- *Traits notables :* Elle est myope comme une taupe en absence de ses lunettes.
+- *Style vestimentaire :* Généralement, Ashling est vêtue de vêtement coloré, de jupe et de robes. Il est difficile de le croire, car Ashling se montre peu féminine, mais elle trouve ces vêtements plus confortables que les pantalons. Pour ses chaussures, elle porte systématiquement de hautes bottes à sangles. Lorsqu'elle ne sort pas, elle apprécie les tenues décontractées…
 
 → [[./Illustration_Ashling|Autres références]]
 
@@ -54,7 +52,7 @@ Bien que sa famille l'ait plus ou moins radié, elle continue de recevoir leur s
 
 Puisque oui, Ashling est dangereuse, en tant qu'hackeuse de génie, qui monte un unique réseau d'information pour que tout transite par elle. Avide d'argent, elle fait payé tout ce qu'elle fait, et a donc rejoint Légion pour obtenir encore plus d'argent… Surtout que sa haine du contrôle et son amour du chaos l'empêche plus ou moins de rejoindre Cataclysme… Alors qu'elle aurait quelques penchants pour ce groupe.
 
-Parallèlement à la création de son alter-égo « Sola-UI » (UI signifiant "User Interface"), une hackeuse de génie, et d'Ekraminarok, son personnage principal sur le MMORPG « [[../../hidden/Exasys Online|Exasys Online]] » (où elle est une des joueuses PVP n°1), Ashling est une étudiante de génie qui fait actuellement un doctorat dans le domaine de l'IA. Bien qu'elle soit très souvent absente, ses apparitions sont très guettées et souvent synonymes d'humiliation pour ses professeurs.
+Parallèlement à la création de son alter-égo « Sola-UI » (UI signifiant "User Interface"), une hackeuse de génie, et d'Ekraminarok, son personnage principal sur le MMORPG « [[10. PROJECT/ETERNITY/Ashling May/Exasys Online|Exasys Online]] » (où elle est une des joueuses PVP n°1), Ashling est une étudiante de génie qui fait actuellement un doctorat dans le domaine de l'IA. Bien qu'elle soit très souvent absente, ses apparitions sont très guettées et souvent synonymes d'humiliation pour ses professeurs.
 
 ## Caractère
 
@@ -71,15 +69,15 @@ Le souci dans toutes ses histoires, c'est que beaucoup de ces morceaux de caract
 > [!wiki]
 > | Statistiques | Valeur |
 > | ------------ | ------ |
-> | Force | 20 |
-> | Perception | 55 |
-> | Agilité | 50 |
-> | Constitution | 30 |
-> | Psychologie | 25 |
-> | Puissance | 70 |
-> | Intelligence | 65 |
-> | PV |80|
-> |PV (hack)| 5 |
+> | Force        | 20     |
+> | Perception   | 55     |
+> | Agilité      | 50     |
+> | Constitution | 30     |
+> | Psychologie  | 25     |
+> | Puissance    | 70     |
+> | Intelligence | 65     |
+> | PV           |80|
+> |PV (hack)| 5      |
 > | Ressource | Batterie 20|
 > | Dégâts | +2 |
 
@@ -89,21 +87,19 @@ Ashling peut donc invoquer des « objets numériques » dont chacun possède une
 
 Ashling intègre les données des armes lorsqu'elle les invoque, et obtient donc toutes les connaissances liées pendant toute la durée de leur invocation. Leur utilisation est donc sur la **puissance**.
 
-**Note** : Elle perd son ancien pouvoir lui permettant de se projeter dans les réseaux informatiques. Son hacking passe donc maintenant sur **l'intelligence**.
+__Note__ : Elle perd son ancien pouvoir lui permettant de se projeter dans les réseaux informatiques. Son hacking passe donc maintenant sur **l'intelligence**.
 
 ## Équipements
 
 Ashling possède maintenant un masque qui lui permet de voir ses statistiques, ses cooldowns et ses buffs.
 
 ## FAIBLESSES
-
 - Les EMPs désactivent temporairement ses pouvoirs pendant `1d3` tours. Par contre, les objets déjà invoqués ne sont pas détruits.
 - Les attaques électriques (même si encaissée) donne le statut **[LAG]** à Ashling, pendant `1d2+1` tour (non cumulable) :
-  - Les invocations prennent un tour complet (et ne comptent donc plus pour des actions gratuites)
-  - Les cooldowns en cours gagnent +`[LAG]` tour(s)
+	- Les invocations prennent un tour complet (et ne comptent donc plus pour des actions gratuites)
+	- Les cooldowns en cours gagnent +`[LAG]` tour(s)
 
 ## [BATTERIE] & INVOCATIONS
-
 - Ashling a toujours besoin d'avoir accès à un réseau électronique pour invoquer des objets. Ainsi, elle va utiliser son téléphone pour le faire. Elle va donc utiliser une nouvelle ressource : **[BATTERIE]**, capée à **`[20]`**.
 - La batterie ne se recharge pas au cours d'un combat.
 - Ashling ne peut invoquer que **cinq** objets en même temps.
@@ -115,44 +111,40 @@ Ashling possède maintenant un masque qui lui permet de voir ses statistiques, s
 
 **[NEURAL LINK]**
 [Passif]
-_Ash utilise son pouvoir pour connecter son esprit à un appareil électronique, pour pouvoir le hacker sur **puissance**. Elle ne peut pas prendre le contrôle des objets._
-
+*Ash utilise son pouvoir pour connecter son esprit à un appareil électronique, pour pouvoir le hacker sur **puissance**. Elle ne peut pas prendre le contrôle des objets.*
 - Inutilisable en combat
 
 **[SWITCH]**
 [Passif]
-_Pour chaque type d'invocation, Ashling gagne un bonus sur son utilisation suivante. Si l'objet n'est pas utilisé, le bonus est perdu. Une invocation coûte **`[1]`** de BATTERIE._
-
-- **_Légère_** : Inflige `1d2` stack de [SAIGNEMENT] pour `-1d3` PV pendant `1d2` tours
-- **_Moyenne :_** Inflige [PARALYSIE] pendant `1d3` tours
-- **_Lourde :_** Inflige [ÉTOURDISSEMENT] pendant `1d2` tours
-- **_Équipements :_** Donne aléatoirement `1` stack de bonus pendant `1d2` tours, pour la personne ayant obtenu l'objet. Les bonus d'objet ne peuvent pas se superposer. C'est toujours le bonus du dernier objet invoqué qui prime.
-  - Si `dé = 1` : Galvanisé
-  - Si `dé = 2` : Vivacité
-  - Si `dé = 3` : Revigoré
-    Inclut armure, bouclier, chaussures…
+*Pour chaque type d'invocation, Ashling gagne un bonus sur son utilisation suivante. Si l'objet n'est pas utilisé, le bonus est perdu. Une invocation coûte **`[1]`** de BATTERIE.*
+- ***Légère*** : Inflige `1d2` stack de [SAIGNEMENT] pour `-1d3` PV pendant `1d2` tours
+- ***Moyenne :*** Inflige [PARALYSIE] pendant `1d3` tours
+- ***Lourde :*** Inflige [ÉTOURDISSEMENT] pendant `1d2` tours
+- ***Équipements :*** Donne aléatoirement `1` stack de bonus pendant `1d2` tours, pour la personne ayant obtenu l'objet. Les bonus d'objet ne peuvent pas se superposer. C'est toujours le bonus du dernier objet invoqué qui prime.
+	- Si `dé = 1` : Galvanisé
+	- Si `dé = 2` : Vivacité
+	- Si `dé = 3` : Revigoré
+	Inclut armure, bouclier, chaussures…
 
 **[MANAFICTION]**
 [Actif, 5 BATTERIE]
-_Ashling renforce elle-même et ses alliés autours. Ils gagnent donc `1d3` stacks de **GALVANISÉ** et `1d2` stacks de **REVIGORÉ**._
-
+*Ashling renforce elle-même et ses alliés autours. Ils gagnent donc `1d3` stacks de **GALVANISÉ** et `1d2` stacks de **REVIGORÉ**.*
 - La capacité ne peut pas être relancée avant `1d2+1` tours
 - Annule les bonus donnés par l'invocation d'équipement si encore en cours
 - Le bonus dure `2` tours.
 
 **[BABYLON'S GATE]**
 [Actif, 10 BATTERIE]
-_Ashling invoque 4 lance-grenades qui vont tous tirer en même temps sur son adversaire, infligeant `2d5` dégâts par canon (Jet d'opposition - Puissance)._
-
+*Ashling invoque 4 lance-grenades qui vont tous tirer en même temps sur son adversaire, infligeant `2d5` dégâts par canon (Jet d'opposition - Puissance).*
 - Malus de `-10` pour esquiver l'attaque.
 - Tous les objets invoqués par Ashling seront détruits pour permettre l'invocation des lance-grenades.
 - Elle ne pourra pas plus utiliser son pouvoir pendant `1d2` tours, la faisant rentrer dans l'état `SURCHARGÉ`
 
 **[RECHARGE]**
 [Actif, 1 BATTERIE]
-_Ashling utilise son tour pour récupérer `1d3+1` BATTERIE_
-
+*Ashling utilise son tour pour récupérer `1d3+1` BATTERIE*
 - Cooldown de `3` tours
+
 
 <p style="text-align:center;font-weight: bold">━━━━━━━━━▲━━━━━━━━━</p>
 
@@ -166,5 +158,5 @@ Il y aussi une longue incision le long de sa colonne vertébrale.
 
 Le code correspondant au tatouage est `[63010]`, code arbitraire créée à partir du moment où elle a été inscrite dans le programme (à 6 mois de grossesse de sa mère), quand 10/30 correspondent à sa date de naissance.
 
-![[../../assets/img/SOLAUI-1-1.png|+side]]
-![[../../assets/img/ASH-LYNMAMECHI-1-1.png|+side]]
+![[../../img/SOLAUI-1-1.png|+side]]
+![[../../img/ASH-LYNMAMECHI-1-1.png|+side]]
