@@ -5,6 +5,7 @@ import { byDateAndAlphabetical } from "./PageList"
 import style from "./styles/recentNotes.scss"
 import { Date, getDate } from "./Date"
 import { GlobalConfiguration } from "../cfg"
+import i18next from "i18next"
 
 interface Options {
   title: string
@@ -69,7 +70,7 @@ export default ((userOpts?: Partial<Options>) => {
         </ul>
         {opts.linkToMore && remaining > 0 && (
           <p>
-            <a href={resolveRelative(fileData.slug!, opts.linkToMore)}>See {remaining} more →</a>
+            <a href={resolveRelative(fileData.slug!, opts.linkToMore)}>{i18next.t("recentNote.seeRemainingMore", {remaining})} →</a>
           </p>
         )}
       </div>
