@@ -17,6 +17,8 @@ type:
   - OC
 ---
 
+
+
 # ─────༺ Présentation ༻─────
 
 ![[../../img/Commission Feilyn.png|+side]]
@@ -64,7 +66,7 @@ Notons que si elle est en "infiltration", elle va se vêtir de vêtement sombres
 | L'argent             | L'état               |
 | L'anarchie, le chaos | Les faibles          |
 | Les jeux-vidéos      | Les cigarettes       |
-| \* \* \* \*          | Dépenser de l'argent |
+| * * * *              | Dépenser de l'argent |
 
 **Peurs** : Mourir
 **Objectifs** : Devenir riche, mondialement connue, immortelle.
@@ -124,11 +126,10 @@ Ashling est une personne plutôt lâche, qui n'aime pas prendre des risques inut
 - Elle élève une grenouille. Oui.
 
 # Pouvoirs
-
 %% [[20. AREA/Concept/Idées/Pouvoirs/Invocation d'armes|20. AREA/Concept/Idées/Pouvoirs/Invocation d'armes]], [[20. AREA/Concept/Idées/Pouvoirs/Sortilège|20. AREA/Concept/Idées/Pouvoirs/Sortilège]] %%
 
 ![[./Pouvoirs_Ashling#Technopathe|20. AREA/Concepts/Personnages/Ashling May/Pouvoirs > Technopathe]]
 
 ---
-
 ![[./Illustration_Ashling|Références]]
+
