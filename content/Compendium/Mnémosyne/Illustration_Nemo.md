@@ -36,6 +36,7 @@ univers: Références
 > ![[../../img/Chaa_Rodon.jpeg|Chaa_Rodon.jpeg]]
 > ![[../../img/Perseith_chaa_collab.png|Perseith_chaa_collab.png]]
 
+
 > [!GRID] Commission
 > ![[../../img/Nemo_twitter.jpeg|Nemo_twitter.jpeg]] ![[../../img/qquoee.jpeg|qquoee.jpeg]]
 >
