@@ -16,6 +16,6 @@ type: illustration
 > [!grid]
 > ![[../img/drk_night.png|drk_night.png]]
 > ![[../img/épée_dos.png|épée_dos.png]]
->
+> 
 > ![[../img/ref_dague.png|ref_dague.png]]
 > ![[../img/ref_flingue.png|ref_flingue.png]]
