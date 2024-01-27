@@ -4,12 +4,14 @@
     "backlinks": "Rétroliens",
     "noBlacklinksFound": "Aucun rétrolien trouvé"
   },
+  "common": {
+    "item": "fichier"
+  },
   "darkmode": {
     "darkmode": "Thème sombre",
     "lightMode": "Thème clair"
   },
   "folderContent": {
-    "item": "fichier",
     "underThisFolder": "dans ce dossier"
   },
   "footer": {
@@ -28,6 +30,7 @@
   "search": "Rechercher",
   "tableOfContent": "Table des Matières",
   "tagContent": {
+    "showingFirst": "Afficher en premier",
     "totalTags": "total des tags",
     "withThisTag": "avec ce tag"
   }

@@ -5,8 +5,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "🦉 Owlly Lab",
     enableSPA: true,
-    language: "fr",
-    dateLocale: "fr-FR",
+    locale: "fr-FR",
     enablePopovers: true,
     analytics: {
       provider: "plausible",

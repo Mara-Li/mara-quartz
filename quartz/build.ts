@@ -18,7 +18,7 @@ import { trace } from "./util/trace"
 import { options } from "./util/sourcemap"
 import { Mutex } from "async-mutex"
 import i18next from "i18next"
-import { resources } from "./internalization/i18next"
+import { resources } from "./i18n/i18next"
 
 type BuildData = {
   ctx: BuildCtx
@@ -41,8 +41,8 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   }
 
   i18next.init({
-    lng: ctx.cfg.configuration.language,
-    fallbackLng: "en",
+    lng: ctx.cfg.configuration.locale,
+    fallbackLng: "en-US",
     resources,
     returnNull: false,
   })

@@ -64,8 +64,8 @@ function TagContent(props: QuartzComponentProps) {
                 </h2>
                 {content && <p>{content}</p>}
                 <p>
-                  {pluralize(pages.length, "item")} {i18next.t("tagContent.withThisTag")}.{" "}
-                  {pages.length > numPages && `Showing first ${numPages}.`}
+                  {pluralize(pages.length, i18next.t("common.item"))} {i18next.t("tagContent.withThisTag")}.{" "}
+                  {pages.length > numPages && `${i18next.t("tagContent.showingFirst")} ${numPages}.`}
                 </p>
                 <PageList limit={numPages} {...listProps} />
               </div>
@@ -84,7 +84,7 @@ function TagContent(props: QuartzComponentProps) {
     return (
       <div class="popover-hint">
         <article>{content}</article>
-        <p>{pluralize(pages.length, "item")} {i18next.t("tagContent.withThisTag")}.</p>
+        <p>{pluralize(pages.length, i18next.t("common.item"))} {i18next.t("tagContent.withThisTag")}.</p>
         <div>
           <PageList {...listProps} />
         </div>

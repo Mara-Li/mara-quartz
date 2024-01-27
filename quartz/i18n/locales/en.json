@@ -4,11 +4,13 @@
     "backlinks": "Backlinks",
     "noBlacklinksFound": "No backlinks found"
   },
+  "common": {
+    "item": "item"
+  },
   "darkmode": {
     "lightMode": "Light mode"
   },
   "folderContent": {
-    "item": "item",
     "underThisFolder": "under this folder"
   },
   "footer": {
@@ -27,6 +29,7 @@
   "search": "Search",
   "tableOfContent": "Table of Contents",
   "tagContent": {
+    "showingFirst": "Showing first",
     "totalTags": "total tags",
     "withThisTag": "with this tag"
   }
