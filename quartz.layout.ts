@@ -19,7 +19,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ContentMeta({showReadingTime: false}),
     Component.TagList(),
   ],
   left: [
@@ -28,7 +28,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),
-    //Component.MobileOnly(Component.Explorer({ title: "Explorer"})),
     Component.TableOfContents(),
     Component.DesktopOnly(Component.Backlinks()),
   ],
@@ -36,19 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
-  left: [
-    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"collapsed", useSavedState: true })),
-  ],
-  right: [
-    Component.DesktopOnly(Component.Graph()),
-    //Component.MobileOnly(Component.Explorer({ title: "Explorer"})),
-    Component.TableOfContents(),
-    Component.DesktopOnly(Component.Backlinks()),
-  ],
+  beforeBody: defaultContentPageLayout.beforeBody,
+  left: defaultContentPageLayout.left.filter((c) => c !== Component.PageTitle()),
+  right: defaultContentPageLayout.right,
 }
