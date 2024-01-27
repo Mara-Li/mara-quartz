@@ -12,6 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       }),
     ),
     Component.MobileOnly(Component.Spacer()),
+    Component.MobileOnly(Component.PageTitle()),
     Component.Search(),
     Component.Darkmode(),
   ],
