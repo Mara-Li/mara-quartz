@@ -1,3 +1,6 @@
 {
-  "GitHooks.hooksDirectory": "e:\\Documents\\Github\\mara-quartz\\.git\\hooks"
+  "GitHooks.hooksDirectory": "e:\\Documents\\Github\\mara-quartz\\.git\\hooks",
+  "i18n-ally.localesPaths": [
+    "quartz/internalization/locales"
+  ]
 }
