@@ -13,9 +13,8 @@ Exasys se déroule dans un futur assez lointain, avec plusieurs planètes qui se
 Le système de classe est à l'image de cet univers : il est possible de créer sa propre classe et gameplay, en fusionnant et montant diverses classes, qui en débloque de nouvelles (et donc de nouvelles histoires). Le jeu étant si ouvert qu'il est possible de faire une infinité de combinaisons possible et les excellents joueurs à Exasys jouent des classes uniques. Les moins bons préfèrent les guides. Certains se sont spécialisés dans la création, et les guides, pour débloquer et optimiser les classes. En outre, certaines classes sont cachées, et seules des combinaisons spécifiques les débloque. Bien que le data-mining permette de savoir qu'elle existe, il est parfois impossible de les débloquer, tant les prérequis sont élevés.
 
 À ce jour, la 6.2 d'Exasys propose :
-
 - 6 classes de bases sans pré-requis, dont deux spécialisations chacune, qui peuvent être fusionnée.
-- 6 classes « uniques » déblocable uniquement via les _questline_ d'autres classes, mais sans pré-requis de « branche » (il n'est pas nécessaires d'avoir monté une spécialisation précise).
+- 6 classes « uniques » déblocable uniquement via les *questline* d'autres classes, mais sans pré-requis de « branche » (il n'est pas nécessaires d'avoir monté une spécialisation précise).
 
 Toutes ses classes « commencent » à partir de 0 lorsque l'on les récupère : il faut donc « recommencer » les fusions. Le jeu permet de créer des « template » ce qui permet aux joueurs de créer et jouer plusieurs classes et spécialisations.
 
@@ -26,7 +25,6 @@ Seuls les classes de bases ont des spécialisations. Les fusions n'en auront pas
 Une grande partie de l'équilibrage du jeu est calculée par des ordinateurs quantiques ainsi que des modélisations et Q&A via des IA… Une partie de la technologie utilisée par la Team Exa est très novatrice, mais peu d'informations fuitent sur le marché.
 
 Exemple de classe et fusion :
-
 - Le Corsaire se débloque uniquement en montant un danser (classe de base) avec la spécialisation « corps à corps » et un fusilier (spécialisation arme courte). La classe est extrêmement mobile et se joue majoritairement à mi-distance, parfois au corps à corps mais le plus souvent à moyenne distance.
 - Le « Moine de Guerre » (très populaire), qui s'appuie sur un moine basé sur le soin et le soutien, combiné à un tank spécialisé dans le combat à l'épée courte. La classe est très solide, avec un excellent DPS mais une défense fragile. Il s'appuie principalement sur son agilité plutôt que sa défense brute.
 

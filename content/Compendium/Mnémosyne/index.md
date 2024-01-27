@@ -19,10 +19,11 @@ cssclasses:
   - cards-cols-5
 ---
 
----
 
+---
 > [!info]- Informations principales.
-> ![[../../img/Nemo_lillyth.jpg|+side]] > **Prénom et nom** : Mnémosyne
+>  ![[../../img/Nemo_lillyth.jpg|+side]]
+> **Prénom et nom** : Mnémosyne
 > _Alias :_ Némo
 >
 > **Genre** : F
@@ -32,25 +33,22 @@ cssclasses:
 > **Statut** : Surveillante
 
 > [!tip]- Capacités
->
 > ## Pouvoirs et attributs
 >
 > Némo possède deux formes distinctes :
->
 > - Une forme angélique, issue de ses capacités naturelles
 > - Une forme "Obsius", sur lequel elle n'a aucun contrôle et qui, pour le moment, n'est jamais apparue.
 >
 > ### Pouvoirs angéliques
 >
 > La forme angélique et les pouvoirs liés composent la majeure partie de ses pouvoirs. Ainsi, l'élément premier de contrôle de Mnémosyne est la lumière, qu'elle peut utiliser, par exemple :
->
 > - Sous forme de rayon et de laser ;
 > - Se déplacer rapidement d'un point à un autre (temps qu'il y a de la lumière) ;
 > - Créer une armure de lumière, plus la lumière est forte, plus l'armure est épaisse.
 > - Créer un double de lumière ;
 > - Soigner certaines blessures.
->   Lorsque Mnémosyne prend sa forme angélique, tous ses pouvoirs sont renforcés, mais elle brille de mille feu, au point qu'il devient difficile pour ses alliés (ainsi que ses ennemis) de distinguer leurs environnements.
->   Enfin, sous sa forme angélique, des ailes translucides apparaissent dans son dos et elle devient capable de léviter.
+>     Lorsque Mnémosyne prend sa forme angélique, tous ses pouvoirs sont renforcés, mais elle brille de mille feu, au point qu'il devient difficile pour ses alliés (ainsi que ses ennemis) de distinguer leurs environnements.
+>     Enfin, sous sa forme angélique, des ailes translucides apparaissent dans son dos et elle devient capable de léviter.
 >
 > ### Pouvoirs Obsius
 >
@@ -58,16 +56,13 @@ cssclasses:
 >
 > Issue de sa fusion avec un être informe lors de sa résurrection, [[Obsius|Obsius]] est la part sombre de Mnémosyne.
 > Lorsqu'elle se fait posséder, puisque c'est le seul moyen de débloquer ses pouvoirs, Mnémosyne change physiquement :
->
 > - Des écailles sombres apparaissent sur ses joues, cou, jambes et bras.
 > - Des griffes noires et effilées poussent à la place de ses ongles
 > - Son auréole devient noire.
 > - Son contrôle de la lumière se converti en contrôle des ombres, mais dont les capacités sont similaires à son pouvoir original.
 >
 > ## Avantage
->
 > En dehors de ses capacités, Némo possède les avantages suivants :
->
 > - Elle ne vieillit pas.
 > - Elle possède une excellente régénération ;
 > - Elle connait certaines magies en dehors de ses pouvoirs naturels, bien qu'elle ne les maîtrise pas.
@@ -83,16 +78,14 @@ cssclasses:
 > - Elle **ne sait pas qu'elle est déchue**.
 
 > [!info]- Mental
->
 > ## Personnalité
 >
 > | Défaut      | Qualité      |
-> | ----------- | ------------ |
-> | Railleuse   | Curieuse     |
-> | Sarcastique | Ingénieuse   |
-> | Désinvolte  | Joueuse      |
-> | Versatile   | Décontractée |
->
+>|-------------|--------------|
+>| Railleuse   | Curieuse     |
+>| Sarcastique | Ingénieuse   |
+>| Désinvolte  | Joueuse      |
+>| Versatile   | Décontractée |
 > $~~~~~$ Dans sa jeunesse, Mnémosyne était plus chaotique que maintenant. Détestant l'ordre et adorant le chaos, elle n'hésita pas à trahir son camp par simple amusement. Car l'ordre des choses l'ennuie.
 >
 > $~~~~~$ Aujourd'hui, Mnémosyne est plus calme, mais elle n'aime pas suivre les gens et ordre aveuglément, ce qui font qu'elle est très difficile à contrôler pour l'[[Echo|Écho]], qui la garde sous surveillance tout en lui laissant bien plus de liberté que la plupart des membres ayant un grade similaire.
@@ -117,7 +110,6 @@ cssclasses:
 > | La menthe poivrée (spécifiquement) | Les pommes   |
 >
 > **Trivia** :
->
 > - Elle est capable de lire, mais cela lui demande beaucoup d'énergie. Pour ce faire, elle envoie une légère dose de lumière, qui rebondit de manière différente sur l'encre et le papier.
 > - Elle pourra faire pareil pour les murs, mais elle verrait surtout tous les insectes et autres présents dessus, et cela serait plus terrifiant que pratique. Donc elle ne le fait pas et utilise donc une canne pour se diriger la plupart du temps.
 > - Elle perçoit les personnes sous forme de "couleurs" (puisqu'elle voit sous forme de lumière) et n'hésitera pas à appeler les gens selon leur couleur, notamment pour se moquer gentiment.
@@ -137,8 +129,8 @@ cssclasses:
 > Son visage est assez ovale, avec un petit nez et des yeux très légèrement tombants, entièrement blanc — puisqu'il se trouve qu'elle est aveugle. Elle a des lèvres fines et une bouche bien dessinée. Enfin, elle possède de petites tâches de rousseurs sur l'ensemble du visage, mais surtout sur son nez et joues.
 > Notons : elle ne porte pas de lunettes de soleil, puisque cela la gêne fortement pour utiliser ses pouvoirs.
 >
-> **Signes distinctifs** :
 >
+> **Signes distinctifs** :
 > - Ses yeux blancs ;
 > - Ses tâches de rousseurs ;
 > - Le fait qu'elle sourit tout le temps.
@@ -149,29 +141,23 @@ cssclasses:
 > → [[./Illustration_Nemo|Illustration]]
 >
 > # Divers
->
 > **Habitudes** :
->
 > - Rien de bien particulier, pour être honnête.
 >
 > **Armes** :
->
 > - Sa canne, ca compte ?
 
 > [!info]- Relations
->
 > - [[Rodon|Rodon]] : Est l'ex de Némo. C'est un nymphe qui s'est transformé en plante et est resté bloqué parce que Némo l'a quitté. Elle l'a gardé parce que ça serait joli pour décorer.
 > - [[20. AREA/Concept/Idées/Écho/Salem|20. AREA/Concept/Idées/Écho/Salem]]
 > - [[20. AREA/Concept/Idées/Écho/Alazée|20. AREA/Concept/Idées/Écho/Alazée]]
 
 > [!note] BGM
->
 > #### Obsius
->
 > https://www.youtube.com/watch?v=JpU6ZWPzqN8
+
 
 %% [[Echo|Echo]]:: #Gardien %%
 
 ---
-
 ![[./Illustration_Nemo|Illustration_Nemo]]

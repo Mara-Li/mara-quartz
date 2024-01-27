@@ -27,8 +27,9 @@ univers: Chroniques du Grimnoir
 **Poids** : 70kg
 **Groupe sanguin** : A-
 **Nationalité** : Russe
-_Alignement :_ Loyal neutre
-_Hobbies :_ Chasser, les bières
+*Alignement :* Loyal neutre
+*Hobbies :* Chasser, les bières
+
 
 # Biographie
 
@@ -55,43 +56,35 @@ Abigael a pris à parti Vladimir en utilisant une des plus puissante techniques 
 Quatre ans plus tard, sa haine du Grimnoir et surtout d’Abigael ne disparait pas, et elle continue de chercher vengeance, n’arrivant pas vraiment à faire son deuil.
 
 # Pouvoirs : FRIGO
-
-_Cryokinésie_ #left
+*Cryokinésie* #left
 <u style="font-style:italic;">Capacité spéciale</u>:
-
-- **Ukrepleniye** : Blaïka utilise le contrôle de son sang pour renforcer son corps, notamment ses muscles. Elle peut accéder à la force et à la résistance d’une Brute quand elle active cette capacité.
-  - Type : Soutien (personnel)
-  - Effet : Augmente ses dégâts de 15% et augmente sa force et sa résistance (-2 à tous les dés).
+- **Ukrepleniye** : Blaïka utilise le contrôle de son sang pour renforcer son corps, notamment ses muscles. Elle peut accéder à la force et à la résistance d’une Brute quand elle active cette capacité. 
+	- Type : Soutien (personnel)
+	- Effet : Augmente ses dégâts de 15% et augmente sa force et sa résistance (-2 à tous les dés).
 - **Krov' moikh predkov** :  Blaïka fait apparaître des centaines de piques de glaces qui embrochent ses ennemis sur une zone d’environ 50m.
-  - _Type_ : Burst
+	- *Type* : Burst
 
-<u style="font-style:italic;">Kanji</u>:
-
+<u style="font-style:italic;">Kanji</u>: 
 - Force
 - Guérison
 - Force
 - Vitalité
 
 # Descriptions
-
 ![[IMG-1701067203551.png|+side]]
-
 ## Physique
-
 Blaïka est une grande femme rousse aux cheveux longs, bien qu’elle les attache souvent en queue de cheval ou en natte. Elle a une cicatrice qui barre son oeil droit et sa joue, et ses mains sont abimés par les entraînement et sa vie dans les steppes russes. Elle est très musclée et est du genre à faire peur.  Elle a des yeux bleus très clairs et de légères tâches de rousseurs sur la majorité de son corps, qui est lui aussi recouvert de cicatrices. Elle a un petit nez et un visage plutôt harmonieux. Mais ces cicatrices la rendent plus imposante qu’elle ne l’est réellement. En règle générale, c’est une jolie femme qu’il ne faut pas vraiment embêter.
 
 ## Mental
-
-Blaïka est, avec ses subordonnée, une personne difficile et exigente, qui demande toujours le meilleurs et qui peut se montrer extrêmement violente si elle n’obtient pas ce qu’elle veut comme elle le veut. Elle a parfaitement intégré l’exigence Japonaise, qu’elle a couplé avec la dureté russe. Elle est cependant tout aussi exigente avec elle-même et, bien qu’étant probablement la plus puissante Frigo au monde, elle se pousse toujours à fond, que ce soit en combat, à l'entraînement, à la chasse ou même… Au bar.
+Blaïka est, avec ses subordonnée, une personne difficile et exigente, qui demande toujours le meilleurs et qui peut se montrer extrêmement violente si elle n’obtient pas ce qu’elle veut comme elle le veut. Elle a parfaitement intégré l’exigence Japonaise, qu’elle a couplé avec la dureté russe. Elle est cependant tout aussi exigente avec elle-même et, bien qu’étant probablement la plus puissante Frigo au monde, elle se pousse toujours à fond, que ce soit en combat, à l'entraînement, à la chasse ou même… Au bar. 
 
 En dehors de l’armée, elle peut se montrer très sympathique, proche de ses soldats, surtout dans les bars de l’Arcadia, où elle est un des piliers de comptoir. Elle est toujours la première sur les missions, et rit bruyamment. Blaïka a cependant beaucoup de mal à faire le deuil de son ancien ami, Vladimir, et s’en veut de ne pas avoir pu le protéger. Elle hait le Grimnoir de tout son cœur de glace.
 
 # Trivia
-
 - Son kanji de Babel se situe sur sa main droite.
 - Elle parle Russe et Japonais.
 - Elle tient bien l’alcool.
-- Pour une russe, elle n’aime étrangement pas la vodka et préfère la bière.
+- Pour une russe, elle n’aime étrangement pas la vodka et préfère la bière. 
 - [Image source](http://fav.me/da32hn6)
 
 ![[IMG-1693243967219.png|+side]]
