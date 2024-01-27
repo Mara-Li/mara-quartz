@@ -137,6 +137,17 @@ function setupExplorer() {
 }
 
 window.addEventListener("resize", setupExplorer)
+
+document.addEventListener("DOMContentLoaded", () => {
+  const explorer = document.querySelector(".mobile-only #explorer")
+  if (explorer) {
+    explorer.classList.add("collapsed")
+    const content = explorer.nextElementSibling as HTMLElement
+    content.classList.add("collapsed")
+    content.style.maxHeight = "0px"
+  }
+})
+
 document.addEventListener("nav", () => {
   const explorer = document.querySelector(".mobile-only #explorer")
   if (explorer) {
