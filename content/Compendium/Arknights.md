@@ -11,10 +11,9 @@ title: Valentina Ambrose
 original:
   - "[[Lucrezia Valentina|Lucrezia Valentina]]"
 display: Valentina Ambrose
-image: "[[Lucrezia - AK.png]]"
+image: Lucrezia - AK.png
 ---
-
-![[Lucrezia - AK.png]]
+![[../img/Lucrezia - AK.png|Lucrezia - AK.png]]
 
 **[NOM ET PRÉNOM]** : Ambrose Valentina
 
