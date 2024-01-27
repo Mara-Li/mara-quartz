@@ -37,5 +37,5 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: defaultContentPageLayout.beforeBody,
   left: defaultContentPageLayout.left.filter((c) => c !== Component.PageTitle()),
-  right: defaultContentPageLayout.right,
+  right: [],
 }
