@@ -271,11 +271,6 @@ body {
   margin: 0;
   box-shadow: none;
 
-  .internal-embed {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   & {
     display: block;
     width: 100%;
@@ -448,4 +443,9 @@ body {
       }
     }
   }
+}
+
+.grid .callout {
+  display: table-cell;
+  width: 50%;
 }

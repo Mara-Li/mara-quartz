@@ -17,7 +17,11 @@ export const sharedPageComponents: SharedLayout = {
     Component.Darkmode(),
   ],
   footer: Component.Footer({
-    links: {},
+    links: {
+      Github: "https://github.com/Lisandra-dev",
+      Twitter: "https://twitter.com/Mara__Li",
+      Discord: "Mara__Li"
+    },
   }),
 }
 
