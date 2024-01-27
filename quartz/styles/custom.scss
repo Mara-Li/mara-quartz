@@ -21,6 +21,12 @@ ul.overflow {
 @media all and (max-width: $mobileBreakpoint) {
   .page .page-header {
     padding: 1rem;
+    & .page-title.mobile-only a {
+      font-size: 5vw;
+    }
+    & header {
+      gap: 1vw;
+    } 
   }
 }
 
@@ -61,5 +67,4 @@ hr {
 
 .avatar img[alt="+rside"] {
   width: auto;
-
 }
