@@ -7,7 +7,6 @@ title: Kara Grimalkin — Références
 type: illustration
 ---
 
-
 > [!grid]
 > ![[../img/Kara-Civil-Realist.png|Kara-Civil-Realist.png]]
 > ![[../img/DRK_tank.png|DRK_tank.png]]
@@ -17,6 +16,6 @@ type: illustration
 > [!grid]
 > ![[../img/drk_night.png|drk_night.png]]
 > ![[../img/épée_dos.png|épée_dos.png]]
-> 
+>
 > ![[../img/ref_dague.png|ref_dague.png]]
 > ![[../img/ref_flingue.png|ref_flingue.png]]

@@ -18,35 +18,36 @@ cssclasses:
   - hr-title
 ---
 
-
-
 <h5 style="color: grey;text-align: right;"> Fiche personnelle de <span style="border-radius: 5px; background-color: #4b4b4b91;padding:0 5px; color: var(--md-default-fg-color--light);">Mara Li</span></h5>
 
 > [!wiki]
+>
 > # Éden Loiseau
+>
 > ![[../../img/eden_portrait.png|eden_portrait.png]]
 >
-> |  |  |
-> | ---- | ---- |
-> | **Alias** | 28500 (*à cause de son tatouage*) |
-> |**Genre** | Féminin |
-> |**Rôle**| Gardienne de nuit |
-> |**Grade**| Membre du personnel de sécurité|
-> |**Date d'arrivée**|28/05/1832|
+> |                    |                                   |
+> | ------------------ | --------------------------------- |
+> | **Alias**          | 28500 (_à cause de son tatouage_) |
+> | **Genre**          | Féminin                           |
+> | **Rôle**           | Gardienne de nuit                 |
+> | **Grade**          | Membre du personnel de sécurité   |
+> | **Date d'arrivée** | 28/05/1832                        |
 >
 > ### Profil
 >
-> |||
-> | --|--|
-> |**Naissance**|Inconnue|
-> |**Âge**|~30 ans|
-> |**Taille** | 1.60m|
-> |**Cheveux** | Mi-long, mèche blanche et blonde aux pointes. Souvent attachés en une queue de cheval |
-> |**Yeux** | Rouge foncés |
-> |**Peau** | Blanche, très pâle |
-> |**Traits notables**| <li>Un tatouage "28500" sur le bras, d'origine inconnue</li><li>Une cicatrice le long de la colonne vertébrale <em>(conséquence d'expérimentation)</em></li><li>Sang noir, visqueux <em>(Conséquence de son don)</em></li>|
+> |                     |                                                                                                                                                                                                                            |
+> | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | **Naissance**       | Inconnue                                                                                                                                                                                                                   |
+> | **Âge**             | ~30 ans                                                                                                                                                                                                                    |
+> | **Taille**          | 1.60m                                                                                                                                                                                                                      |
+> | **Cheveux**         | Mi-long, mèche blanche et blonde aux pointes. Souvent attachés en une queue de cheval                                                                                                                                      |
+> | **Yeux**            | Rouge foncés                                                                                                                                                                                                               |
+> | **Peau**            | Blanche, très pâle                                                                                                                                                                                                         |
+> | **Traits notables** | <li>Un tatouage "28500" sur le bras, d'origine inconnue</li><li>Une cicatrice le long de la colonne vertébrale <em>(conséquence d'expérimentation)</em></li><li>Sang noir, visqueux <em>(Conséquence de son don)</em></li> |
 
 # Physique
+
 ---
 
 ![[../../img/Eden-full.png|+rside]]
@@ -74,19 +75,20 @@ Conséquence de ses expérimentations, elle a une voix assez grave pour une femm
 Elle porte donc généralement des jupes qui ont été coupées largement au-dessus du genou, des hauts noirs assez fins, et des vestes courtes qui ont généralement été des vestes longues que l’on a modifié.
 
 # Profil psychologique
+
 ---
 
 ## Pathologie d'arrivée : ✓ Guérie grâce aux expérimentations
 
 La patiente Éden Loiseau était atteinte d’une apathie, doublé d’un manque de sensation lié à la douleur, toucher, ainsi que les différences de températures. Elle souffre d’une amnésie atteignant sa mémoire lointaine et ne se rappelle que quelques détails quant à sa vie avant d’arriver à l’institut.
 
-Des recherches faites suites à son arrivée la lie à une riche famille française mais cette dernière n’a pas voulu répondre à nos sollicitations. 
+Des recherches faites suites à son arrivée la lie à une riche famille française mais cette dernière n’a pas voulu répondre à nos sollicitations.
 
 Bien que considérée comme guérie grâce aux expérimentations, Éden continue de ne pas sentir les différences de températures et s’en dit “non dérangé”.
 
 ## Caractère général
 
-Éden est dangereuse et doit être considérée comme une arme humaine. Son absence de capacité à ressentir les différences de températures et une partie de la douleur font qu’elle n’hésite pas à se blesser lorsqu’elle se défend ou combat, ce qui est aggravé par son don. 
+Éden est dangereuse et doit être considérée comme une arme humaine. Son absence de capacité à ressentir les différences de températures et une partie de la douleur font qu’elle n’hésite pas à se blesser lorsqu’elle se défend ou combat, ce qui est aggravé par son don.
 
 Elle ne vit que pour l’action, le danger, et l’adrénaline qu’elle peut y ressentir, ce qui contraste énormément avec son apathie lorsqu’elle est arrivée à l’Institut.
 
@@ -105,6 +107,7 @@ Cependant, bien que pouvant se montrer particulièrement violente, Éden est une
 - Les odeurs chimiques trop fortes, qui gênent ses sens et peuvent la désorienter.
 
 # Biographie
+
 ---
 
 On ne sait pas grand chose sur Éden avant son arrivée à l'institut. Trouvée par la police le long d’une route, vêtue d’un vêtement d’hôpital blanchâtre couvert de sang et de poussière, la jeune femme est incapable de répondre à leur question et surtout, ne possédait sur elle aucun moyen de l’identifié. Simplement un nom, cet étrange numéro et c’est tout. Apathique, elle vagabonde d'hôpital en hôpital jusqu’à être rapatriée par l’institut.
@@ -126,10 +129,11 @@ Et furent mangé.
 
 Mais si elle était correctement nourrie, elle se montrait parfaitement normale, quoi qu’un peu agressive. Puisque capable de voir et sentir dans le noir, elle demanda à devenir gardienne de nuit, surtout par envie de se foutre sur la gueule pour de bonne raison.
 
-# Don : *Lazarus Effect*
+# Don : _Lazarus Effect_
+
 ---
 
-Le don d’Éden est lié aux sortilèges de nécromancie et la bactérie que l’on a injectée dans sa colonne vertébrale. Elle est considérée, à cause de cela, comme une zombie car il se trouve qu’il est impossible de la tuer totalement : tant qu’elle possède de la biomasse, son corps se régénère. De plus, elle est capable de faire muter son corps de manière temporaire pour : 
+Le don d’Éden est lié aux sortilèges de nécromancie et la bactérie que l’on a injectée dans sa colonne vertébrale. Elle est considérée, à cause de cela, comme une zombie car il se trouve qu’il est impossible de la tuer totalement : tant qu’elle possède de la biomasse, son corps se régénère. De plus, elle est capable de faire muter son corps de manière temporaire pour :
 
 - Faire sortir des os
 - Renforcer muscles, peau pour améliorer ses coups ou se protéger
@@ -145,12 +149,12 @@ En outre, ses sens sont extraordinairement améliorés et elle est capable d’e
 - Sortilège d’emprisonnement, sommeil, sceau : Fonctionnement correct et normal.
 - <u>Brûlure</u> : Utile pour la contrôler, car empêche ses régénérations. Cependant, les brûlures disparaissent quelques mois ou jours après selon l’étendu des dégâts et si elle a été nourrie correctement.
 - <u>Congélation</u> : Placée dans un frigo pendant 3 jours, Éden est rentrée dans un état de stase. Elle a cependant rapidement retrouvé ses capacités après exposition à la chaleur et à la nourriture.
-- <u>Noyade</u> : Bien que les poumons soient remplis d’eau, Éden est capable de capacité en apnée incroyable. De plus, une fois l’expérience terminée, elle a retrouvé rapidement ses capacités. 
+- <u>Noyade</u> : Bien que les poumons soient remplis d’eau, Éden est capable de capacité en apnée incroyable. De plus, une fois l’expérience terminée, elle a retrouvé rapidement ses capacités.
 - <u>Privation de nourriture</u> : Expérience la plus longue. À ne pas refaire.
-	- <u>Au bout de 3 jours</u> : Devint violente. Ne contrôle pas ses actes. Capable de briser des murs.
-	- <u>Au bout de 5 jours</u> : Apathie, s’est roulée en boule. Réaction au moindre son. Ne répond plus aux sollicitations à travers la porte. Elle s'est jetée sur la nourriture lorsque présentée, vivante ou morte. Suite à cette phase, Éden a réussi à tuer deux expérimentateurs et les a mangés…Et elle avait encore faim derrière.
-	- <u>Sept jours</u> : État de stase, proche coma. L’introduction de nourriture n’a pas réveillé le sujet. Les expérimentateurs ont trop peur pour tenter de l’approcher. Réflexion au sujet d’utilisation de sortilège de prison.
-	- <u>Quinze jours</u> : Éden s’est réveillée, amaigrie. Il semble que la bactérie s’est rabattue sur son corps après l’absence de nourriture. Difficile de savoir ce qu’il pourrait se passer dans un laps de temps plus long. Il a été décidé de ne pas continuer les expériences.
+  - <u>Au bout de 3 jours</u> : Devint violente. Ne contrôle pas ses actes. Capable de briser des murs.
+  - <u>Au bout de 5 jours</u> : Apathie, s’est roulée en boule. Réaction au moindre son. Ne répond plus aux sollicitations à travers la porte. Elle s'est jetée sur la nourriture lorsque présentée, vivante ou morte. Suite à cette phase, Éden a réussi à tuer deux expérimentateurs et les a mangés…Et elle avait encore faim derrière.
+  - <u>Sept jours</u> : État de stase, proche coma. L’introduction de nourriture n’a pas réveillé le sujet. Les expérimentateurs ont trop peur pour tenter de l’approcher. Réflexion au sujet d’utilisation de sortilège de prison.
+  - <u>Quinze jours</u> : Éden s’est réveillée, amaigrie. Il semble que la bactérie s’est rabattue sur son corps après l’absence de nourriture. Difficile de savoir ce qu’il pourrait se passer dans un laps de temps plus long. Il a été décidé de ne pas continuer les expériences.
 
 ### Limites et faiblesses
 
@@ -161,6 +165,7 @@ En outre, ses sens sont extraordinairement améliorés et elle est capable d’e
 - **A besoin, quasiment en permanence, d’un apport nutritif très précis** : Éden ne peut manger que les aliments riches en protéines ou glucose, et son corps refuse entièrement les fibres, qui sont rejetées tels quel.
 
 # Trivia
+
 ---
 
 - **Thème** : [Zombie — The Pretty Reckless](https://www.youtube.com/watch?v=Pt-8LZ6zAZM)

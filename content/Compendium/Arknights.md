@@ -33,32 +33,34 @@ image: "[[Lucrezia - AK.png]]"
 **[STATUT D'INFECTION]** : Les différentes imageries connues de Valentina montre une ombre anormales autour de ses organes. Les tests biologiques détectent des granules d'Oripathie, ce qui confirme son infection.
 
 **[ASSIMILATION DE CRISTAUX D'ORIGINIUM DANS LE SANG]** : 5%
-*Pour une raison inconnues, l'infection et la densité est très faible, ce qui n'est pas conforme aux données connues, malgré la sur-utilisation quotidienne de ses pouvoirs.*
+_Pour une raison inconnues, l'infection et la densité est très faible, ce qui n'est pas conforme aux données connues, malgré la sur-utilisation quotidienne de ses pouvoirs._
 
 ━━━━━━━━━━━━━
 
-**[DESCRIPTION PSYCHOLOGIQUE]** : Une ordure. Certains décriraient l'assassin comme ça. Cela ne serait évidemment pas faux : Valentina n'éprouve aucune empathie. Froide, silencieuse, elle tue quand on lui demande et elle le fait bien. Elle n'aime qu'une chose : tuer. Le plaisir qu'elle y ressent, depuis toute petite, n'est pas causée par son oripathie — contacté durant une de ses missions — et personne ne sait réellement ce qui cause de se plaisir. Ni pourquoi. Mais elle n'est pas du genre à s'exciter d'une nouvelle mission, quand elle tue. Elle n'est pas ce genre de sociopathe psychotique. 
+**[DESCRIPTION PSYCHOLOGIQUE]** : Une ordure. Certains décriraient l'assassin comme ça. Cela ne serait évidemment pas faux : Valentina n'éprouve aucune empathie. Froide, silencieuse, elle tue quand on lui demande et elle le fait bien. Elle n'aime qu'une chose : tuer. Le plaisir qu'elle y ressent, depuis toute petite, n'est pas causée par son oripathie — contacté durant une de ses missions — et personne ne sait réellement ce qui cause de se plaisir. Ni pourquoi. Mais elle n'est pas du genre à s'exciter d'une nouvelle mission, quand elle tue. Elle n'est pas ce genre de sociopathe psychotique.
 Elle est calme.
 Incroyablement calme, et ca en est terrifiant. Elle ne s'énerve jamais, ne s'excite jamais, et pratique ses assassinats d'une manière chirurgicale.
 
 Elle ne questionne pas ses employeurs, ni leurs choix. Quand elle est en mission, elle met de côté tout affecte possible et rien ne peut échapper à elle.
 
-Avec ses ombres, elle cherche à éviter la foule et préfère rester seule. Elle déteste les énigmes et les jeux d'argents.  On ne lui connaît pas de traumatisme particulier, mais elle est une assassin depuis qu'elle est rentrée dans "L'Ordre" à ses quatorze ans.
-Difficile de savoir pourquoi elle fait se métier, ce qu'elle fera après ou comment elle voit son avenir. En tout cas, d'une certaines manières, sa relation avec ses employeurs repose sur l'argent, mais pas que. 
+Avec ses ombres, elle cherche à éviter la foule et préfère rester seule. Elle déteste les énigmes et les jeux d'argents. On ne lui connaît pas de traumatisme particulier, mais elle est une assassin depuis qu'elle est rentrée dans "L'Ordre" à ses quatorze ans.
+Difficile de savoir pourquoi elle fait se métier, ce qu'elle fera après ou comment elle voit son avenir. En tout cas, d'une certaines manières, sa relation avec ses employeurs repose sur l'argent, mais pas que.
 
-**[DESCRIPTION PHYSIQUE]**: 
-> [!wiki] 
+**[DESCRIPTION PHYSIQUE]**:
+
+> [!wiki]
 > ![[../img/Full_liberi_Ambrose.png|Full_liberi_Ambrose.png]]
+>
 > ## Apparence
-> | | |
-> |:--:|:--:|
-> |Taille|1.60|
-> |Poids|50|
-> | Yeux |Gris |
-> | Cheveux | Gris |
-> | Peau | Blanche |
-> | Marques | Originium sur ses mains — toujours gantées |  
-> 
+>
+> |         |                                            |
+> | :-----: | :----------------------------------------: |
+> | Taille  |                    1.60                    |
+> |  Poids  |                     50                     |
+> |  Yeux   |                    Gris                    |
+> | Cheveux |                    Gris                    |
+> |  Peau   |                  Blanche                   |
+> | Marques | Originium sur ses mains — toujours gantées |
 
 Valentina est une femme d'une petite taille, menue, qui se fond dans la foule en s'étant entourée d'une cape qui rappelle les ailes d'oiseaux. Il est difficile de deviner sa race dès le premier regard ; ses cheveux et ses aigrettes sont cachés par une grande capuche, et seuls les fines mèches blanches qui forment une couronne autour de son visage semble laisser deviner sa race.
 
@@ -71,16 +73,17 @@ Sa démarche est extrêmement silencieuse, même si l'on excepte ses arts.
 De manière évidente, la plus grande faiblesse de Valentina est la lumière. Plus il y a de la lumière, moins ses ombres sont puissantes et surtout, elle devient détectable. Une pièce entièrement illuminée (par une flash-bang par exemple) détruira totalement ses arts et la rendra visible.
 Elle le sait, et c'est entrainée pour que cela ne la gène pas, bien que ses yeux soient beaucoup plus sensibles à la lumière qu'un être diurne.
 
-Devenir invisible fonctionne sur les idiots, mais pas les assassins et gardes du corps très entrainés. Son efficacité n'est pas uniquement due à ses arts, mais aussi sa capacité à effacer totalement sa présence avec un contrôle de ses battements de cœur, sa façon de marcher, sa place dans l'espace, son souffle. Même sans ses arts, elle peut totalement effacer sa présence avec des techniques qu'elle a perfectionnée durant son entrainement. 
+Devenir invisible fonctionne sur les idiots, mais pas les assassins et gardes du corps très entrainés. Son efficacité n'est pas uniquement due à ses arts, mais aussi sa capacité à effacer totalement sa présence avec un contrôle de ses battements de cœur, sa façon de marcher, sa place dans l'espace, son souffle. Même sans ses arts, elle peut totalement effacer sa présence avec des techniques qu'elle a perfectionnée durant son entrainement.
 
-**[ÉQUIPEMENT]** : 
+**[ÉQUIPEMENT]** :
+
 - Une armure de cuir et de metal souple, faite pour le combat au corps à corps.
 - Deux sabres qu'elle porte à la ceinture
-- Des couteaux de lancés qui sont accrochés sur ses bras, dans ses manches. 
+- Des couteaux de lancés qui sont accrochés sur ses bras, dans ses manches.
 
 ━━━━━━━━━━━━━
 
-**[LEITMOTIV]** : 
+**[LEITMOTIV]** :
 
 **[HISTOIRE]** :
 On en sait que trop peu sur Valentina. Difficile réellement de remonter sur sa famille : elle n'utilise pas son vrai nom — pour les protéger — et n'a que très peu vécu avec eux.

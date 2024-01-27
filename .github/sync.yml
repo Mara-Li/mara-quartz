@@ -1,11 +1,11 @@
 group:
   - files:
-    - quartz/
-    - source: .github/workflows/
-      dest: .github/workflows/
-      exclude: |
-        sync_file.yml
-        ci.yaml
+      - quartz/
+      - source: .github/workflows/
+        dest: .github/workflows/
+        exclude: |
+          sync_file.yml
+          ci.yaml
     repos: |
       ObsidianPublisher/quartz-port
-        
+

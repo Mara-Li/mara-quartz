@@ -12,12 +12,11 @@ tags:
   - inité
 ---
 
-
 ![[./Illustration|Illustration]]
+
 > [!note] Identité
-> ![[Hayleen_portrait.png|+side]]
-> **Prénom et nom :** Hayleen May
-> *Alias :* Grimalkin
+> ![[Hayleen_portrait.png|+side]] > **Prénom et nom :** Hayleen May
+> _Alias :_ Grimalkin
 > **Genre :** F.
 > **Âge :** 23 ans
 > **Date de naissance :** 15 août
@@ -29,12 +28,14 @@ tags:
 > En outre, en plus de pouvoir invoquer des objets, elle peut incanter pour renforcer des objets non-invoqués, mais aussi ses alliés et ami, ainsi qu’elle-même.
 >
 > #### Avantages :
+>
 > - Invocation d’objet
 > - Renforcement d’objet (invoqué ou non)
 > - Renforcement de personnes
 > - Vitesse, force, résistance plus élevé que celle d’un humain “lambda”.
 >
 > #### Inconvénients :
+>
 > - En fonction de ce qu’elle veut faire, l’incantation peut être plus ou moins longue. En outre, ses mouvements sont limités lors d’une incantation, car elle doit se concentrer sur le sortilège… Sinon, des effets… Intéressants peuvent survenir.
 > - Elle n’est pas plus forte qu’un démon “moyen”.
 > - Sa magie est moins puissante qu’une sorcière entraînée (surtout qu’elle est une “hybride”).
@@ -54,15 +55,14 @@ tags:
 >
 > Elle adopte le nom de Grimalkin lors de “son passage à l’âge adulte”, bien que contrairement aux sorcières de sa magie, elle n’a pas besoin de faire un pacte démoniaque. Évidemment, elle ne l’utilise que rarement, et elle ne fait pas partie d’un quelconque Coven.
 >
->
-> | Défaut | Qualité |
+> | Défaut     | Qualité   |
 > | ---------- | --------- |
 > | Impulsive  | Amicale   |
 > | Brute      | Ardente   |
 > | Désinvolte | Combative |
 > | Casse-Cou  | Énergique |
 >
-> | Aime | Déteste |
+> | Aime                             | Déteste                                           |
 > | -------------------------------- | ------------------------------------------------- |
 > | La magie et les armes enchantées | Le silence                                        |
 > | La lecture                       | Les figures d’autorité qui se croient tout permis |
@@ -73,12 +73,13 @@ tags:
 >
 > **Peur/Phobies** : Principalement, mourir et son père.
 > **Passion | Hobbies :**
+>
 > - Musique : ==Joue du violoncelle==
 > - La lecture
 
 > [!info] Physique
-> *Taille* : 1m70
-> *Poids* : 60kg
+> _Taille_ : 1m70
+> _Poids_ : 60kg
 > ![+side](https://lh5.googleusercontent.com/YGkLl1TAv5q7Z5DXwwNlFJwuAjUUVv217w6Nd9uygb-fkhd4GZkXiqC25wy5Ehpr7tW1rwqiZlnLGaNL7vFiKgMflX-ILFLfJv2Dk0J8ImFEimxJs0ufmTOJX44LiddjGQdGSsdM)
 > Hayleen est une jeune femme assez bien proportionnée, dans la fleur de l’âge, et qui le fait : c’est une jolie jeune femme.
 >
@@ -91,24 +92,28 @@ tags:
 > Sinon, pour ses vêtements, elle est du genre à préférer les trucs proches du corps, mais n’aime pas montrer ce dernier, puisque les gens réagissent souvent négativement en voyant ses circuits. En dehors de son uniforme, donc, elle peut porter un body et un pantalon, agrémenté de bottines, et elle possède toute sorte de veste ou de cape sans manche, ce qui la rend très “sorcière”.
 >
 > **Signes distinctifs :**
+>
 > - Ses circuits magiques, marque noire légèrement transparente. Ils sont rouges lorsqu’elle utilise sa magie.
 > - Ses multiples pansements sur le visage.
 > - Sa magie est dorée
-> **Style vestimentaire** : Plutôt rock et naturel.
+>   **Style vestimentaire** : Plutôt rock et naturel.
 
 > [!tip] Divers
 > **Habitudes :**
+>
 > - Du Kendo le matin
 > - Jouer du violoncelle dans l’après-midi.
 > - Faire la sieste après manger
 > - Lire le soir
 >
 > **Armes :**
-> - Une copie de l’idée qu’elle se fait d’Excalibur, sous forme d’un Katana très coupant (*Invocation uniquement via un coup critique*).
+>
+> - Une copie de l’idée qu’elle se fait d’Excalibur, sous forme d’un Katana très coupant (_Invocation uniquement via un coup critique_).
 > - Des aiguilles qu’elle utilise pour faire ses chignons, plus en arme d’autodéfense quand elle n’a pas le temps d’incanter.
 > - Un autre Katana, plus simple (car elle se bat à l’arme double), à la lame rouge.
 
 > [!tldr] Relations
+>
 > - [[20. AREA/Concept/Idées/Écho/Salem|20. AREA/Concept/Idées/Écho/Salem]] : Père adoptif
 > - [[20. AREA/Concept/Idées/Écho/Alazée|20. AREA/Concept/Idées/Écho/Alazée]]
 > - [[../Mnémosyne/index|Mnémosyne]]

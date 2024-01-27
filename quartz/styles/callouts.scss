@@ -9,7 +9,7 @@
   transition: max-height 0.3s ease;
   box-sizing: border-box;
 
-  &>*:nth-child(2) {
+  & > *:nth-child(2) {
     margin-top: 0;
   }
 
@@ -99,7 +99,7 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
-  &.is-collapsed>.callout-title>.fold {
+  &.is-collapsed > .callout-title > .fold {
     transform: rotateZ(-90deg);
   }
 }
@@ -117,7 +117,7 @@
     cursor: pointer;
   }
 
-  &>.callout-title-inner>p {
+  & > .callout-title-inner > p {
     color: var(--color);
     margin: 0;
   }

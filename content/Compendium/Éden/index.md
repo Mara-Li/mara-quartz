@@ -9,30 +9,31 @@ type: OC
 univers: Zombie Project
 ---
 
-
-
 %% Inspirée de [[../Ambre Loiseau|Ambre Loiseau]] %%
 ![[../../img/eden_portrait.png|+rside]]
+
 # ─────༺ Présentation ༻─────
+
 **Nom** : Éden
 **Âge** : Apparence fin de vingtaine
 **Genre** : F
 **Orientation sexuelle** : Hétéro
-*Race* : Zombie (mutante)
-*RP* : Windport
+_Race_ : Zombie (mutante)
+_RP_ : Windport
 
 # ──────༺ Capacités ༻──────
 
 **Pouvoirs** : [[20. AREA/Concept/Idées/Pouvoirs/Biomasse|20. AREA/Concept/Idées/Pouvoirs/Biomasse]]
- Elle peut créer des excroissances de chair ou d’os, modifier sa peau pour être plus solide ou simplement pour frapper plus fort. Elle peut se régénérer à l’infini, mais il lui faut un laps de temps plus ou moins long en fonction de ses blessures. De plus, elle a des réflexes sont énormément améliorés.
+Elle peut créer des excroissances de chair ou d’os, modifier sa peau pour être plus solide ou simplement pour frapper plus fort. Elle peut se régénérer à l’infini, mais il lui faut un laps de temps plus ou moins long en fonction de ses blessures. De plus, elle a des réflexes sont énormément améliorés.
 
-*Avantages* :
+_Avantages_ :
+
 - Formation d'excroissance d'os
 - Régénération
 - Grande endurance vis-à-vis de son pouvoir.
 - Réflexes améliorés
 - Sens améliorés
-*Inconvénients* :
+  _Inconvénients_ :
 - Elle ne peut pas créer de la biomasse de rien, mais comparativement à d'autres mutants, Éden n'a pas besoin de grande quantité de nourriture pour se régénérer. De plus, dormir lui offre cette régénération.
 - Le feu cautérise ses plaies et empêche leurs régénérations.
 - Si on lui tire dans la tête, elle meurt. Cependant, comme ses os peuvent se renforcer, il faudrait la prendre par surprise.
@@ -42,8 +43,8 @@ univers: Zombie Project
 
 # ──────༺ Physique ༻──────
 
-*Taille* : 1m75
-*Poids* : ? Variable
+_Taille_ : 1m75
+_Poids_ : ? Variable
 
 **Yeux** : Noir
 **Cheveux** : Brun clair, virant au gris.

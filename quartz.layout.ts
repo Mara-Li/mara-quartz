@@ -5,9 +5,16 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.MobileOnly(Component.Explorer({ title: "mobile", folderDefaultState:"open", folderClickBehavior:"link" })),
+    Component.MobileOnly(
+      Component.Explorer({
+        title: "mobile",
+        folderDefaultState: "open",
+        folderClickBehavior: "link",
+      }),
+    ),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(), Component.Darkmode(),
+    Component.Search(),
+    Component.Darkmode(),
   ],
   footer: Component.Footer({
     links: {},
@@ -19,12 +26,19 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta({showReadingTime: false}),
+    Component.ContentMeta({ showReadingTime: false }),
     Component.TagList(),
   ],
   left: [
     Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(Component.Explorer({ title: "", folderClickBehavior:"link", folderDefaultState:"collapsed", useSavedState: true})),
+    Component.DesktopOnly(
+      Component.Explorer({
+        title: "",
+        folderClickBehavior: "link",
+        folderDefaultState: "collapsed",
+        useSavedState: true,
+      }),
+    ),
   ],
   right: [
     Component.DesktopOnly(Component.Graph()),

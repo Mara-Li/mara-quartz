@@ -5,26 +5,25 @@ dg-publish: true
 share: true
 ---
 
-
 ACTIF: Terme générique pour désigner une personne douée de talent magique, si son lien avec le pouvoir est assez fort pour qu’elle exprime son dos à volonté et avec un meilleur contrôle que les passifs. Les actifs n’ont pas tous la même quantité de pouvoir à leur disposition. Certains sont plus doués que d’autres. La sagesse populaire affirme que les actifs ne disposent que d’un seul type de pouvoir.
 
-ADAPTATEUR : Actif capable de modifier leur vêtements - ou équipements - pour en créer d’autres, que ce soit d’autres vêtements voires des armes. Très recherchée dans l’armée, ils ont tendance à travailler en solitaire. 
+ADAPTATEUR : Actif capable de modifier leur vêtements - ou équipements - pour en créer d’autres, que ce soit d’autres vêtements voires des armes. Très recherchée dans l’armée, ils ont tendance à travailler en solitaire.
 
 ANCIEN : Membre dirigeant de la société du Grimnoir.
 
-ANGE DE LA MORT : Voir CHEVAL PÂLE 
+ANGE DE LA MORT : Voir CHEVAL PÂLE
 
-ANNULEUR DYMAXION : Appareil bloquant toute magie dans une zone restreinte. Certains effets magiques déjà lancés peuvent se maintenir en pénétrant dans la zone (tel un évoqué, ou le talent d’un guérisseur). Les annuleurs Dymaxion explosent au contact de la magie des Nixies. Généralement utilisé dans des prisons de l’Imperium. 
+ANNULEUR DYMAXION : Appareil bloquant toute magie dans une zone restreinte. Certains effets magiques déjà lancés peuvent se maintenir en pénétrant dans la zone (tel un évoqué, ou le talent d’un guérisseur). Les annuleurs Dymaxion explosent au contact de la magie des Nixies. Généralement utilisé dans des prisons de l’Imperium.
 
-ARCANISTE : Voir Engrenage - Rare type d'engrenage capable de contrôler, de voir et de placer des sortilèges sur tous les types d'objets possibles. Ils sont en outre capable de détecter les pouvoirs des autres. 
+ARCANISTE : Voir Engrenage - Rare type d'engrenage capable de contrôler, de voir et de placer des sortilèges sur tous les types d'objets possibles. Ils sont en outre capable de détecter les pouvoirs des autres.
 
 ARCADIA : Une île flottante qui se déplace grâce à de nombreuse magie, créée par l'unité 731 et la scientifique Angelica Wald. Elle peut contenir jusqu'à 10 000 âme et sert de quartier général à l'Impérium.
 
-ARTISTE : Rare type d'actif, mélange entre un arcaniste et un illusioniste, les artistes sont capables de rendre vivant leur peinture et leur dessin. Comme les arcanistes, les sortilèges qu'ils posent sont bien plus puissant que celui fait par un engrenage normal. 
+ARTISTE : Rare type d'actif, mélange entre un arcaniste et un illusioniste, les artistes sont capables de rendre vivant leur peinture et leur dessin. Comme les arcanistes, les sortilèges qu'ils posent sont bien plus puissant que celui fait par un engrenage normal.
 
-BABEL : Rare type d’actif capable de comprendre, de lire et de parler toutes les langues. 
+BABEL : Rare type d’actif capable de comprendre, de lire et de parler toutes les langues.
 
-BESTIAL : Similaire aux dolittles, mais plus puissant et capables de contrôler les animaux par télépathie. Dans les cas extrêmes, un bestial peut projeter une partie de sa conscience dans la bête pour la contrôler totalement, y compris la faire parler à sa place, etc… Selon certaines rumeurs, certains bestiaux arriveraient à contrôler les êtres humains, mais il s’agit peut-être de propagande antimagique. 
+BESTIAL : Similaire aux dolittles, mais plus puissant et capables de contrôler les animaux par télépathie. Dans les cas extrêmes, un bestial peut projeter une partie de sa conscience dans la bête pour la contrôler totalement, y compris la faire parler à sa place, etc… Selon certaines rumeurs, certains bestiaux arriveraient à contrôler les êtres humains, mais il s’agit peut-être de propagande antimagique.
 
 BLABLA : Voir PARLEUR
 
@@ -40,7 +39,7 @@ CHANCEUX : Ils utilisent leur magie pour modifier les probabilités. Cette capa
 
 CHANGEUR : Voir SOSIE – Dans certains cercle, on croit à l’existence d’une catégorie d’actif capables de changer d’apparence physique.
 
-CHEVAL PÂLE : L’opposé du guérisseur. Leur contact provoque des maladies. Ce sont les actifs les plus violemment détestés. La plupart des normaux pensent qu’il s’agit d’une légende pour faire peur aux petits enfants. 
+CHEVAL PÂLE : L’opposé du guérisseur. Leur contact provoque des maladies. Ce sont les actifs les plus violemment détestés. La plupart des normaux pensent qu’il s’agit d’une légende pour faire peur aux petits enfants.
 
 CHEVALIER : Agent de la société du Grimnoir.
 
@@ -56,9 +55,9 @@ ECLIPSE : Actif capable de contrôler les ténèbres, jusqu'à les rendre solide
 
 EDISON : Voir CREPITEUR – Terme poli pour crépiteur.
 
-EMPATHE : Personne pouvant contrôler les émotions des personnes. Plus ils sont puissants plus leur contrôle est fort, pouvant aller jusqu’à le contrôle total d’une personne. Cependant, ils ressentent toujours les émotions des gens autour d’eux, et beaucoup sont agoraphobes. 
+EMPATHE : Personne pouvant contrôler les émotions des personnes. Plus ils sont puissants plus leur contrôle est fort, pouvant aller jusqu’à le contrôle total d’une personne. Cependant, ils ressentent toujours les émotions des gens autour d’eux, et beaucoup sont agoraphobes.
 
-ENGRENAGE : Deuxième catégorie d’actifs par ordre de popularité. Les engrenages font appel au pouvoir pour accroître leur intelligence et sont capables d’éclair de génie. Souvent, ils ne sont doués que dans un domaine. 
+ENGRENAGE : Deuxième catégorie d’actifs par ordre de popularité. Les engrenages font appel au pouvoir pour accroître leur intelligence et sont capables d’éclair de génie. Souvent, ils ne sont doués que dans un domaine.
 
 ENNEMI : Prédateur qui pourchasse le pouvoir depuis très longtemps.
 
@@ -72,23 +71,23 @@ EVOQUE : Créature appelée dans notre monde par un évoqueur. La force de la c
 
 EVOQUEUR : Actif capable de faire venir des créatures d’un autre monde qui obéissent à ses ordres. On ne sait pas d’où elles viennent. Les croyances personnelles de l’évoqueur semblent influencer l’apparence de l’évoqué. Les évoqueurs extrêmement puissants peuvent appeler des créatures terriblement fortes. Plus l’évoqué est puissant, plus il faut de pouvoir et de concentration pour en garder le contrôle.
 
-FAUCHEUSE : Voir CHEVAL PÂLE 
+FAUCHEUSE : Voir CHEVAL PÂLE
 
 FRIGO : Toujours commode lorsqu’on a besoin de glaçon, le frigo peut faire baisser la température. Les actifs arrivent à faire geler de l’eau, et même du sang et des organes, instantanément. On parle de frigos capables de faire apparaître à volonté des murs de glace ou des stalactites, mais ces histoires viennent peut être des Aventures du capitaine John Iceberg, un programme radiophonique très populaire. Les frigos ne sont vulnérables ni au froid extrêmes, ni aux engelures.
 
 GUÉRISSEUR : Catégorie d’actifs la plus rare et la plus populaire. Les guérisseurs sont capables d’accélérer le processus naturel de guérison. Même un guérisseur passif de faible pouvoir vaut une fortune. Les plus forts arrivent à soigner presque instantanément les blessures les plus graves. Même sans utiliser leur pouvoir, ils voient toujours l’intérieur du corps des gens. Certains racontent qu'un guérisseur peut aussi donner des maladies... Mais ce n'est jamais très bien pris au sérieux. Peut-être parce que les maladies étaient toujours très bénignes.
 
-HERISSEUR : Actif très rare, capable de modifier à volonté sa structure osseuse. 
+HERISSEUR : Actif très rare, capable de modifier à volonté sa structure osseuse.
 
 HOMME-BÊTE : Voir BESTIAL
 
-ILLUSIONNISTE : Affilié aux parleurs, les illusionnistes peuvent créer des illusions avec leur voix. Cela peut aller d'une simple illusion non physique, à quelque chose de réelle. Ils sont très employés dans les théâtres. 
+ILLUSIONNISTE : Affilié aux parleurs, les illusionnistes peuvent créer des illusions avec leur voix. Cela peut aller d'une simple illusion non physique, à quelque chose de réelle. Ils sont très employés dans les théâtres.
 
 JUGE : type d’actif légendaire, censé distinguer la vérité du mensonge.
 
-KANJIS : voir SORTILEGE – Mot japonais désignant les sortilèges physiques. Leurs kanjis sont en général plus artistique et plus stylisés que les signes d’Europe de l’Ouest utilisés par le Grimnoir, mais ils canalisent le pouvoir magique avec une grande efficacité. 
+KANJIS : voir SORTILEGE – Mot japonais désignant les sortilèges physiques. Leurs kanjis sont en général plus artistique et plus stylisés que les signes d’Europe de l’Ouest utilisés par le Grimnoir, mais ils canalisent le pouvoir magique avec une grande efficacité.
 
-LAMPE : Ennemis naturels des obscuris, les lampes sont capables de créer de la lumière et des rayons d'énergies. On dit que c'est la magie des lampes qui sont utilisés par les armes de tesla. 
+LAMPE : Ennemis naturels des obscuris, les lampes sont capables de créer de la lumière et des rayons d'énergies. On dit que c'est la magie des lampes qui sont utilisés par les armes de tesla.
 
 LAZARE : Actif capable d’enchaîner l’esprit d’une personne qui vient de mourir a cadavre de celle-ci, créant des morts-vivants torturés. Les lazares sont les pires de tous, la racaille du monde magique. Le seul bon lazare est un lazare mort.
 
@@ -112,7 +111,7 @@ METEO : Magique capable d’influencer le temps. Les actifs forts arrivent à d
 
 MORT VIVANT : Être créé par un lazare. La mort physique est survenue, mais le corps reste animé. La conscience et l’intelligence demeurent, ainsi que la douleur de ce qui a causé la mort. Les morts vivants ne peuvent guérir, et leur corps continue de se détériorer. La magie ne peut pas les réparer. Très peu de morts-vivants restent longtemps sains d’esprit ; ils sont de plus en plus violents et imprévisibles. Ils ne meurent vraiment que lorsque leur corps est détruit. Il y a en enfer une section réservée à ceux qui condamnent quelqu’un à devenir mort-vivant.
 
-❌NIXIE : Actif capable de créer une sphère qui grossit sans arrêt et anéantit tout ce qu’elle touche. La zone affectée semble avoir une limite précise mais, vu la rareté de ses actifs, on ne peut pas le confirmer. On recense très peu de manifestations de ce pouvoir. 
+❌NIXIE : Actif capable de créer une sphère qui grossit sans arrêt et anéantit tout ce qu’elle touche. La zone affectée semble avoir une limite précise mais, vu la rareté de ses actifs, on ne peut pas le confirmer. On recense très peu de manifestations de ce pouvoir.
 
 NORMAUX : Terme surtout utilisé par les actifs à propos des gens dénués de pouvoir magique. Selon qui l’emploie, le mot peut être péjoratif.
 
@@ -124,10 +123,10 @@ PARLEUR : Actif les plus détestés ou les plus aimés, selon qu’ils occupent
 
 POUSSEUR DE GRAVITE : Voir LOURD – Terme beaucoup plus respectueux pour désigner un lourd.
 
-POUVOIR : 
+POUVOIR :
+
 1.  L’énergie que détiennent tous les magiques. Quand ils consomment cette énergie, leurs réservent diminuent. La vitesse de rechargement et la quantité qu’on peut emmagasiner dépendent des talents innés de l’individu ainsi que son entraînement. On ignore encore si un magique est lié au pouvoir dès sa naissance ou si la connexion se fait durant la petite enfance.
 2.  Être vivant dont provient toute l’énergie magique, son origine reste un mystère. Il donne des talents magiques à certains humains, et à mesure que nous les développons, l’énergie magique que nous possédons augmente. A notre mort, le pouvoir « digère » cette énergie. Le processus se répète. La croissance de la créature explique que les actifs sont de plus en plus nombreux.
-    
 
 REPAREUR : Voir GUERRISSEUR.
 
@@ -137,23 +136,23 @@ SOCIETE DU GRIMNOIR : Combinaison des mots français « grimoire » ou recuei
 
 SORTILEGE : Si l’on crée une représentation de l’une des sections du pouvoir, des énergies magiques spécifiques peuvent être attirés dans le dessin et reliées à celui-ci. Les sortilèges crées par le Grimnoir s’inspirent d’anciennes calligraphies européennes, alors que ceux de l’Imperium sont plus artistiques.
 
-SOSIE : Type d’actifs extrêmement rare, qui modifie son apparence et sa voix pour imiter parfaitement quelqu’un d’autre. On ne sait pas si les sosies créent seulement l’illusion dans les esprits. 
+SOSIE : Type d’actifs extrêmement rare, qui modifie son apparence et sa voix pour imiter parfaitement quelqu’un d’autre. On ne sait pas si les sosies créent seulement l’illusion dans les esprits.
 
 TELEPORTEUR : Voir VOYAGEUR – Terme scientifique récemment passé dans le vocabulaire courant.
 
-TORCHE : Le plus courant des pouvoirs magiques. Les torches contrôlent le feu. Les passifs n’ont de pouvoir que sur les toutes petites flammes, alors que des actifs très puissants arrivent à éteindre l’incendie d’un dirigeable à hydrogène. Au contraire des frigos, invulnérable au froid, les torches peuvent brûler comme n’importe qui. 
+TORCHE : Le plus courant des pouvoirs magiques. Les torches contrôlent le feu. Les passifs n’ont de pouvoir que sur les toutes petites flammes, alors que des actifs très puissants arrivent à éteindre l’incendie d’un dirigeable à hydrogène. Au contraire des frigos, invulnérable au froid, les torches peuvent brûler comme n’importe qui.
 
 TROUVEUR : Proche de l’évoqueur, mais s’occupe d’esprit désincarnés plutôt que de créatures matérielles. Les trouveurs servent souvent d’éclaireur. Leur sensibilité varie beaucoup.
 
-❌TUYAUX : Catégorie d’actif inconnue. Pendant la Grande Guerre, les espions ont découvert que les Allemands en gardaient un en réserve, mais nous ignorons si nous avons eu affaire à lui. 
+❌TUYAUX : Catégorie d’actif inconnue. Pendant la Grande Guerre, les espions ont découvert que les Allemands en gardaient un en réserve, mais nous ignorons si nous avons eu affaire à lui.
 
-VOYAGEUR : L’un des seuls types d’actifs repérables à une caractéristique physique : tous les voyageurs connus ont les yeux gris. C’est u des dons les plus rares ; non pas à la naissance, mais parce que très peu vivent assez longtemps pour apprendre à contrôler leur pouvoir. Les voyageurs sont capables de se déplacer instantanément d’un endroit à un autre. Plus forts ils sont, plus loin ils peuvent aller et plus lourde est la charge qu’ils peuvent emporter. 
+VOYAGEUR : L’un des seuls types d’actifs repérables à une caractéristique physique : tous les voyageurs connus ont les yeux gris. C’est u des dons les plus rares ; non pas à la naissance, mais parce que très peu vivent assez longtemps pour apprendre à contrôler leur pouvoir. Les voyageurs sont capables de se déplacer instantanément d’un endroit à un autre. Plus forts ils sont, plus loin ils peuvent aller et plus lourde est la charge qu’ils peuvent emporter.
 
-VOYANT : Actif doué d’un pouvoir étrange, dont l’existence a longtemps été mise en doute. Les voyants sont capables de voir les avenirs possibles. 
+VOYANT : Actif doué d’un pouvoir étrange, dont l’existence a longtemps été mise en doute. Les voyants sont capables de voir les avenirs possibles.
 
-YEUX GRIS : Voir VOYAGEUR – Tous les voyageurs connus ont des yeux gris assez étrange leur permettant de voir dans le noir. 
+YEUX GRIS : Voir VOYAGEUR – Tous les voyageurs connus ont des yeux gris assez étrange leur permettant de voir dans le noir.
 
-ZOMBIE : Voir MORT-VIVANT – Le premier lazare connu venait d’Haïti. Le mot « zombie «  semble en être originaire. 
+ZOMBIE : Voir MORT-VIVANT – Le premier lazare connu venait d’Haïti. Le mot « zombie «  semble en être originaire.
 
 ![[../../img/CDI_Logo.png|CDI_Logo.png]]
 
@@ -162,12 +161,13 @@ ZOMBIE : Voir MORT-VIVANT – Le premier lazare connu venait d’Haïti. Le mot
 L'unité 731, a force d'étudier la magie, a déterminé que la majorité des pouvoirs étaient liés entre eux parce qu'ils appellent des "quadrants". Des personnes très talentueuses peuvent développer les pouvoirs d'un même quadrants, et certains pouvoirs sont en faits liés à la maîtrise de plusieurs pouvoirs de ce quadrants. Certains pouvoirs, très peu nombreux, existaient à la fois dans plusieurs quadrants. Selon  certaines théories, cela lierait les quadrants en un seul, mais personne - pour le moment - n'a réussi à développer à la fois les pouvoirs reliés. (Ses pouvoirs sont indiqués par une étoile)
 
 Ainsi, il existerait les quadrants de :
--   Élémentaristes : Météo / Frigo / Crépiteur / Lampe / Torche / Eclipse (⭐)
--   Fantôme : Voyageur / Estompeur / Eclipse (⭐)
--   Ingénieur : Arcaniste / Artiste / Engrenage / Machineur / Babel
--   Mentaliste : Marionnettiste / Parleur / Liseur / Dolittle / Bestial / Illusionniste / Empathe
--   Atomiste : Bougeur / Adaptateur / Boumeur
--   Conjureur : Lazare / Trouveur / Evoqueur
--   Galiléen : Lourd / Massif / Brute / Nixie
--   Anatomiste : Guérisseur / Cheval Pâle / Hérisseur / Sosie
--   Augure : Chanceux / Juge / Voyant
+
+- Élémentaristes : Météo / Frigo / Crépiteur / Lampe / Torche / Eclipse (⭐)
+- Fantôme : Voyageur / Estompeur / Eclipse (⭐)
+- Ingénieur : Arcaniste / Artiste / Engrenage / Machineur / Babel
+- Mentaliste : Marionnettiste / Parleur / Liseur / Dolittle / Bestial / Illusionniste / Empathe
+- Atomiste : Bougeur / Adaptateur / Boumeur
+- Conjureur : Lazare / Trouveur / Evoqueur
+- Galiléen : Lourd / Massif / Brute / Nixie
+- Anatomiste : Guérisseur / Cheval Pâle / Hérisseur / Sosie
+- Augure : Chanceux / Juge / Voyant

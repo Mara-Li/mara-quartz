@@ -5,7 +5,6 @@ dg-publish: true
 share: true
 ---
 
-
 # Le mess
 
 ![[../../img/cdi_mess.jpg|+side]]La cantine qui ne dort jamais et où il n'y règne qu'un vacarme infernale à toute heure de la journée. La nourriture est assez correct, mais est surtout destinée pour les soldats qui sont incapables de tenir correctement une poêle ou qui n'ont pas un rang assez élevé pour avoir leur propre quartier avec cuisine.

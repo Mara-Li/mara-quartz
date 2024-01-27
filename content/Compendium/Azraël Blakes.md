@@ -16,8 +16,6 @@ tags:
   - RP_Bibliothèque-Infinie
 ---
 
-
-
 ---
 
 **Nom** : Blakes
@@ -27,6 +25,7 @@ tags:
 **Race** : Ange déchu
 
 Quelques capacités inhérentes à son "espèce" :
+
 - Immortelle : Si son corps est détruit, son âme finit par le régénérer après un certains temps. Elle n'a pas conscience de ce temps, et elle a parfois l'impression de faire des sortes de bons temporels à chaque fois qu'elle meurt.
 - Elle peut adopter une forme "angélique" si elle le souhaite : des ailes semble apparaître dans son dos de manière translucide, composé de losange. De même une sorte d'oréole en losange entoure son crâne. Dans cette forme, ses pouvoir sont decuplés mais elle s'épuise plus vite.
 - Elle n'apprécie pas les objets sacrés en règle général.
@@ -75,9 +74,9 @@ Notons que bien qu'elle ait triomphé face à Pestilence, son corps a finit par 
 
 Faits intéressants, elle se trouvait à Londres lors des meurtres en série de Jack L'Eventreur, où elle découvre avec stupeur que les âmes de ses victimes ne partaient pas non plus. Pire, elle devenait de véritable monstre, et elle n'a pas pu les interroger pour découvrir qui était le tueur.
 
-Elle travailla avec Scotland Yard pour essayer de découvrir, sans succès, Jack. C'est un de ses évènements qui l'ont conduit à s'intéresser aux meurtres en série, et les fantômes en découlant. 
+Elle travailla avec Scotland Yard pour essayer de découvrir, sans succès, Jack. C'est un de ses évènements qui l'ont conduit à s'intéresser aux meurtres en série, et les fantômes en découlant.
 
-Aujourd'hui, Azraël travaille en tant que détective privée, et aide parfois la police Invisible de Nibelhiem. Cela dit, elle préfère travailler en solitaire, et n'aime pas demander de l'aide. 
+Aujourd'hui, Azraël travaille en tant que détective privée, et aide parfois la police Invisible de Nibelhiem. Cela dit, elle préfère travailler en solitaire, et n'aime pas demander de l'aide.
 
 ---
 

@@ -6,5 +6,5 @@ title: Compendium
 category: Compendium
 hidden: True
 hide:
-- toc
+  - toc
 ---

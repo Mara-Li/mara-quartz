@@ -6,7 +6,6 @@ dg-publish: true
 share: true
 ---
 
-
 ## Historique
 
 ### Synopsis
@@ -23,58 +22,58 @@ Tout pourrait penser que le monde est rose, mais malheureusement, d’étranges 
 
 ### Historique
 
-* 2080 : Découverte des implants bionotropique, début d’une utilisation médicale.
-* 2100 : Utilisation des implants étendue à tout type d’utilisation, notamment dans la guerre.
-* 2110 : Amélioration des implants, qui remplacent maintenant tout type de moyen de communication.
-* 2111 : Lancement officiel du PsyNet, équivalent d’internet mais à travers les implants.
-* 2130 : Colonisation officielle de Mars.
-* 2150 : Colonisation officielle de Venus, extension de la colonisation de Mars à ses lunes.
-* 2170 : Colonisation et utilisation des satellites du Systèmes solaire.
-* 2200 : Dissolution de la plupart des pays pour créer des gouvernements planétaires.
-* 2250 : Guerre entre Mars et Venus.
-* 2252 : Entrée en guerre de la Terre.
-* 2270 : Armistice.
-* 2300 : Découverte des moteurs Luminiques, permettant des déplacements par bond quantique, permettant la création de vaisseaux ultra rapide.
-* 2310 : Départ du système solaire et exploration spatiale étendue au reste de la Voie Lactée.
-* 2400 : Début de la Confédération Martienne.
-* 2450 : Annonce du Conglomérat Terrien.
-* 2480 : Coup d’état sur Venus, création de l’Empire.
-* 2500 : Guerre pour obtenir les ressources d’Aldébaran IV entre la confédération et le conglomérat.
-* 2501 – 2600 : Siècle marquée par les guerres incessante dans la Nébuleuse du Patriarche.
-* 2600 – 2700 : Guerre entre l’Empire et le Conglomérat. Début des bombardements de la Terre et de Venus.
-* 2745 : Annonce de « La fin Du Monde » avec une disparition quasiment complète de la biodiversité et de la nature. L’air devient irrespirable dans de nombreuses zones. Disparition de la population humaine jusqu’à 90 %.
-* 2750 : Fuite officielle des élites, disparition de la Terre des cartes, dissolution du gouvernement terrien et anarchie.
-* 2765 : Création de nombreuses cités états. Ces dernières finissent par élire un gouvernement. Mise en place dans de nombreuses cités d’un système proche du communisme et quasi disparition des classes sociales.
-* 2770 : Début des expérimentations biologiques sur Terre.
-* 2775 : Vénus arrête d’émettre.
-* 2780 : Mars arrête d’émettre.
-* 2800 : Annonce officiel de la fin des transmissions avec le reste des habitants de la Voie Lactée : les terriens sont livrés à eux même.
-* 2801 : Reprise de la Nature sur Terre, notamment grâce aux nombreux gènes et l’arrêt complet d’utilisation des énergies fossiles et nucléaires.
-* 2810 : Début de l’expérimentation de phytogènes sur les humains.
-* 2812 : Fuite importante dans un laboratoire Nord-Américain, de nombreuses plantes et microorganismes disparaissent dans la nature, contaminant les à l’entour.
-* 2830 : Apparition importante de portion de forêt capable de penser et réagir face aux humains.
-* 2840 : Découverte d’un arbre pensant, avec un cerveau semblable à celui d’un humain.
-* 2880 : Premières attaques de la forêt sur des villes humaines. Première guerre du « Nouveaux Mondes ».
-* 2890 : Création des enclaves – vestiges d’anciennes cités états ayant survécu, amélioration des phytogènes pour rendre les humains plus combattifs.
-* 2900 : Découverte de la télékinésie, et de son effet sur la forêt. Création et utilisation massives d’implants.
-* 2910 : Premiers Ophrys, beaucoup semblent relié psychiquement à la forêt. Tous possèdent ce qu’on nomme des « pouvoirs ».
-* 2915 – 2930 : Seconde Guerre du Nouveaux Monde
-* 2930 : Premiers Ophrys non reliés au Réseau de la planète.
-* 2945 : Les enclaves commencent à s’élever et des villes dans les cieux apparaissent.
-* 2950 : Création d’implants pour permettre la survie en altitude.
-* 2960 : Création de District suivant la terre mais beaucoup plus élevé, semblable à des pays. La plupart des cités états des continents sont reliés, mais les lois changent en fonction des districts.
-* 2970 : Modification génétique pour permettre la survie en altitude, permettant l’arrêt d’utilisation des implants. Toutes les générations d’humains suivant cette décision ont des gènes de résistances.
-* 2990 – 3010 : Guerre entre les Ophrys reliés et non reliés. Les humains n’interviennent pas. Elimination de la majorité des Ophrys reliés.
-* 3030 : Apparition de village d’Ophrys. Découverte que les Ophrys n’aiment pas l’altitude et ont du mal à vivre dans les Districts.
-* 3040 : Rapport sur des cas d’évanouissement et gènes respiratoire des humains au sol. On découvre que c’est lié aux gènes de résistances utiliser en 2970. Modification des combinaisons pour permettre aux humains de travailler sur Terre.
-* 3050 : Apparition des premiers demi-ophrys, mélange entre les humains et des Ophrys. Physiquement plus proche des humains, ils peuvent vivre à la fois dans les Enclaves et sur terre.
-* 3055 : Premiers cas de racisme anti-Ophrys par les humains.
-* 3060 – 3070 : Troisième guerre du Nouveau monde.
-* 3070-3080 : Ségrégation dans la majorité des pays entre les humains et les demi-ophrys. Certains sont bannis de leur Districts et des Villages.
-* 3080 – 3090 : Mouvement de libération des Ophrys.
-* 3090 : La majorité des Districts adoptent des règles visant à mettre à égalité les Ophrys et les Humains, mais certains Districts restent encore très racistes.
-* 3100 : Première trouvaille de personnes cryogénisés. La plupart sont morts à cause de la forêt, mais certains ont réussi à survivre.
-* 3150 : Jours actuels.
+- 2080 : Découverte des implants bionotropique, début d’une utilisation médicale.
+- 2100 : Utilisation des implants étendue à tout type d’utilisation, notamment dans la guerre.
+- 2110 : Amélioration des implants, qui remplacent maintenant tout type de moyen de communication.
+- 2111 : Lancement officiel du PsyNet, équivalent d’internet mais à travers les implants.
+- 2130 : Colonisation officielle de Mars.
+- 2150 : Colonisation officielle de Venus, extension de la colonisation de Mars à ses lunes.
+- 2170 : Colonisation et utilisation des satellites du Systèmes solaire.
+- 2200 : Dissolution de la plupart des pays pour créer des gouvernements planétaires.
+- 2250 : Guerre entre Mars et Venus.
+- 2252 : Entrée en guerre de la Terre.
+- 2270 : Armistice.
+- 2300 : Découverte des moteurs Luminiques, permettant des déplacements par bond quantique, permettant la création de vaisseaux ultra rapide.
+- 2310 : Départ du système solaire et exploration spatiale étendue au reste de la Voie Lactée.
+- 2400 : Début de la Confédération Martienne.
+- 2450 : Annonce du Conglomérat Terrien.
+- 2480 : Coup d’état sur Venus, création de l’Empire.
+- 2500 : Guerre pour obtenir les ressources d’Aldébaran IV entre la confédération et le conglomérat.
+- 2501 – 2600 : Siècle marquée par les guerres incessante dans la Nébuleuse du Patriarche.
+- 2600 – 2700 : Guerre entre l’Empire et le Conglomérat. Début des bombardements de la Terre et de Venus.
+- 2745 : Annonce de « La fin Du Monde » avec une disparition quasiment complète de la biodiversité et de la nature. L’air devient irrespirable dans de nombreuses zones. Disparition de la population humaine jusqu’à 90 %.
+- 2750 : Fuite officielle des élites, disparition de la Terre des cartes, dissolution du gouvernement terrien et anarchie.
+- 2765 : Création de nombreuses cités états. Ces dernières finissent par élire un gouvernement. Mise en place dans de nombreuses cités d’un système proche du communisme et quasi disparition des classes sociales.
+- 2770 : Début des expérimentations biologiques sur Terre.
+- 2775 : Vénus arrête d’émettre.
+- 2780 : Mars arrête d’émettre.
+- 2800 : Annonce officiel de la fin des transmissions avec le reste des habitants de la Voie Lactée : les terriens sont livrés à eux même.
+- 2801 : Reprise de la Nature sur Terre, notamment grâce aux nombreux gènes et l’arrêt complet d’utilisation des énergies fossiles et nucléaires.
+- 2810 : Début de l’expérimentation de phytogènes sur les humains.
+- 2812 : Fuite importante dans un laboratoire Nord-Américain, de nombreuses plantes et microorganismes disparaissent dans la nature, contaminant les à l’entour.
+- 2830 : Apparition importante de portion de forêt capable de penser et réagir face aux humains.
+- 2840 : Découverte d’un arbre pensant, avec un cerveau semblable à celui d’un humain.
+- 2880 : Premières attaques de la forêt sur des villes humaines. Première guerre du « Nouveaux Mondes ».
+- 2890 : Création des enclaves – vestiges d’anciennes cités états ayant survécu, amélioration des phytogènes pour rendre les humains plus combattifs.
+- 2900 : Découverte de la télékinésie, et de son effet sur la forêt. Création et utilisation massives d’implants.
+- 2910 : Premiers Ophrys, beaucoup semblent relié psychiquement à la forêt. Tous possèdent ce qu’on nomme des « pouvoirs ».
+- 2915 – 2930 : Seconde Guerre du Nouveaux Monde
+- 2930 : Premiers Ophrys non reliés au Réseau de la planète.
+- 2945 : Les enclaves commencent à s’élever et des villes dans les cieux apparaissent.
+- 2950 : Création d’implants pour permettre la survie en altitude.
+- 2960 : Création de District suivant la terre mais beaucoup plus élevé, semblable à des pays. La plupart des cités états des continents sont reliés, mais les lois changent en fonction des districts.
+- 2970 : Modification génétique pour permettre la survie en altitude, permettant l’arrêt d’utilisation des implants. Toutes les générations d’humains suivant cette décision ont des gènes de résistances.
+- 2990 – 3010 : Guerre entre les Ophrys reliés et non reliés. Les humains n’interviennent pas. Elimination de la majorité des Ophrys reliés.
+- 3030 : Apparition de village d’Ophrys. Découverte que les Ophrys n’aiment pas l’altitude et ont du mal à vivre dans les Districts.
+- 3040 : Rapport sur des cas d’évanouissement et gènes respiratoire des humains au sol. On découvre que c’est lié aux gènes de résistances utiliser en 2970. Modification des combinaisons pour permettre aux humains de travailler sur Terre.
+- 3050 : Apparition des premiers demi-ophrys, mélange entre les humains et des Ophrys. Physiquement plus proche des humains, ils peuvent vivre à la fois dans les Enclaves et sur terre.
+- 3055 : Premiers cas de racisme anti-Ophrys par les humains.
+- 3060 – 3070 : Troisième guerre du Nouveau monde.
+- 3070-3080 : Ségrégation dans la majorité des pays entre les humains et les demi-ophrys. Certains sont bannis de leur Districts et des Villages.
+- 3080 – 3090 : Mouvement de libération des Ophrys.
+- 3090 : La majorité des Districts adoptent des règles visant à mettre à égalité les Ophrys et les Humains, mais certains Districts restent encore très racistes.
+- 3100 : Première trouvaille de personnes cryogénisés. La plupart sont morts à cause de la forêt, mais certains ont réussi à survivre.
+- 3150 : Jours actuels.
 
 ## Les ophrys
 
@@ -83,14 +82,15 @@ Les Ophrys sont nés de modification génétique d’humains et de gènes de pla
 ### Caractéristiques physiques communes entre Ophrys pure et hybrides
 
 Les ophrys présentent notamment :
-* Des cornes, pour la majorité. Celle des Ophrys purs sont souvent plus grandes que celles des hybrides. Elles servent notamment à la communication avec la Forêt, et améliore les perceptions. Elles sont situées le plus souvent sur le haut du crâne, voire sur le front.
-* Une grande taille
-* Des capacités extrasensorielles, notamment des contrôles élémentaires. Il n’y a pas de différence de puissance significative entre les hybrides et les purs.
-* Un lien particulier, psychique, avec la forêt.
-* Peu de soucis respiratoires au sol.
-* Une agilité et une force supérieure à celle d’humain non-amélioré.
-* Peu de compatibilité avec les implants bionotropiques booster.
-* Des écailles, le plus souvent en cellulose. Elles sont très sensibles, mais peu fragile. Il y a beaucoup de différence entre les personnes, certaines peuvent être très douce et d’autres aussi rapeuses que des écailles de requins. Le plus souvent, elles sont situés sur les cornes, les joues, le cou, les bras et les jambes. La surface recouverte
+
+- Des cornes, pour la majorité. Celle des Ophrys purs sont souvent plus grandes que celles des hybrides. Elles servent notamment à la communication avec la Forêt, et améliore les perceptions. Elles sont situées le plus souvent sur le haut du crâne, voire sur le front.
+- Une grande taille
+- Des capacités extrasensorielles, notamment des contrôles élémentaires. Il n’y a pas de différence de puissance significative entre les hybrides et les purs.
+- Un lien particulier, psychique, avec la forêt.
+- Peu de soucis respiratoires au sol.
+- Une agilité et une force supérieure à celle d’humain non-amélioré.
+- Peu de compatibilité avec les implants bionotropiques booster.
+- Des écailles, le plus souvent en cellulose. Elles sont très sensibles, mais peu fragile. Il y a beaucoup de différence entre les personnes, certaines peuvent être très douce et d’autres aussi rapeuses que des écailles de requins. Le plus souvent, elles sont situés sur les cornes, les joues, le cou, les bras et les jambes. La surface recouverte
 
 ### Caractéristiques uniques aux ophrys purs
 
@@ -112,10 +112,11 @@ Ils n’ont aucune différence de peau avec les humains, ainsi qu’avec leur te
 Les districts sont de très grandes régions englobant des villes qui sont reliés entre elles par des pontons qui servent de routes.
 
 L’organisation et la politique est propre à chaque district, mais généralement, on retrouve un conseils élu tous les trois ans, parmi les Divisions, qui sont elle-même composés de divers corps de métiers. Généralement, on les classe comme suit :
-* La division des Scientifiques, regroupant la recherche, la médecine…
-* La division des Chasseurs, qui s’occupent à la fois de protéger les cités, mais aussi d’explorer « le monde d’en dessous ». C’est la seule division composée en majorité d’hybride. Souvent, les Chasseurs travaillent avec les scientifiques. Et nombreux sont les chasseurs-scientifiques appartenant à la fois aux deux divisions.
-* Les Architectes s’occupent de toute l’infrastructure des villes, avec à la fois s’occuper de la bonne tenue des piliers, ou encore des routes, mais aussi la structure et la veille d’Internet.
-* Enfin, les administrateurs sont généralement composés des métiers que l’on nommait « du tertiaire » et des « services » dans l’ancien temps. Il y a par exemple, les enseignants, bibliothécaires, vendeurs…
+
+- La division des Scientifiques, regroupant la recherche, la médecine…
+- La division des Chasseurs, qui s’occupent à la fois de protéger les cités, mais aussi d’explorer « le monde d’en dessous ». C’est la seule division composée en majorité d’hybride. Souvent, les Chasseurs travaillent avec les scientifiques. Et nombreux sont les chasseurs-scientifiques appartenant à la fois aux deux divisions.
+- Les Architectes s’occupent de toute l’infrastructure des villes, avec à la fois s’occuper de la bonne tenue des piliers, ou encore des routes, mais aussi la structure et la veille d’Internet.
+- Enfin, les administrateurs sont généralement composés des métiers que l’on nommait « du tertiaire » et des « services » dans l’ancien temps. Il y a par exemple, les enseignants, bibliothécaires, vendeurs…
 
 De plus, parmi ces divisions, il existe de nombreux conseils (généralement toutes relié par leurs affectations et métier), et la monté au pouvoir est très lente car elle dépend de nombreuses assemblées : c’est un système extrêmement pyramidal.
 
@@ -128,8 +129,9 @@ En outre, il existe un système d’échelons, qui se calcule à la fois sur l�
 ### Implants bionotropiques
 
 Il existe de nombreux types d’implants, mais les principaux sont séparés en deux groupes très simples :
-* Les implants civils, qui ne sont pas des boosters, mais des connecteurs ; la plupart du temps, au réseau internet. Il existe aussi des implants de sauvegardes mémoriels.
-* Les implants militaires, qui sont des boosters du corps.
+
+- Les implants civils, qui ne sont pas des boosters, mais des connecteurs ; la plupart du temps, au réseau internet. Il existe aussi des implants de sauvegardes mémoriels.
+- Les implants militaires, qui sont des boosters du corps.
 
 Généralement, ce sont de simples triangles métalliques que l’on reconnaît aisément par leurs couleurs.
 Il en existe de tout type, mais tous ont le même but : modifier les capacités de son porteur. Facile à poser, moins à retirer, ils se basent sur une compatibilité génétique, dont les plus hauts sont généralement artificiels. Ils se placent généralement sur des muscles ou des os.

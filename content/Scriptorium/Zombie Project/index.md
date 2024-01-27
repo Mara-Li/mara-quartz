@@ -11,16 +11,17 @@ type: Informations, Idées
 univers: Resident Evil
 ---
 
-
 <u>Lieu</u> : Windport — Côte West des USA
-<u>Météo</u> : Un typhon est en cours 
+<u>Météo</u> : Un typhon est en cours
 <u>Timeline</u> : Une semaine après la dispersion initiale du virus.
 <u>Cause</u> : Inconnue
 
 ---
+
 L'univers est basé sur Resident Evil 2 et 3. Il se déroule autour de la timeline du 2.
 
 Pour info :
+
 - Resident Evil 3 (partie 1) : 26 → 28 Septembre
 - Resident Evil 2 : 28 Septembre → 30 septembre
 - Resident Evil 3 (2e partie) : 1er Octobre
@@ -32,4 +33,5 @@ Il est tout à fait possible d'introduire des éléments de différents univers,
 Il est possible de faire des personnages mutants.
 
 ---
+
 ![[Archives/30. Scriptorium/Zombie Project/Introduction|Introduction]]

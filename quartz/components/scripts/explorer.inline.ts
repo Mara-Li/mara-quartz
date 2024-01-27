@@ -23,20 +23,17 @@ function toggleExplorer(this: HTMLElement) {
   content.classList.toggle("collapsed")
   content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px"
   //prevent scroll under
-  if (document.querySelector(".mobile-only #explorer")){
-    const article = document.querySelectorAll(".popover-hint");
-    const header = document.querySelector(".page .page-header");
+  if (document.querySelector(".mobile-only #explorer")) {
+    const article = document.querySelectorAll(".popover-hint")
+    const header = document.querySelector(".page .page-header")
     if (article)
       article.forEach((element) => {
-        element.classList.toggle("no-scroll");
-      });
-    if (header)
-      header.classList.toggle("fixed");
-    const footer = document.querySelector("footer");
-    if (footer)
-      footer.classList.toggle("no-scroll");
+        element.classList.toggle("no-scroll")
+      })
+    if (header) header.classList.toggle("fixed")
+    const footer = document.querySelector("footer")
+    if (footer) footer.classList.toggle("no-scroll")
   }
-
 }
 
 function toggleFolder(evt: MouseEvent) {
@@ -150,8 +147,6 @@ document.addEventListener("nav", () => {
   }
   setupExplorer()
   //add collapsed class to all folders
-
-
 
   observer.disconnect()
 

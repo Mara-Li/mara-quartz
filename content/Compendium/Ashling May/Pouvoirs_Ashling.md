@@ -32,6 +32,7 @@ En prenant sa forme d’Ekraminarok, elle peut faire apparaître un clavier sur 
 ## Type de boost
 
 Ils ne boostent que les capacités humaines, et non les pouvoirs. Ils peuvent augmenter jusqu'à 50% de la capacités de la personne ciblée.
+
 - Vitesse
 - Endurance
 - Force
@@ -44,7 +45,7 @@ Ils ne boostent que les capacités humaines, et non les pouvoirs. Ils peuvent au
 - Il peut y avoir du lag
 - Elle doit taper tous ses sorts au clavier
 - Elle ne peut pas changer de tenue pour le moment. Sa tenue s’active automatiquement lorsqu’elle active son pouvoir pour une raison qui lui est inconnue.
-- L'ultime a un _Cooldown_ d'une dizaine de tours.
+- L'ultime a un *Cooldown* d'une dizaine de tours.
 - Ses snipers invoqués ont 500 m de porté.
 - En forme d'Ekraminarok, ses lunettes lui permettent de voir ses cooldown et buff, ainsi que ses statistiques.
 
@@ -54,7 +55,8 @@ Ils ne boostent que les capacités humaines, et non les pouvoirs. Ils peuvent au
 
 Ashling est capable de se transporter dans la plupart des objets électronique et système informatique, à des degrés très divers, pouvant aller du simple contrôle psychique à un transfert mental.
 
-*Malus* :
+_Malus_ :
+
 - Lorsqu’elle se connecte aux objets, si ce dernier est trop complexe, elle va s’évanouir voire tomber dans le coma (son corps doit alors être pris en charge, car dans le cas contraire, sa santé va se dégrader). Ce n’est pas le cas sur les petits objets, et elle va donc pouvoir se connecter à des ordinateurs, portes, téléphones, sans aucun problème. Lorsqu’elle est connectée à un objet, elle peut paraître “dans la lune” car elle n’a plus — ou moins — de contact avec son corps.
 
 - Elle est obligée d’avoir un point d’entrée sur les objets. Cela peut être par réseau (Bluetooth,wifi, radio), ou physique (USB…). Les conditions de contrôles diffèrent selon le point d’entrée : les entrées physiques sont beaucoup plus stables que les psychiques, mais elle perd plus facilement “son esprit” lorsqu’elle est connectée physiquement.

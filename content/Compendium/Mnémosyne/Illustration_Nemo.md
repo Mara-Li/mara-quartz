@@ -20,7 +20,6 @@ type:
 univers: Références
 ---
 
-
 > [!grid] Medhas
 > ![[../../img/Grimm_Nemo.jpg|Grimm_Nemo.jpg]] ![[../../img/Robe_nemo.jpeg|Robe_nemo.jpeg]]
 > ![[../../img/Nemo_grim_danse.png|Nemo_grim_danse.png]] ![[../../img/meme_nemo.jpeg|meme_nemo.jpeg]] ![[../../img/portrait_love_nemo.jpeg|portrait_love_nemo.jpeg]]
@@ -36,7 +35,6 @@ univers: Références
 > ![[../../img/illu_truc.jpeg|illu_truc.jpeg]]
 > ![[../../img/Chaa_Rodon.jpeg|Chaa_Rodon.jpeg]]
 > ![[../../img/Perseith_chaa_collab.png|Perseith_chaa_collab.png]]
-
 
 > [!GRID] Commission
 > ![[../../img/Nemo_twitter.jpeg|Nemo_twitter.jpeg]] ![[../../img/qquoee.jpeg|qquoee.jpeg]]

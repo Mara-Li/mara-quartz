@@ -9,4 +9,3 @@ index: true
 
 > [!note]
 > coucou
-

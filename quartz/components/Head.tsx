@@ -13,10 +13,12 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
-    let ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`;
+    let ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
     if (cfg.contentDir) {
-      const contentDir = `https://${cfg.baseUrl}/${cfg.contentDir}/`;
-      ogImagePath = fileData?.frontmatter?.image?.trim() ? sluggify(`${contentDir}${fileData?.frontmatter?.image?.trim()}`) : `https://${cfg.baseUrl}/static/og-image.png`;
+      const contentDir = `https://${cfg.baseUrl}/${cfg.contentDir}/`
+      ogImagePath = fileData?.frontmatter?.image?.trim()
+        ? sluggify(`${contentDir}${fileData?.frontmatter?.image?.trim()}`)
+        : `https://${cfg.baseUrl}/static/og-image.png`
     }
     return (
       <head>

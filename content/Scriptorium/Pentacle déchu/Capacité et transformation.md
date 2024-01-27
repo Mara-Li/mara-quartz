@@ -5,7 +5,6 @@ dg-publish: true
 share: true
 ---
 
-
 Les créatures bibliques ont la capacité de changer de forme. Souvent, c’est un changement de couleur, mais aussi vêtement, mais la transformation peut être largement plus poussée en fonction de la forme originale (c’est-à-dire au paradis ou dans les enfers) de la personne.
 
 Cette forme va singulièrement augmenter les pouvoirs du méta-humain, mais va l’épuiser pour un moment. Certains sont capables de changer à volonté, lorsque d’autres changent sous le coup des émotions.

@@ -2,7 +2,7 @@
 date: 2023-11-28
 share: true
 description: Sara White, une soldate PSI du future. Possède la capacité de tirer des rayons de lumière
-univers: 
+univers:
 type: Fiche
 category:
   - Compendium
@@ -18,32 +18,36 @@ disabled rules:
 share_link: https://share.note.sx/0dd978ex
 share_updated: 2023-12-29T23:01:31+01:00
 ---
+
 > [!wiki]
+>
 > # SARA WHITE
+>
 > ![[../img/Sara-portrait.jpg|parseME]]
 >
-> |  |  |
-> | ---- | ---- |
-> | **Alias** | Blaster |
-> |**Genre** | Féminin |
-> |**Race**| Meta-humaine \| PSIchique |
-> |**Rôle**|Chef de la sécurité|
-> | **Alignement** | Neutre |
+> |                |                           |
+> | -------------- | ------------------------- |
+> | **Alias**      | Blaster                   |
+> | **Genre**      | Féminin                   |
+> | **Race**       | Meta-humaine \| PSIchique |
+> | **Rôle**       | Chef de la sécurité       |
+> | **Alignement** | Neutre                    |
 >
 > ### Profil
 >
-> |||
-> | --|--|
-> |**Anniversaire**|8/10|
-> | **Année de naissance** |  2900 |
-> |**Âge**|~30 ans|
-> |**Taille** | 1.75m|
-> |**Cheveux** | Blonds |
-> |**Yeux** | Borgne |
-> |**Peau** | Blanche |
-> |**Traits notables**| <li>Borgne</li><li>Cicatrice de brûlure sur l'entièreté du bras droit</li><li>Petites brûlures sur le bouts des mains et paumes</li>|
+> |                        |                                                                                                                                      |
+> | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+> | **Anniversaire**       | 8/10                                                                                                                                 |
+> | **Année de naissance** | 2900                                                                                                                                 |
+> | **Âge**                | ~30 ans                                                                                                                              |
+> | **Taille**             | 1.75m                                                                                                                                |
+> | **Cheveux**            | Blonds                                                                                                                               |
+> | **Yeux**               | Borgne                                                                                                                               |
+> | **Peau**               | Blanche                                                                                                                              |
+> | **Traits notables**    | <li>Borgne</li><li>Cicatrice de brûlure sur l'entièreté du bras droit</li><li>Petites brûlures sur le bouts des mains et paumes</li> |
 
 # Physique
+
 ---
 
 Malgré ses cicatrices, Sara n'est pas une femme laide. Musclée mais fine, elle mesure 1m75 (la taille standard pour une soldate, à son époque).
@@ -73,7 +77,9 @@ Puisqu'elle est une fumeuse compulsive (heureusement, à son époque, les cigare
 Pour une femme de son époque, Sara n'a rien d'étrange… Elle est généralement vêtue de pantalon, chemise blanche, ceinture, et porte souvent une veste courte en cuir.
 
 # Profil psychologique
+
 ---
+
 ## Caractère général
 
 Sara manque d'empathie. Difficile de dire si cela est causée par son passée de soldat, ou si elle l'était déjà quand elle s'est engagée dans l'armée.
@@ -89,13 +95,17 @@ En dehors de sa folie, c'est une femme extrêmement franche, parfois trop déten
 
 Sur un autre sujet, elle n'est pas malheureuse d'avoir quitté l'armée. Ne plus avoir à écouter les ordres de petit connards derrière leur bureau, et ne plus être "qu'un chiffre" est plutôt agréable.
 Mais, attention, il ne faut pas croire qu'elle pensait quitter l'armée, prendre sa retraite, déserter et devenir mercenaire.
+
 ## Buts
 
 Lorsqu'elle s'est retrouvé expulsée de son univers après une explosion, elle n'a pas vraiment eu de dépression ou de perte d'espoir. Arrivée directement dans le Nexus, elle s'y est faite une place tout en enquêtant sur le monde dans lequel elle avait atterrit. Rapidement, elle a compris les effets du Tumultes, et les apparitions des monstres et ennemis dans le Nexus lui a permis de garder le goût de vivre.
 
 Lorsqu'elle découvre le projet du Dojo, elle le rejoint en tant que chef de la sécurité. Son but n'est pas vraiment de protéger l'univers, ou même le dojo. Non, son but est de combattre. Et l'avantage d'être au dojo est qu'elle peut tomber sur des putains d'adversaires.
+
 ## Goûts
+
 ### Aime
+
 - Tirer, se battre, "faire la guerre". Cela fait 15 ans qu'elle ne fait que ça, et elle ne sait faire que ça. Heureusement qu'elle y prend du plaisir.
 - Se faire tirer dessus, l'adrénaline du combat
 - Fumer
@@ -106,7 +116,9 @@ Lorsqu'elle découvre le projet du Dojo, elle le rejoint en tant que chef de la 
 - Les gratte papier
 - Les Commissaires toujours derrière la ligne de front
 - Les bleus sortant d'une Ecole militaire et qui pensent savoir ce que c'est que la guerre.
+
 # Combat
+
 ---
 
 **Classe** : Soldate
@@ -119,13 +131,14 @@ Enfin, et cela est plus en rapport à la perte de sa vue binoculaire, mais elle 
 Si on excepte ses pouvoirs, elle a des capacités physiques d'une humaine soldate extrêmement bien entrainée, bien qu'ayant quelque implants qui lui permettent de se régénérer plus rapidement et d'avoir une excellente résistance à la douleur et la panique.
 
 Auparavant, elle possédait une sorte d'armure (plus proche d'une combinaison) qui lui permettait de compenser ses capacités physiques de PSI en absorbant les chocs, tout en ayant une IA compensant le cerveau d'une humaine (ATH, carte, cible, ordres…). L'armure a été endommagée par le portail, et est inutilisable (au grand dam de Sara).
+
 ## Capacités débloquées
 
-> [!grid]
-> ![](https://i.pinimg.com/736x/7e/df/33/7edf333b711d16c85bc1e4b6fb09e62e.jpg)
+> [!grid] > ![](https://i.pinimg.com/736x/7e/df/33/7edf333b711d16c85bc1e4b6fb09e62e.jpg)
 > ![[../img/kris-thaler-pistol-rev3a.jpg|kris-thaler-pistol-rev3a.jpg]]
 
 Sara possède deux armes :
+
 - Un fusils qui possède 10 charges, et peut tirer jusqu'à 5 charges d'un coup. Puissant, mais limité en précision à courte distance.
 - Un pistolet avec 8 charges, limité à 3 charges en même temps.
 
@@ -133,29 +146,31 @@ Les armes peuvent être rechargées en un tour, sans système de munition avec d
 Plus le nombre de charge utilisé est grand, plus le tir sera puissant.
 
 > [!note] Dégâts des armes
-> - __Fusil__ : `1d12` avec un malus de `-15` sur tous les jets de précision
-> - __Pistolet__ : `1d8`
-> - __Chaque charge__ : `+1d[nombre de charge]`
+>
+> - **Fusil** : `1d12` avec un malus de `-15` sur tous les jets de précision
+> - **Pistolet** : `1d8`
+> - **Chaque charge** : `+1d[nombre de charge]`
 
 - **Implants bionotropique (passif)** : Des implants se trouvant à la base de la nuque de Sara et délivrant en permanence divers produits pour en faire une arme de guerre. Les implants lui permettent de compenser son corps d'humaine, avec :
-	- Des meilleurs sens (elle "sent" quand un combat va commencer)
-	- Des réflexes sur-humains (elle réagit beaucoup plus rapidement qu'une personne normale)
-	- Une résistance naturelle aux blessures (meilleure endurance) et une régénération passive de ses blessures les plus légères.
+  - Des meilleurs sens (elle "sent" quand un combat va commencer)
+  - Des réflexes sur-humains (elle réagit beaucoup plus rapidement qu'une personne normale)
+  - Une résistance naturelle aux blessures (meilleure endurance) et une régénération passive de ses blessures les plus légères.
 - **Corps du futur (passif)** : La majorité des maladies ne font plus rien à Sara, et elle est immunisée aux cancers. Cela ne lui donne pas une immunité face aux maladies et poison issue de pouvoir ou d'armes.
 - **Anti-tank (Actif | 5 charges | Fusil)** : Un tir à 5 charges, concentré dans un point précis. Provoque une explosion. Uniquement avec le fusil.
-	- Bonus de dégât de +5
-	- Correspond à `1d12+1d5+5`
+  - Bonus de dégât de +5
+  - Correspond à `1d12+1d5+5`
 - **Flash-bang (support)** : Un caillou remplit de lumière qui implose. Eblouit tout ceux qui ne sont pas protégés.
 - **Acuité (support) :** Sara se concentre sur sa cible, lui permettant de gagner un bonus de précision (`+10`) sur cette dernière.
 - **Adrénaline (support) :** Permet à Sara de survivre à une attaque qui devrait normalement la mettre KO (une fois par combat).
 - **Fanning (Actif | Pistolet)** : Deux tirs de blaster à la suite pour détruire les armures et ce qu'il y a en dessous.
-	- Dégâts : `2d8`
-	- `-2` de charges
-	- Malus de `-20` en précision
+  - Dégâts : `2d8`
+  - `-2` de charges
+  - Malus de `-20` en précision
 
 ## Capacités à débloquer
 
 Les futures capacités de Sara sont en lien avec la réparation de son armure, avec notamment :
+
 - La possibilité d'augmenter sa force physique,
 - La possibilité de sauter et chuter de hauteur très grandes,
 - La récupération de son casque qui augmente sa précision, marque ses cibles et permet leur suivi.
@@ -164,6 +179,7 @@ Les futures capacités de Sara sont en lien avec la réparation de son armure, a
 Éventuellement, elle pourra récupérer d'autres armes (lame à énergie, qui n'existe pas dans son univers).
 
 # Histoire
+
 ---
 
 La Terre et l'humanité ont exploré l'espace, grâce à la découverte de la technologie des Warps, qui permet de créer des trous de vers pour se déplacer d'un point à un autre.
@@ -182,6 +198,7 @@ Par chance, c'est une PSIchique. Les PSI-chiques sont des êtres moins fréquent
 En outre, à cette époque là, les blasters n'existaient pas. On utilisait et utilise toujours des armes à feu, bien qu'améliorée. Pas cher, rapide, mais qui sont facilement limités et limitable. C'est pour cela que, Lekhyon en particulier, les armées reposaient beaucoup sur les PSI, bien que traitant à égalité les PSI et non-PSI. Notamment car les non-PSI peuvent bénéficier d'implant bien plus puissant que ceux appliqué aux PSIs.
 
 L'apparition d'une femme capable d'être un blaster humain apparaît, aux yeux de Lekhyon, comme très intéressante et, Sara adorant son travail, monte en grade jusqu'à atteindre un plafond de verre. Plafond de verre pour deux raisons :
+
 - Elle n'est pas une patriote, et ça les haut gradés gratte-papier n'aiment pas.
 - Elle n'est pas une oligarche ou une Dynaste.
 - Elle n'a pas fait d'école militaire.
@@ -198,10 +215,13 @@ Alors qu'elle était au bord de la mort, une brèche dans le continuum espace-te
 Elle a choisit de continuer de vivre.
 
 L'arrivée au Nexus lui a sauvé la vie, mais elle avait définitivement perdue son œil dans la bataille.
+
 # Annexe
+
 ---
 
 **Trivia** :
+
 - [Thème](https://www.youtube.com/watch?v=aa2OPgy4PdI&pp=ygUUZGFya3RpZGUgd2FycCB0cmF2ZWw%3D)
 - Elle aura tendance à refuser à s'entraîner avec les apprentis, car "je ne peux pas garantir que je ne te tuerais pas."
 - Elle fait de la moto
@@ -209,5 +229,6 @@ L'arrivée au Nexus lui a sauvé la vie, mais elle avait définitivement perdue 
 - Bien qu'elle n'ait aucune conséquence de sa consommation, la nicotine la rend toujours accro.
 
 **Note HRP** :
+
 - Sara aurai une façon très crue de parler, et je n'hésiterai pas à donner des détails quand j'en aurai l'occasion. Les TWs et les mises sous spoil seront de mises sur certaines descriptions.
-**Image** : Quanxi de Chainsaw Man
+  **Image** : Quanxi de Chainsaw Man

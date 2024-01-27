@@ -19,11 +19,11 @@ tags:
   - Méchante
 ---
 
-
-
 ---
+
 $~$
- ![[Ambre_PP.jpeg|+side]]
+![[Ambre_PP.jpeg|+side]]
+
 <h1 align="center"> ◄ G E N E R A L ►</h1>
 
 **► Nom :** Loiseau
