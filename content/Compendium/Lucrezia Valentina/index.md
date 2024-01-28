@@ -17,6 +17,7 @@ cssclasses:
   - hr-title
   - wiki-right
   - rside-10
+  - no-folder-list
 disabled rules:
   - heading-blank-lines
 share_link: https://share.note.sx/r14llir7

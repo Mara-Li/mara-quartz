@@ -81,14 +81,20 @@ footer {
   }
 }
 
-hr.folder-content {
-  border: 1px double;
-  margin: 0;
-  background-color: transparent;
-  height: 0;
-  + p {
+.folder-content-hint {
+  hr {
+    border: 1px double;
+    margin: 0;
+    background-color: transparent;
+    height: 0;
+  }
+  p {
     font-size: smaller;
     text-align: right;
   }
+}
+
+.no-folder-list + .folder-content-hint {
+  display: none;
 }
 
