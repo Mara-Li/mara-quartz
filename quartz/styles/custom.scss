@@ -92,9 +92,9 @@ footer {
     font-size: smaller;
     text-align: right;
   }
+  .no-folder-list & {
+    display: none;
+  }
 }
 
-.no-folder-list + .folder-content-hint {
-  display: none;
-}
 
