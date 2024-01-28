@@ -122,7 +122,7 @@ export const arrowRegex = new RegExp(/-{1,2}>/, "g")
 // (#[^\[\]\|\#]+)?  -> # then one or more non-special characters (heading link)
 // (\|[^\[\]\#]+)? -> | then one or more non-special characters (alias)
 export const wikilinkRegex = new RegExp(
-  /!?\[\[([^\[\]\|\#]+)?(#+[^\[\]\|\#]+)?(\|[^\[\]\#]+)?\]\]/,
+  /!?\[\[([^\[\]\|\#]+)?(#+[^\[\]\|\#]+)?(\|[^\[\]\|\#]+)?\]\]/,
   "g",
 )
 const highlightRegex = new RegExp(/==([^=]+)==/, "g")
@@ -223,17 +223,12 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   const url = slugifyFilePath(fp as FilePath)
                   if ([".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg", ".webp"].includes(ext)) {
                     // either |alt|dims or |dims
-                    let [alt, dims] = (alias ?? "").split("|")
-
-                    // |dims case, treat first alt slot as dims
-                    if (dims === undefined) {
-                      dims = alt
-                      alt = ""
-                    }
-
-                    let [width, height] = dims.split("x", 2)
-                    width ||= "auto"
-                    height ||= "auto"
+                    const regexImage= new RegExp(/^(?<alt>(?!^\d*x?\d*$).*?)?(\|?\s*?(?<width>\d+)(x(?<height>\d+))?)?$/);
+                    const match = regexImage.exec(alias ?? "");
+                    const alt = match?.groups?.alt ?? "";
+                    const width = match?.groups?.width ?? "auto";
+                    const height = match?.groups?.height ?? "auto";
+                    
                     return {
                       type: "image",
                       url,
