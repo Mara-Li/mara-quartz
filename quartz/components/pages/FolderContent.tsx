@@ -49,7 +49,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
     return (
       <div class="popover-hint">
-        <article class={`${cssClasses.join(" ")}`}>
+        <article class={cssClasses.join(" ")}>
           <p>{content}</p>
         </article>
         {options.showFolderCount && (
