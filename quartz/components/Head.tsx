@@ -1,12 +1,13 @@
-import i18next from "i18next"
-import { FullSlug, _stripSlashes, joinSegments, pathToRoot, sluggify } from "../util/path"
+import { i18n } from "../i18n/i18next"
+import { FullSlug, _stripSlashes, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
-
+import { sluggify } from "../util/path"
 export default (() => {
   function Head({ cfg, fileData, externalResources }: QuartzComponentProps) {
-    const title = fileData.frontmatter?.title ?? i18next.t("head.untitled")
-    const description = fileData.frontmatter?.description?.trim() ?? i18next.t("head.noDescriptionProvided")
+    const locale = cfg.locale ?? "en-US"
+    const title = fileData.frontmatter?.title ?? i18n(locale, "head.untitled")
+    const description = fileData.description?.trim() ?? i18n(locale, "head.noDescriptionProvided")
     const { css, js } = externalResources
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
@@ -17,8 +18,8 @@ export default (() => {
     let ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
     if (cfg.contentDir) {
       const contentDir = `https://${cfg.baseUrl}/${cfg.contentDir}/`
-      ogImagePath = fileData?.frontmatter?.image?.trim()
-        ? sluggify(`${contentDir}${fileData?.frontmatter?.image?.trim()}`)
+      ogImagePath = fileData?.frontmatter?.image
+        ? sluggify(`${contentDir}${(fileData.frontmatter.image as string).trim()}`)
         : `https://${cfg.baseUrl}/static/og-image.png`
     }
     return (

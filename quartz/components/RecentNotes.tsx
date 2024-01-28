@@ -5,7 +5,7 @@ import { byDateAndAlphabetical } from "./PageList"
 import style from "./styles/recentNotes.scss"
 import { Date, getDate } from "./Date"
 import { GlobalConfiguration } from "../cfg"
-import i18next from "i18next"
+import { i18n } from "../i18n/i18next"
 
 interface Options {
   title: string
@@ -25,6 +25,7 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
 
 export default ((userOpts?: Partial<Options>) => {
   function RecentNotes({ allFiles, fileData, displayClass, cfg }: QuartzComponentProps) {
+    const locale = cfg.locale ?? "en-US"
     const opts = { ...defaultOptions(cfg), ...userOpts }
     const pages = allFiles.filter(opts.filter).sort(opts.sort)
     const remaining = Math.max(0, pages.length - opts.limit)
@@ -70,7 +71,10 @@ export default ((userOpts?: Partial<Options>) => {
         </ul>
         {opts.linkToMore && remaining > 0 && (
           <p>
-            <a href={resolveRelative(fileData.slug!, opts.linkToMore)}>{i18next.t("recentNote.seeRemainingMore", {remaining})} →</a>
+            <a href={resolveRelative(fileData.slug!, opts.linkToMore)}>
+              {" "}
+              {i18n(locale, "recentNotes.seeRemainingMore", { remaining: remaining.toString() })} →
+            </a>
           </p>
         )}
       </div>

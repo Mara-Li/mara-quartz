@@ -7,7 +7,7 @@ import { _stripSlashes, simplifySlug } from "../../util/path"
 import { Root } from "hast"
 import { pluralize } from "../../util/lang"
 import { htmlToJsx } from "../../util/jsx"
-import i18next from "i18next"
+import { i18n } from "../../i18n/i18next"
 
 interface FolderContentOptions {
   /**
@@ -24,7 +24,8 @@ export default ((opts?: Partial<FolderContentOptions>) => {
   const options: FolderContentOptions = { ...defaultOptions, ...opts }
 
   function FolderContent(props: QuartzComponentProps) {
-    const { tree, fileData, allFiles } = props
+    const { tree, fileData, allFiles, cfg } = props
+    const locale = cfg.locale ?? "en-US"
     const folderSlug = _stripSlashes(simplifySlug(fileData.slug!))
     const allPagesInFolder = allFiles.filter((file) => {
       const fileSlug = _stripSlashes(simplifySlug(file.slug!))
@@ -50,7 +51,12 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         <article>
           <p>{content}</p>
         </article>
-        {options.showFolderCount && <p>{pluralize(allPagesInFolder.length, i18next.t("common.item"))} {i18next.t("folderContent.underThisFolder")}.</p>}
+        {options.showFolderCount && (
+          <p>
+            {pluralize(allPagesInFolder.length, "item")}{" "}
+            {i18n(locale, "folderContent.underThisFolder")}.
+          </p>
+        )}
         <div>
           <PageList {...listProps} />
         </div>

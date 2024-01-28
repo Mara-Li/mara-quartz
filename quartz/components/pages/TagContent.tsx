@@ -6,12 +6,13 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { Root } from "hast"
 import { pluralize } from "../../util/lang"
 import { htmlToJsx } from "../../util/jsx"
-import i18next from "i18next"
+import { i18n } from "../../i18n/i18next"
 
 const numPages = 10
 function TagContent(props: QuartzComponentProps) {
-  const { tree, fileData, allFiles } = props
+  const { tree, fileData, allFiles, cfg } = props
   const slug = fileData.slug
+  const locale = cfg.locale ?? "en-US"
 
   if (!(slug?.startsWith("tags/") || slug === "tags")) {
     throw new Error(`Component "TagContent" tried to render a non-tag page: ${slug}`)
@@ -44,7 +45,9 @@ function TagContent(props: QuartzComponentProps) {
         <article>
           <p>{content}</p>
         </article>
-        <p>Found {tags.length} {i18next.t("tagContent.totalTags")}.</p>
+        <p>
+          {i18n(locale, "tagContent.found")} {tags.length} {i18n(locale, "tagContent.totalTags")}.
+        </p>
         <div>
           {tags.map((tag) => {
             const pages = tagItemMap.get(tag)!
@@ -64,8 +67,10 @@ function TagContent(props: QuartzComponentProps) {
                 </h2>
                 {content && <p>{content}</p>}
                 <p>
-                  {pluralize(pages.length, i18next.t("common.item"))} {i18next.t("tagContent.withThisTag")}.{" "}
-                  {pages.length > numPages && `${i18next.t("tagContent.showingFirst")} ${numPages}.`}
+                  {pluralize(pages.length, i18n(locale, "common.item"))}{" "}
+                  {i18n(locale, "tagContent.withThisTag")}.{" "}
+                  {pages.length > numPages &&
+                    `${i18n(locale, "tagContent.showingFirst")} ${numPages}.`}
                 </p>
                 <PageList limit={numPages} {...listProps} />
               </div>
@@ -84,7 +89,10 @@ function TagContent(props: QuartzComponentProps) {
     return (
       <div class="popover-hint">
         <article>{content}</article>
-        <p>{pluralize(pages.length, i18next.t("common.item"))} {i18next.t("tagContent.withThisTag")}.</p>
+        <p>
+          {pluralize(pages.length, i18n(locale, "common.item"))}{" "}
+          {i18n(locale, "tagContent.withThisTag")}.
+        </p>
         <div>
           <PageList {...listProps} />
         </div>
