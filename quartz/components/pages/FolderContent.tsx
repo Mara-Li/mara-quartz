@@ -52,9 +52,10 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         <article class={cssClasses.join(" ")}>
           <p>{content}</p>
         </article>
+        <hr class="folder-content"/>
         {options.showFolderCount && (
           <p>
-            {pluralize(allPagesInFolder.length, "item")}{" "}
+            {pluralize(allPagesInFolder.length, i18n(locale, "common.item"))}{" "}
             {i18n(locale, "folderContent.underThisFolder")}.
           </p>
         )}

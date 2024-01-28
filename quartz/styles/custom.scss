@@ -68,3 +68,27 @@ hr {
 .avatar img[alt="+rside"] {
   width: auto;
 }
+
+footer {
+  & p {
+    font-size: small;
+  }
+  & hr {
+    border: 1px dashed;
+    margin: 0;
+    background-color: transparent;
+    height: 0;
+  }
+}
+
+hr.folder-content {
+  border: 1px double;
+  margin: 0;
+  background-color: transparent;
+  height: 0;
+  + p {
+    font-size: smaller;
+    text-align: right;
+  }
+}
+
