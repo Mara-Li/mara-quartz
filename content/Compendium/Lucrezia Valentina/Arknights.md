@@ -1,6 +1,7 @@
 ---
 category:
   - Compendium
+  - Lucrezia Valentina
 date: 2023-12-22
 share: true
 description: Adaptation de Lucrezia Valentina pour Arknights
@@ -13,7 +14,7 @@ original:
 display: Valentina Ambrose
 image: Lucrezia - AK.png
 ---
-![[../img/Lucrezia - AK.png|Lucrezia - AK.png]]
+![[../../img/Lucrezia - AK.png|Lucrezia - AK.png]]
 
 **[NOM ET PRÉNOM]** : Ambrose Valentina
 
@@ -47,7 +48,7 @@ Difficile de savoir pourquoi elle fait se métier, ce qu'elle fera après ou com
 
 **[DESCRIPTION PHYSIQUE]**: 
 > [!wiki] 
-> ![[../img/Full_liberi_Ambrose.png|Full_liberi_Ambrose.png]]
+> ![[../../img/Full_liberi_Ambrose.png|Full_liberi_Ambrose.png]]
 > ## Apparence
 > | | |
 > |:--:|:--:|
