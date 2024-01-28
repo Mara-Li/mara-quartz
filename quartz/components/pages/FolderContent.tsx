@@ -21,7 +21,6 @@ const defaultOptions: FolderContentOptions = {
 }
 
 export default ((opts?: Partial<FolderContentOptions>) => {
-  // Merge options with defaults
   const options: FolderContentOptions = { ...defaultOptions, ...opts }
 
   function FolderContent(props: QuartzComponentProps) {
