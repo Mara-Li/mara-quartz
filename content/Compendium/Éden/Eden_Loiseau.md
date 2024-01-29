@@ -110,7 +110,7 @@ On ne sait pas grand chose sur Éden avant son arrivée à l'institut. Trouvée 
 
 La demoiselle n’a jamais montré quoi que ce soit vis à vis de sa situation et ne parlait, à l’époque, que très peu. Incapable de ressentir de la douleur, elle a été pendant quelque temps un sujet de ravissement pour les expériences de l’institut. Après tout, un patient qui ne hurle pas, ne supplie pas… C’est plutôt agréable !
 
-Jusqu’à que ses dons apparaissent, suite à l’injection d’une bactérie retrouvée dans un bayou en Louisiane, qui montrait des capacités tout à fait étranges de parasitage et contrôle.
+Jusqu’à que ses dons apparaissent, suite à l’injection d’une bactérie retrouvée dans un bayou, qui montrait des capacités tout à fait étranges de parasitage et contrôle.
 Le parasite fut fixé dans sa colonne vertébrale après qu’elle eut été « tuée » par le biais d’un sort de Nécromancie, qui la fixait en stase.
 
 La bactérie et le sortilège n’ont que trop bien fonctionné. Après des convulsions, le corps d’Éden a changé. Sa peau a énormément pali, en quelques minutes à peine. Les machines ont commencé à bloquer, car son sang était devenu soudainement visqueux et noirs, à cause de de l’action de multiplication rapide du parasite.
