@@ -12,7 +12,6 @@ const numPages = 10
 function TagContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles, cfg } = props
   const slug = fileData.slug
-  const locale = cfg.locale ?? "en-US"
 
   if (!(slug?.startsWith("tags/") || slug === "tags")) {
     throw new Error(`Component "TagContent" tried to render a non-tag page: ${slug}`)
@@ -46,7 +45,8 @@ function TagContent(props: QuartzComponentProps) {
           <p>{content}</p>
         </article>
         <p>
-          {i18n(locale, "tagContent.found")} {tags.length} {i18n(locale, "tagContent.totalTags")}.
+          {i18n(cfg.locale, "tagContent.found")} {tags.length}{" "}
+          {i18n(cfg.locale, "tagContent.totalTags")}.
         </p>
         <div>
           {tags.map((tag) => {
@@ -67,10 +67,10 @@ function TagContent(props: QuartzComponentProps) {
                 </h2>
                 {content && <p>{content}</p>}
                 <p>
-                  {pluralize(pages.length, i18n(locale, "common.item"))}{" "}
-                  {i18n(locale, "tagContent.withThisTag")}.{" "}
+                  {pluralize(pages.length, i18n(cfg.locale, "common.item"))}{" "}
+                  {i18n(cfg.locale, "tagContent.withThisTag")}.{" "}
                   {pages.length > numPages &&
-                    `${i18n(locale, "tagContent.showingFirst")} ${numPages}.`}
+                    `${i18n(cfg.locale, "tagContent.showingFirst")} ${numPages}.`}
                 </p>
                 <PageList limit={numPages} {...listProps} />
               </div>
@@ -90,8 +90,8 @@ function TagContent(props: QuartzComponentProps) {
       <div class={classes}>
         <article>{content}</article>
         <p>
-          {pluralize(pages.length, i18n(locale, "common.item"))}{" "}
-          {i18n(locale, "tagContent.withThisTag")}.
+          {pluralize(pages.length, i18n(cfg.locale, "common.item"))}{" "}
+          {i18n(cfg.locale, "tagContent.withThisTag")}.
         </p>
         <div>
           <PageList {...listProps} />
