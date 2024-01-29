@@ -3,7 +3,8 @@ date: 2023-11-23
 share: true
 description: « Morte et vivante à la fois. La douleur et l’action sont le sens de ma vie. »
 univers: "[[Asylum of Enchantments]]"
-type: Fiche
+type:
+  - Fiche
 category:
   - Compendium/Éden
 image: eden_portrait.png
@@ -16,8 +17,9 @@ cssclasses:
   - wiki-right
   - rside-10
   - hr-title
+disabled rules:
+  - heading-blank-lines
 ---
-
 
 <h5 style="color: grey;text-align: right;"> Fiche personnelle de <span style="border-radius: 5px; background-color: #4b4b4b91;padding:0 5px; color: var(--md-default-fg-color--light);">Mara Li</span></h5>
 
@@ -46,7 +48,6 @@ cssclasses:
 > |**Traits notables**| <li>Un tatouage "28500" sur le bras, d'origine inconnue</li><li>Une cicatrice le long de la colonne vertébrale <em>(conséquence d'expérimentation)</em></li><li>Sang noir, visqueux <em>(Conséquence de son don)</em></li>|
 
 # Physique
-
 ---
 
 ![[../../img/Eden-full.png|+rside]]
@@ -71,7 +72,6 @@ Conséquence de ses expérimentations, elle a une voix assez grave pour une femm
 Elle porte donc généralement des jupes qui ont été coupées largement au-dessus du genou, des hauts noirs assez fins, et des vestes courtes qui ont généralement été des vestes longues que l’on a modifié.
 
 # Profil psychologique
-
 ---
 
 ## Pathologie d'arrivée : ✓ Guérie grâce aux expérimentations
@@ -103,7 +103,6 @@ Cependant, bien que pouvant se montrer particulièrement violente, Éden est une
 - Les odeurs chimiques trop fortes, qui gênent ses sens et peuvent la désorienter.
 
 # Biographie
-
 ---
 
 On ne sait pas grand chose sur Éden avant son arrivée à l'institut. Trouvée par la police le long d’une route, vêtue d’un vêtement d’hôpital blanchâtre couvert de sang et de poussière, la jeune femme est incapable de répondre à leur question et surtout, ne possédait sur elle aucun moyen de l’identifié. Simplement un nom, cet étrange numéro et c’est tout. Apathique, elle vagabonde d'hôpital en hôpital jusqu’à être rapatriée par l’institut.
@@ -126,7 +125,6 @@ Et furent mangé.
 Mais si elle était correctement nourrie, elle se montrait parfaitement normale, quoi qu’un peu agressive. Puisque capable de voir et sentir dans le noir, elle demanda à devenir gardienne de nuit, surtout par envie de se foutre sur la gueule pour de bonne raison.
 
 # Don : *Lazarus Effect*
-
 ---
 
 Le don d’Éden est lié aux sortilèges de nécromancie et la bactérie que l’on a injectée dans sa colonne vertébrale. Elle est considérée, à cause de cela, comme une zombie car il se trouve qu’il est impossible de la tuer totalement : tant qu’elle possède de la biomasse, son corps se régénère. De plus, elle est capable de faire muter son corps de manière temporaire pour : 
@@ -161,7 +159,6 @@ En outre, ses sens sont extraordinairement améliorés et elle est capable d’e
 - **A besoin, quasiment en permanence, d’un apport nutritif très précis** : Éden ne peut manger que les aliments riches en protéines ou glucose, et son corps refuse entièrement les fibres, qui sont rejetées tels quel.
 
 # Trivia
-
 ---
 
 - **Thème** : [Zombie — The Pretty Reckless](https://www.youtube.com/watch?v=Pt-8LZ6zAZM)
