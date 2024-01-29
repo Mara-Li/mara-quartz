@@ -3,7 +3,8 @@ date: 2023-11-23
 share: true
 description: « Morte et vivante à la fois. La douleur et l’action sont le sens de ma vie. »
 univers: "[[Asylum of Enchantments]]"
-type: Fiche
+type:
+  - Fiche
 category:
   - Compendium/Éden
 image: eden_portrait.png
@@ -16,9 +17,9 @@ cssclasses:
   - wiki-right
   - rside-10
   - hr-title
+disabled rules:
+  - heading-blank-lines
 ---
-
-
 
 <h5 style="color: grey;text-align: right;"> Fiche personnelle de <span style="border-radius: 5px; background-color: #4b4b4b91;padding:0 5px; color: var(--md-default-fg-color--light);">Mara Li</span></h5>
 
@@ -58,10 +59,7 @@ Bien que pas très grande, elle est bien proportionnée, avec des formes fémini
 
 ## Particularité
 
-Cheveux décoloré naturellement, assez rêche bien qu’elle essaye d’en prendre soin.
-Son sang est visqueux et noirs
-Elle possède une longue cicatrice le long de sa colonne vertébrale
-Son bras gauche possède un fin tatouage avec marqué “28500” d’origine inconnue.
+Cheveux décoloré naturellement, assez rêche bien qu’elle essaye d’en prendre soin. De plus, son sang est visqueux et noir. Enfin, elle possède une longue cicatrice le long de sa colonne vertébrale et son bras gauche possède un fin tatouage avec marqué “28500” d’origine inconnue.
 
 ## Voix
 
@@ -80,7 +78,7 @@ Elle porte donc généralement des jupes qui ont été coupées largement au-des
 
 La patiente Éden Loiseau était atteinte d’une apathie, doublé d’un manque de sensation lié à la douleur, toucher, ainsi que les différences de températures. Elle souffre d’une amnésie atteignant sa mémoire lointaine et ne se rappelle que quelques détails quant à sa vie avant d’arriver à l’institut.
 
-Des recherches faites suites à son arrivée la lie à une riche famille française mais cette dernière n’a pas voulu répondre à nos sollicitations. 
+Des recherches faites suites à son arrivée la lie à une riche famille mais cette dernière n’a pas voulu répondre à nos sollicitations. 
 
 Bien que considérée comme guérie grâce aux expérimentations, Éden continue de ne pas sentir les différences de températures et s’en dit “non dérangé”.
 
@@ -111,7 +109,7 @@ On ne sait pas grand chose sur Éden avant son arrivée à l'institut. Trouvée 
 
 La demoiselle n’a jamais montré quoi que ce soit vis à vis de sa situation et ne parlait, à l’époque, que très peu. Incapable de ressentir de la douleur, elle a été pendant quelque temps un sujet de ravissement pour les expériences de l’institut. Après tout, un patient qui ne hurle pas, ne supplie pas… C’est plutôt agréable !
 
-Jusqu’à que ses dons apparaissent, suite à l’injection d’une bactérie retrouvée dans un bayou en Louisiane, qui montrait des capacités tout à fait étranges de parasitage et contrôle.
+Jusqu’à que ses dons apparaissent, suite à l’injection d’une bactérie retrouvée dans un bayou, qui montrait des capacités tout à fait étranges de parasitage et contrôle.
 Le parasite fut fixé dans sa colonne vertébrale après qu’elle eut été « tuée » par le biais d’un sort de Nécromancie, qui la fixait en stase.
 
 La bactérie et le sortilège n’ont que trop bien fonctionné. Après des convulsions, le corps d’Éden a changé. Sa peau a énormément pali, en quelques minutes à peine. Les machines ont commencé à bloquer, car son sang était devenu soudainement visqueux et noirs, à cause de de l’action de multiplication rapide du parasite.
@@ -137,7 +135,7 @@ Le don d’Éden est lié aux sortilèges de nécromancie et la bactérie que l�
 
 En outre, ses sens sont extraordinairement améliorés et elle est capable d’entendre les battements d’un cœur humain si elle se concentre dessus.
 
-### Expérimentation liée au don
+## Expérimentation liée au don
 
 - Sortilège de nécromancie post décès
 - <u>Anesthésie locale</u> : Infructueux
@@ -152,7 +150,7 @@ En outre, ses sens sont extraordinairement améliorés et elle est capable d’e
 	- <u>Sept jours</u> : État de stase, proche coma. L’introduction de nourriture n’a pas réveillé le sujet. Les expérimentateurs ont trop peur pour tenter de l’approcher. Réflexion au sujet d’utilisation de sortilège de prison.
 	- <u>Quinze jours</u> : Éden s’est réveillée, amaigrie. Il semble que la bactérie s’est rabattue sur son corps après l’absence de nourriture. Difficile de savoir ce qu’il pourrait se passer dans un laps de temps plus long. Il a été décidé de ne pas continuer les expériences.
 
-### Limites et faiblesses
+## Limites et faiblesses
 
 - Elle est extrêmement sensible aux odeurs fortes, qui peuvent gêner ses sens et la désorienter.
 - Bien qu’incapable de mourir de manière normale, on peut la plonger en stase avec des sortilèges, mais aussi en la privant de nourriture (pendant 15 jours, peut-être plus ?) et avec des températures très faibles (-25°C).
