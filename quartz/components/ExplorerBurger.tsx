@@ -1,6 +1,6 @@
 /**
  * Allow to set a burger Menu for the explorer
- * Normally, can be used with the Explorer component for desktop explorer, but this allow to totally hide the title of the explorer
+ * Need to totally override the Explorer component as it change the script and the css
  */
 
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
