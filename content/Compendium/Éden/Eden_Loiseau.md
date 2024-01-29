@@ -46,6 +46,7 @@ cssclasses:
 > |**Traits notables**| <li>Un tatouage "28500" sur le bras, d'origine inconnue</li><li>Une cicatrice le long de la colonne vertébrale <em>(conséquence d'expérimentation)</em></li><li>Sang noir, visqueux <em>(Conséquence de son don)</em></li>|
 
 # Physique
+
 ---
 
 ![[../../img/Eden-full.png|+rside]]
@@ -57,10 +58,7 @@ Bien que pas très grande, elle est bien proportionnée, avec des formes fémini
 
 ## Particularité
 
-Cheveux décoloré naturellement, assez rêche bien qu’elle essaye d’en prendre soin.
-Son sang est visqueux et noirs
-Elle possède une longue cicatrice le long de sa colonne vertébrale
-Son bras gauche possède un fin tatouage avec marqué “28500” d’origine inconnue.
+Cheveux décoloré naturellement, assez rêche bien qu’elle essaye d’en prendre soin. De plus, son sang est visqueux et noir. Enfin, elle possède une longue cicatrice le long de sa colonne vertébrale et son bras gauche possède un fin tatouage avec marqué “28500” d’origine inconnue.
 
 ## Voix
 
@@ -73,6 +71,7 @@ Conséquence de ses expérimentations, elle a une voix assez grave pour une femm
 Elle porte donc généralement des jupes qui ont été coupées largement au-dessus du genou, des hauts noirs assez fins, et des vestes courtes qui ont généralement été des vestes longues que l’on a modifié.
 
 # Profil psychologique
+
 ---
 
 ## Pathologie d'arrivée : ✓ Guérie grâce aux expérimentations
@@ -104,6 +103,7 @@ Cependant, bien que pouvant se montrer particulièrement violente, Éden est une
 - Les odeurs chimiques trop fortes, qui gênent ses sens et peuvent la désorienter.
 
 # Biographie
+
 ---
 
 On ne sait pas grand chose sur Éden avant son arrivée à l'institut. Trouvée par la police le long d’une route, vêtue d’un vêtement d’hôpital blanchâtre couvert de sang et de poussière, la jeune femme est incapable de répondre à leur question et surtout, ne possédait sur elle aucun moyen de l’identifié. Simplement un nom, cet étrange numéro et c’est tout. Apathique, elle vagabonde d'hôpital en hôpital jusqu’à être rapatriée par l’institut.
@@ -126,6 +126,7 @@ Et furent mangé.
 Mais si elle était correctement nourrie, elle se montrait parfaitement normale, quoi qu’un peu agressive. Puisque capable de voir et sentir dans le noir, elle demanda à devenir gardienne de nuit, surtout par envie de se foutre sur la gueule pour de bonne raison.
 
 # Don : *Lazarus Effect*
+
 ---
 
 Le don d’Éden est lié aux sortilèges de nécromancie et la bactérie que l’on a injectée dans sa colonne vertébrale. Elle est considérée, à cause de cela, comme une zombie car il se trouve qu’il est impossible de la tuer totalement : tant qu’elle possède de la biomasse, son corps se régénère. De plus, elle est capable de faire muter son corps de manière temporaire pour : 
@@ -136,7 +137,7 @@ Le don d’Éden est lié aux sortilèges de nécromancie et la bactérie que l�
 
 En outre, ses sens sont extraordinairement améliorés et elle est capable d’entendre les battements d’un cœur humain si elle se concentre dessus.
 
-### Expérimentation liée au don
+## Expérimentation liée au don
 
 - Sortilège de nécromancie post décès
 - <u>Anesthésie locale</u> : Infructueux
@@ -151,7 +152,7 @@ En outre, ses sens sont extraordinairement améliorés et elle est capable d’e
 	- <u>Sept jours</u> : État de stase, proche coma. L’introduction de nourriture n’a pas réveillé le sujet. Les expérimentateurs ont trop peur pour tenter de l’approcher. Réflexion au sujet d’utilisation de sortilège de prison.
 	- <u>Quinze jours</u> : Éden s’est réveillée, amaigrie. Il semble que la bactérie s’est rabattue sur son corps après l’absence de nourriture. Difficile de savoir ce qu’il pourrait se passer dans un laps de temps plus long. Il a été décidé de ne pas continuer les expériences.
 
-### Limites et faiblesses
+## Limites et faiblesses
 
 - Elle est extrêmement sensible aux odeurs fortes, qui peuvent gêner ses sens et la désorienter.
 - Bien qu’incapable de mourir de manière normale, on peut la plonger en stase avec des sortilèges, mais aussi en la privant de nourriture (pendant 15 jours, peut-être plus ?) et avec des températures très faibles (-25°C).
@@ -160,6 +161,7 @@ En outre, ses sens sont extraordinairement améliorés et elle est capable d’e
 - **A besoin, quasiment en permanence, d’un apport nutritif très précis** : Éden ne peut manger que les aliments riches en protéines ou glucose, et son corps refuse entièrement les fibres, qui sont rejetées tels quel.
 
 # Trivia
+
 ---
 
 - **Thème** : [Zombie — The Pretty Reckless](https://www.youtube.com/watch?v=Pt-8LZ6zAZM)
