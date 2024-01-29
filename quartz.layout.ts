@@ -6,7 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
     Component.MobileOnly(
-      Component.Explorer({
+      Component.ExplorerBurger({
         folderDefaultState: "open",
         folderClickBehavior: "link",
       }),
@@ -36,10 +36,11 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.DesktopOnly(Component.PageTitle()),
     Component.DesktopOnly(
-      Component.Explorer({
+      Component.ExplorerBurger({
         folderClickBehavior: "link",
         folderDefaultState: "collapsed",
         useSavedState: true,
+        title: ""
       }),
     ),
   ],

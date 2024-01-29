@@ -1,3 +1,4 @@
+import exp from "constants"
 import { FolderState } from "../ExplorerNode"
 
 // Current state of folders
@@ -21,6 +22,19 @@ function toggleExplorer(this: HTMLElement) {
   const content = this.nextElementSibling as HTMLElement
   content.classList.toggle("collapsed")
   content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px"
+  //prevent scroll under
+  const mobileOnly = document.querySelector(".mobile-only")
+  if (mobileOnly && window.getComputedStyle(mobileOnly).display !== "none") {
+    const article = document.querySelectorAll(".popover-hint")
+    const header = document.querySelector(".page .page-header")
+    if (article)
+      article.forEach((element) => {
+        element.classList.toggle("no-scroll")
+      })
+    if (header) header.classList.toggle("fixed")
+    const footer = document.querySelector("footer")
+    if (footer) footer.classList.toggle("no-scroll")
+  }
 }
 
 function toggleFolder(evt: MouseEvent) {
@@ -68,64 +82,87 @@ function toggleFolder(evt: MouseEvent) {
 
 function setupExplorer() {
   // Set click handler for collapsing entire explorer
-  const explorer = document.getElementById("explorer")
+  const allExplorers = document.querySelectorAll("#explorer")
+  for (const explorer of allExplorers) {
+    const explorerHTML = explorer as HTMLElement
 
-  // Get folder state from local storage
-  const storageTree = localStorage.getItem("fileTree")
+    // Get folder state from local storage
+    const storageTree = localStorage.getItem("fileTree")
 
-  // Convert to bool
-  const useSavedFolderState = explorer?.dataset.savestate === "true"
+    // Convert to bool
+    const useSavedFolderState = explorerHTML?.dataset.savestate === "true"
 
-  if (explorer) {
-    // Get config
-    const collapseBehavior = explorer.dataset.behavior
+    if (explorerHTML) {
+      // Get config
+      const collapseBehavior = explorerHTML.dataset.behavior
 
-    // Add click handlers for all folders (click handler on folder "label")
-    if (collapseBehavior === "collapse") {
-      Array.prototype.forEach.call(
-        document.getElementsByClassName("folder-button"),
-        function (item) {
-          item.removeEventListener("click", toggleFolder)
-          item.addEventListener("click", toggleFolder)
-        },
-      )
-    }
-
-    // Add click handler to main explorer
-    explorer.removeEventListener("click", toggleExplorer)
-    explorer.addEventListener("click", toggleExplorer)
-  }
-
-  // Set up click handlers for each folder (click handler on folder "icon")
-  Array.prototype.forEach.call(document.getElementsByClassName("folder-icon"), function (item) {
-    item.removeEventListener("click", toggleFolder)
-    item.addEventListener("click", toggleFolder)
-  })
-
-  if (storageTree && useSavedFolderState) {
-    // Get state from localStorage and set folder state
-    explorerState = JSON.parse(storageTree)
-    explorerState.map((folderUl) => {
-      // grab <li> element for matching folder path
-      const folderLi = document.querySelector(`[data-folderpath='${folderUl.path}']`) as HTMLElement
-
-      // Get corresponding content <ul> tag and set state
-      if (folderLi) {
-        const folderUL = folderLi.parentElement?.nextElementSibling
-        if (folderUL) {
-          setFolderState(folderUL as HTMLElement, folderUl.collapsed)
-        }
+      // Add click handlers for all folders (click handler on folder "label")
+      if (collapseBehavior === "collapse") {
+        Array.prototype.forEach.call(
+          document.getElementsByClassName("folder-button"),
+          function (item) {
+            item.removeEventListener("click", toggleFolder)
+            item.addEventListener("click", toggleFolder)
+          },
+        )
       }
+
+      // Add click handler to main explorer
+      explorer.removeEventListener("click", toggleExplorer)
+      explorer.addEventListener("click", toggleExplorer)
+    }
+    
+
+    // Set up click handlers for each folder (click handler on folder "icon")
+    Array.prototype.forEach.call(document.getElementsByClassName("folder-icon"), function (item) {
+      item.removeEventListener("click", toggleFolder)
+      item.addEventListener("click", toggleFolder)
     })
-  } else if (explorer?.dataset.tree) {
-    // If tree is not in localStorage or config is disabled, use tree passed from Explorer as dataset
-    explorerState = JSON.parse(explorer.dataset.tree)
+
+    if (storageTree && useSavedFolderState) {
+      // Get state from localStorage and set folder state
+      explorerState = JSON.parse(storageTree)
+      explorerState.map((folderUl) => {
+        // grab <li> element for matching folder path
+        const folderLi = document.querySelector(`[data-folderpath='${folderUl.path}']`) as HTMLElement
+
+        // Get corresponding content <ul> tag and set state
+        if (folderLi) {
+          const folderUL = folderLi.parentElement?.nextElementSibling
+          if (folderUL) {
+            setFolderState(folderUL as HTMLElement, folderUl.collapsed)
+          }
+        }
+      })
+    } else if (explorerHTML?.dataset.tree) {
+      // If tree is not in localStorage or config is disabled, use tree passed from Explorer as dataset
+      explorerState = JSON.parse(explorerHTML.dataset.tree)
+    }
   }
 }
 
 window.addEventListener("resize", setupExplorer)
+
+document.addEventListener("DOMContentLoaded", () => {
+  const explorer = document.querySelector(".mobile-only #explorer")
+  if (explorer) {
+    explorer.classList.add("collapsed")
+    const content = explorer.nextElementSibling as HTMLElement
+    content.classList.add("collapsed")
+    content.style.maxHeight = "0px"
+  }
+})
+
 document.addEventListener("nav", () => {
+  const explorer = document.querySelector(".mobile-only #explorer")
+  if (explorer) {
+    explorer.classList.add("collapsed")
+    const content = explorer.nextElementSibling as HTMLElement
+    content.classList.add("collapsed")
+    content.style.maxHeight = "0px"
+  }
   setupExplorer()
+  //add collapsed class to all folders
 
   observer.disconnect()
 
