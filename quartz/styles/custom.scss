@@ -46,12 +46,9 @@ ul.overflow {
 hr {
   width: auto !important;
 
-  &.hr-title {
-    hr {
-      position: relative;
-      top: -1em;
-      border-bottom: 1px solid var(--md-default-fg-color--light);
-    }
+  .hr-title & {
+    margin: 0;
+    margin-top: -0.3em;    
   }
 }
 
