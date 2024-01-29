@@ -13,7 +13,7 @@ jobs:
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN}}
-          ignorePaths: "overrides/.icons/**"
+          ignorePaths: "content/img/avatar_index.gif,quartz/static/**"
           compressOnly: true
       - name: "Commit & push"
         uses: actions-js/push@master
