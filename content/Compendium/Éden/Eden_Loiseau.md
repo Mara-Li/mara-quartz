@@ -19,7 +19,6 @@ cssclasses:
 ---
 
 
-
 <h5 style="color: grey;text-align: right;"> Fiche personnelle de <span style="border-radius: 5px; background-color: #4b4b4b91;padding:0 5px; color: var(--md-default-fg-color--light);">Mara Li</span></h5>
 
 > [!wiki]
@@ -80,7 +79,7 @@ Elle porte donc généralement des jupes qui ont été coupées largement au-des
 
 La patiente Éden Loiseau était atteinte d’une apathie, doublé d’un manque de sensation lié à la douleur, toucher, ainsi que les différences de températures. Elle souffre d’une amnésie atteignant sa mémoire lointaine et ne se rappelle que quelques détails quant à sa vie avant d’arriver à l’institut.
 
-Des recherches faites suites à son arrivée la lie à une riche famille française mais cette dernière n’a pas voulu répondre à nos sollicitations. 
+Des recherches faites suites à son arrivée la lie à une riche famille mais cette dernière n’a pas voulu répondre à nos sollicitations. 
 
 Bien que considérée comme guérie grâce aux expérimentations, Éden continue de ne pas sentir les différences de températures et s’en dit “non dérangé”.
 
