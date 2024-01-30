@@ -3,11 +3,12 @@ import style from "./styles/search.scss"
 // @ts-ignore
 import script from "./scripts/search.inline"
 import { i18n } from "../i18n/i18next"
+import { classNames } from "../util/lang"
 
 export default (() => {
   function Search({ displayClass, cfg }: QuartzComponentProps) {
     return (
-      <div class={`search ${displayClass ?? ""}`}>
+      <div class={classNames(displayClass, "search")}>
         <div id="search-icon">
           <p>{i18n(cfg.locale, "search")}</p>
           <div></div>
