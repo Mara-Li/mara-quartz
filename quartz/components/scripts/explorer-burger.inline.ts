@@ -22,7 +22,6 @@ function toggleExplorer(this: HTMLElement) {
   const content = this.nextElementSibling as HTMLElement
   content.classList.toggle("collapsed")
   content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px"
-  console.log(this.dataset.mobile)
   //prevent scroll under
   if (this.dataset.mobile==="true" && document.querySelector(".mobile-only #explorer")  ) {
     const article = document.querySelectorAll(".popover-hint, footer, .backlinks, .graph, .toc, #progress")
