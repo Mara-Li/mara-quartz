@@ -29,6 +29,7 @@ function toggleExplorer(this: HTMLElement) {
     if (article)
       article.forEach((element) => {
         element.classList.toggle("no-scroll")
+
       })
     if (header) header.classList.toggle("fixed")
   }
