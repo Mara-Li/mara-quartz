@@ -1,4 +1,5 @@
 @use "./explorer.scss";
+@use "../../styles/variables.scss" as *;
 
 .mobile-only.explorer {
 	#explorer-content:not(.collapsed) {
@@ -36,7 +37,13 @@
 	}
   }
   
-  .no-scroll {
+.no-scroll {
 	opacity: 0;
 	overflow: hidden;
-  }
+}
+@media all and (min-width: $fullPageWidth) {
+	.no-scroll {
+		opacity: 1 !important;
+		overflow: auto !important;
+	}
+}

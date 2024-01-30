@@ -11,6 +11,10 @@ ul.overflow {
   max-height: 80vh;
 }
 
+header {
+  gap: 1vw;
+}
+
 @media all and (min-width: $mobileBreakpoint) {
   .page .page-header {
     padding: 2rem;
@@ -25,9 +29,6 @@ ul.overflow {
     & .page-title.mobile-only a {
       font-size: 5vw;
     }
-    & header {
-      gap: 1vw;
-    } 
   }
 }
 
