@@ -4,7 +4,7 @@ import { PageList } from "../PageList"
 import { FullSlug, getAllSegmentPrefixes, simplifySlug } from "../../util/path"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { Root } from "hast"
-import { pluralize } from "../../util/lang"
+import { pluralize, classNames } from "../../util/lang"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n/i18next"
 
@@ -28,7 +28,6 @@ function TagContent(props: QuartzComponentProps) {
       ? fileData.description
       : htmlToJsx(fileData.filePath!, tree)
   const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-  const classes = ["popover-hint", ...cssClasses].join(" ")
   if (tag === "/") {
     const tags = [
       ...new Set(
@@ -40,7 +39,7 @@ function TagContent(props: QuartzComponentProps) {
       tagItemMap.set(tag, allPagesWithTag(tag))
     }
     return (
-      <div class={classes}>
+      <div class={classNames(undefined, "popover-hint", ...cssClasses)}>
         <article>
           <p>{content}</p>
         </article>
@@ -89,7 +88,7 @@ function TagContent(props: QuartzComponentProps) {
     }
 
     return (
-      <div class={classes}>
+      <div class={classNames(undefined, "popover-hint", ...cssClasses)}>
         <article>{content}</article>
         <div class="page-listing">
           <p>

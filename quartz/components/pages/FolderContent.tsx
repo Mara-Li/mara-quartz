@@ -5,7 +5,7 @@ import style from "../styles/listPage.scss"
 import { PageList } from "../PageList"
 import { _stripSlashes, simplifySlug } from "../../util/path"
 import { Root } from "hast"
-import { pluralize } from "../../util/lang"
+import { pluralize, classNames } from "../../util/lang"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n/i18next"
 
@@ -35,7 +35,6 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       return prefixed && isDirectChild
     })
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-    const classes = ["popover-hint", ...cssClasses].join(" ")
     const listProps = {
       ...props,
       allFiles: allPagesInFolder,
@@ -47,7 +46,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         : htmlToJsx(fileData.filePath!, tree)
 
     return (
-      <div class={classes}>
+      <div class={classNames(undefined, "popover-hint", ...cssClasses)}>
         <article>
           <p>{content}</p>
         </article>
