@@ -22,18 +22,16 @@ function toggleExplorer(this: HTMLElement) {
   const content = this.nextElementSibling as HTMLElement
   content.classList.toggle("collapsed")
   content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px"
+  console.log(this.dataset.mobile)
   //prevent scroll under
-  const mobileOnly = document.querySelector(".mobile-only")
-  if (mobileOnly && window.getComputedStyle(mobileOnly).display !== "none") {
-    const article = document.querySelectorAll(".popover-hint")
+  if (this.dataset.mobile==="true" && document.querySelector(".mobile-only #explorer")  ) {
+    const article = document.querySelectorAll(".popover-hint, footer, .backlinks, .graph, .toc, #progress")
     const header = document.querySelector(".page .page-header")
     if (article)
       article.forEach((element) => {
         element.classList.toggle("no-scroll")
       })
     if (header) header.classList.toggle("fixed")
-    const footer = document.querySelector("footer")
-    if (footer) footer.classList.toggle("no-scroll")
   }
 }
 
@@ -82,19 +80,18 @@ function toggleFolder(evt: MouseEvent) {
 
 function setupExplorer() {
   // Set click handler for collapsing entire explorer
-  const allExplorers = document.querySelectorAll("#explorer")
+  const allExplorers = document.querySelectorAll("#explorer") as NodeListOf<HTMLElement>
   for (const explorer of allExplorers) {
-    const explorerHTML = explorer as HTMLElement
 
     // Get folder state from local storage
     const storageTree = localStorage.getItem("fileTree")
 
     // Convert to bool
-    const useSavedFolderState = explorerHTML?.dataset.savestate === "true"
+    const useSavedFolderState = explorer?.dataset.savestate === "true"
 
-    if (explorerHTML) {
+    if (explorer) {
       // Get config
-      const collapseBehavior = explorerHTML.dataset.behavior
+      const collapseBehavior = explorer.dataset.behavior
 
       // Add click handlers for all folders (click handler on folder "label")
       if (collapseBehavior === "collapse") {
@@ -134,9 +131,9 @@ function setupExplorer() {
           }
         }
       })
-    } else if (explorerHTML?.dataset.tree) {
+    } else if (explorer?.dataset.tree) {
       // If tree is not in localStorage or config is disabled, use tree passed from Explorer as dataset
-      explorerState = JSON.parse(explorerHTML.dataset.tree)
+      explorerState = JSON.parse(explorer.dataset.tree)
     }
   }
 }

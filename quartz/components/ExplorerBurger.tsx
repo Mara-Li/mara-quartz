@@ -93,6 +93,7 @@ export default ((userOpts?: Partial<Options>) => {
         data-collapsed={opts.folderDefaultState}
         data-savestate={opts.useSavedState}
         data-tree={jsonTree}
+        data-mobile={true}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -119,6 +120,7 @@ export default ((userOpts?: Partial<Options>) => {
           data-collapsed={opts.folderDefaultState}
           data-savestate={opts.useSavedState}
           data-tree={jsonTree}
+          data-mobile={false}
         >
           <h1>{opts.title}</h1>
           <svg
