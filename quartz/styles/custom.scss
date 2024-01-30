@@ -68,12 +68,18 @@ hr {
 footer {
   & p {
     font-size: small;
+    margin: 0;
   }
   & hr {
     border: 1px dashed;
     margin: 0;
+    margin-top: 5px;
     background-color: transparent;
     height: 0;
+  }
+  & ul {
+    font-size: small;
+    margin: -0.5rem 0 0;
   }
 }
 
