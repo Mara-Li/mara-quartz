@@ -13,6 +13,8 @@ tags:
   - left
 type: OC
 univers: Chroniques du Grimnoir
+icon_file: "[[_assets/_PLUGINS/icons/rpg-awesome/WolfHowl.svg|WolfHowl]]"
+icon: rpg-awesome/WolfHowl
 ---
 
 <b style="text-align:center;display:block;">"Mère Russie n'existe pas"</b>
