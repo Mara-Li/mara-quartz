@@ -23,7 +23,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       Github: "https://github.com/Lisandra-dev",
       Twitter: "https://twitter.com/Mara__Li",
-      Discord: "Mara__Li"
+      Discord: "Mara__Li",
     },
   }),
 }
@@ -32,7 +32,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
-    Component.ArticleTitle({iconFolderPath: "static/icons", defaultIcon: "file"}),
+    Component.ArticleTitle({ iconFolderPath: "static/icons", defaultIcon: "file" }),
     Component.ContentMeta({ showReadingTime: false }),
     Component.TagList(),
   ],

@@ -43,6 +43,5 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
-  ExplorerBurger
+  ExplorerBurger,
 }
-

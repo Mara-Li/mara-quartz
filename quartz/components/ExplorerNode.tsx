@@ -15,7 +15,7 @@ export interface Options {
   title: string
   folderDefaultState: "collapsed" | "open"
   folderClickBehavior: "collapse" | "link"
-  useSavedState: boolean,
+  useSavedState: boolean
   iconFolderPath: string
   defaultFolderIcon?: string
   defaultFileIcon?: string
@@ -187,7 +187,12 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
-          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug} data-hasicon={hasIcon} data-icon={iconPath}>
+          <a
+            href={resolveRelative(fileData.slug!, node.file.slug!)}
+            data-for={node.file.slug}
+            data-hasicon={hasIcon}
+            data-icon={iconPath}
+          >
             {node.displayName}
           </a>
         </li>
