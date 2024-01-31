@@ -188,7 +188,6 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   }
   const iconPath = hasIcon ? `${opts.iconFolderPath}/${iconType}.svg` : ""
   const dataForSanitized = sanitizeText(node.file?.slug ?? node.name)
-  console.log(dataForSanitized)
   return (
     <>
       {node.file ? (
