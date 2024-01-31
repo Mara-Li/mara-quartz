@@ -138,9 +138,6 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   transform: rotate(-90deg);
 }
 
-.folder-title-icon:hover {
-  color: yellow !important;
-}
 .folder-icon:hover {
   color: var(--tertiary);
 }
