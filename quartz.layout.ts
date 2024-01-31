@@ -1,7 +1,17 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { IconFolderOptions } from "./quartz/components/types";
 
 // components shared across all pages
+
+const iconsOptions = {
+  folderPath: "quartz/static/icons",
+  default: {
+    file: "file",
+  },
+} as IconFolderOptions;
+
+
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
@@ -9,8 +19,7 @@ export const sharedPageComponents: SharedLayout = {
       Component.ExplorerBurger({
         folderDefaultState: "open",
         folderClickBehavior: "link",
-        iconFolderPath: "quartz/static/icons",
-        defaultFileIcon: "file",
+        iconSettings: iconsOptions,
       }),
     ),
     Component.MobileOnly(Component.Spacer()),
@@ -31,7 +40,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
-    Component.ArticleTitle({ iconFolderPath: "quartz/static/icons", defaultIcon: "file" }),
+    Component.ArticleTitle(iconsOptions),
     Component.ContentMeta({ showReadingTime: false }),
     Component.TagList(),
   ],
@@ -43,8 +52,7 @@ export const defaultContentPageLayout: PageLayout = {
         folderDefaultState: "collapsed",
         useSavedState: true,
         title: "",
-        iconFolderPath: "quartz/static/icons",
-        defaultFileIcon: "file",
+        iconSettings: iconsOptions,
       }),
     ),
   ],

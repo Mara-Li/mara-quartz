@@ -17,7 +17,6 @@ const defaultOptions = {
   folderClickBehavior: "collapse",
   folderDefaultState: "collapsed",
   useSavedState: true,
-  iconFolderPath: "",
   mapFn: (node) => {
     return node
   },

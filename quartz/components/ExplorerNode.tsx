@@ -10,6 +10,7 @@ import {
 } from "../util/path"
 import fs from "fs"
 import path from "path"
+import { IconFolderOptions } from "./types"
 
 type OrderEntries = "sort" | "filter" | "map"
 
@@ -18,9 +19,7 @@ export interface Options {
   folderDefaultState: "collapsed" | "open"
   folderClickBehavior: "collapse" | "link"
   useSavedState: boolean
-  iconFolderPath: string
-  defaultFolderIcon?: string
-  defaultFileIcon?: string
+  iconSettings?: IconFolderOptions
   sortFn: (a: FileNode, b: FileNode) => number
   filterFn: (node: FileNode) => boolean
   mapFn: (node: FileNode) => void
@@ -186,27 +185,27 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   }
   let hasIcon = false
   let iconType = ""
-  let defaultIcon = node.file ? opts.defaultFileIcon : opts.defaultFolderIcon;
-  if (node.icon) {
-    hasIcon = true
-    iconType = node.icon
-  } else if (opts.defaultFileIcon && node.file) {
-    hasIcon = true
-    iconType = opts.defaultFileIcon
-  } else if (opts.defaultFolderIcon && !node.file) {
-    hasIcon = true
-    iconType = opts.defaultFolderIcon
-    defaultIcon = opts.defaultFolderIcon
+  const iconSettings = opts.iconSettings
+  const defaultIcon = node.file ? iconSettings?.default.file : iconSettings?.default.folder;
+  if (iconSettings) {
+    if (node.icon) {
+      hasIcon = true
+      iconType = node.icon
+    } else if (iconSettings?.default.file && node.file) {
+      hasIcon = true
+      iconType = iconSettings?.default.file
+    } else if (iconSettings?.default.folder && !node.file) {
+      hasIcon = true
+      iconType = iconSettings?.default.folder
+    }
   }
-
-
-  const iconPath = hasIcon ? `${opts.iconFolderPath}/${iconType}.svg` : ""
+  const iconPath = hasIcon && iconSettings?.folderPath ? `${iconSettings.folderPath}/${iconType}.svg` : ""
   let iconAsSVG : string | null = null
-  if (hasIcon){
+  if (hasIcon && iconSettings?.folderPath){
     try {
       iconAsSVG = fs.readFileSync(path.join(process.cwd(), iconPath), "utf8")
     } catch (e) {
-      iconAsSVG = defaultIcon ? fs.readFileSync(path.join(process.cwd(), `${opts.iconFolderPath}/${defaultIcon}.svg`), "utf8") : null;
+      iconAsSVG = defaultIcon ? fs.readFileSync(path.join(process.cwd(), `${iconSettings.folderPath}/${defaultIcon}.svg`), "utf8") : null;
       hasIcon = defaultIcon ? true : false;
     }
   }
