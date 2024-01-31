@@ -5,7 +5,7 @@ import { IconFolderOptions } from "./quartz/components/types";
 // components shared across all pages
 
 const iconsOptions = {
-  folderPath: "quartz/static/icons",
+  rootIconFolder: "quartz/static/icons",
   default: {
     file: "file",
   },

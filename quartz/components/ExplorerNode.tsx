@@ -199,13 +199,13 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
       iconType = iconSettings?.default.folder
     }
   }
-  const iconPath = hasIcon && iconSettings?.folderPath ? `${iconSettings.folderPath}/${iconType}.svg` : ""
+  const iconPath = hasIcon && iconSettings?.rootIconFolder ? `${iconSettings.rootIconFolder}/${iconType}.svg` : ""
   let iconAsSVG : string | null = null
-  if (hasIcon && iconSettings?.folderPath){
+  if (hasIcon && iconSettings?.rootIconFolder){
     try {
       iconAsSVG = fs.readFileSync(path.join(process.cwd(), iconPath), "utf8")
     } catch (e) {
-      iconAsSVG = defaultIcon ? fs.readFileSync(path.join(process.cwd(), `${iconSettings.folderPath}/${defaultIcon}.svg`), "utf8") : null;
+      iconAsSVG = defaultIcon ? fs.readFileSync(path.join(process.cwd(), `${iconSettings.rootIconFolder}/${defaultIcon}.svg`), "utf8") : null;
       hasIcon = defaultIcon ? true : false;
     }
   }

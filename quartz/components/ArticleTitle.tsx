@@ -9,16 +9,16 @@ export default ((userOpts?: Partial<IconFolderOptions>) => {
     const title = fileData.frontmatter?.title
     const iconType = fileData.frontmatter?.icon || opts.default?.file
     if (title) {
-      if (!opts.folderPath || !iconType) {
+      if (!opts.rootIconFolder || !iconType) {
         return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
       }
-      const iconFullPath = `${opts.folderPath}/${iconType}.svg`
+      const iconFullPath = `${opts.rootIconFolder}/${iconType}.svg`
       let iconAsSVG = ""
       try {
         iconAsSVG = fs.readFileSync(path.join(process.cwd(), iconFullPath), "utf8")
       } catch (e) {
         iconAsSVG = fs.readFileSync(
-          path.join(process.cwd(), `${opts.folderPath}/${opts.default?.file}.svg`),
+          path.join(process.cwd(), `${opts.rootIconFolder}/${opts.default?.file}.svg`),
           "utf8",
         )
       }
