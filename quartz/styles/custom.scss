@@ -16,12 +16,15 @@ header {
 
 .page .page-header {
   padding: 1px;
-  width: auto !important;
+  width: auto;
 }
 
 @media all and (max-width: $mobileBreakpoint) {
   .page-title.mobile-only a {
     font-size: 5vw;
+  }
+  .page .page-header {
+    width: 96vw;
   }
 }
 
@@ -32,7 +35,6 @@ header {
   background-color: var(--light);
   z-index: 100;
   margin-top: 0 !important;
-  width: 100%;
 
   &.fixed {
     border-bottom: 0;
