@@ -23,13 +23,14 @@ function toggleExplorer(this: HTMLElement) {
   content.classList.toggle("collapsed")
   content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px"
   //prevent scroll under
-  if (this.dataset.mobile==="true" && document.querySelector(".mobile-only #explorer")  ) {
-    const article = document.querySelectorAll(".popover-hint, footer, .backlinks, .graph, .toc, #progress")
+  if (this.dataset.mobile === "true" && document.querySelector(".mobile-only #explorer")) {
+    const article = document.querySelectorAll(
+      ".popover-hint, footer, .backlinks, .graph, .toc, #progress",
+    )
     const header = document.querySelector(".page .page-header")
     if (article)
       article.forEach((element) => {
         element.classList.toggle("no-scroll")
-
       })
     if (header) header.classList.toggle("fixed")
   }
@@ -82,7 +83,6 @@ function setupExplorer() {
   // Set click handler for collapsing entire explorer
   const allExplorers = document.querySelectorAll("#explorer") as NodeListOf<HTMLElement>
   for (const explorer of allExplorers) {
-
     // Get folder state from local storage
     const storageTree = localStorage.getItem("fileTree")
 
@@ -108,7 +108,6 @@ function setupExplorer() {
       explorer.removeEventListener("click", toggleExplorer)
       explorer.addEventListener("click", toggleExplorer)
     }
-    
 
     // Set up click handlers for each folder (click handler on folder "icon")
     Array.prototype.forEach.call(document.getElementsByClassName("folder-icon"), function (item) {
@@ -121,7 +120,9 @@ function setupExplorer() {
       explorerState = JSON.parse(storageTree)
       explorerState.map((folderUl) => {
         // grab <li> element for matching folder path
-        const folderLi = document.querySelector(`[data-folderpath='${folderUl.path}']`) as HTMLElement
+        const folderLi = document.querySelector(
+          `[data-folderpath='${folderUl.path}']`,
+        ) as HTMLElement
 
         // Get corresponding content <ul> tag and set state
         if (folderLi) {
@@ -135,6 +136,31 @@ function setupExplorer() {
       // If tree is not in localStorage or config is disabled, use tree passed from Explorer as dataset
       explorerState = JSON.parse(explorer.dataset.tree)
     }
+  }
+  const allFileWithIcon = document.querySelectorAll("li a[data-hasicon='true']")
+  for (const fileWithIcon of allFileWithIcon) {
+    const fileIcon = fileWithIcon.getAttribute("data-icon")
+    const location = window.location.origin
+    const iconFullPath = `${location}/${fileIcon}`
+    const readSVG = async (path: string) => {
+      try {
+        const response = await fetch(path)
+        return await response.text()
+      } catch (err) {
+        return null
+      }
+    }
+    const iconClass = fileWithIcon.classList.contains("folder-title")
+      ? "folder-title-icon"
+      : "file-title-icon"
+    const svg = readSVG(iconFullPath)
+    svg.then((svg) => {
+      if (!svg?.startsWith("<svg")) return
+      svg = svg.replace(/<svg/g, `<svg class="${iconClass}"`)
+      //don't insert if the adjacent element is already an svg
+      if (fileWithIcon.firstChild?.nodeName === "svg") return
+      fileWithIcon.insertAdjacentHTML("afterbegin", svg)
+    })
   }
 }
 

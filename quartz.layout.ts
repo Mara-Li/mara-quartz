@@ -9,6 +9,9 @@ export const sharedPageComponents: SharedLayout = {
       Component.ExplorerBurger({
         folderDefaultState: "open",
         folderClickBehavior: "link",
+        iconFolderPath: "static/icons",
+        defaultFolderIcon: "folder-open",
+        defaultFileIcon: "file",
       }),
     ),
     Component.MobileOnly(Component.Spacer()),
@@ -29,7 +32,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
-    Component.ArticleTitle(),
+    Component.ArticleTitle({iconFolderPath: "static/icons", defaultIcon: "file"}),
     Component.ContentMeta({ showReadingTime: false }),
     Component.TagList(),
   ],
@@ -40,7 +43,10 @@ export const defaultContentPageLayout: PageLayout = {
         folderClickBehavior: "link",
         folderDefaultState: "collapsed",
         useSavedState: true,
-        title: ""
+        title: "",
+        iconFolderPath: "static/icons",
+        defaultFolderIcon: "folder-open",
+        defaultFileIcon: "file",
       }),
     ),
   ],

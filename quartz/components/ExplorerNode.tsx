@@ -16,6 +16,9 @@ export interface Options {
   folderDefaultState: "collapsed" | "open"
   folderClickBehavior: "collapse" | "link"
   useSavedState: boolean,
+  iconFolderPath: string
+  defaultFolderIcon?: string
+  defaultFileIcon?: string
   sortFn: (a: FileNode, b: FileNode) => number
   filterFn: (node: FileNode) => boolean
   mapFn: (node: FileNode) => void
@@ -172,13 +175,19 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   if (node.name !== "") {
     folderPath = joinSegments(fullPath ?? "", node.name)
   }
-
+  let hasIcon = node.file?.frontmatter?.icon !== undefined || opts.defaultFileIcon !== undefined
+  let iconType = node.file?.frontmatter?.icon ?? opts.defaultFileIcon
+  if (!node.file) {
+    hasIcon = opts.defaultFolderIcon !== undefined
+    iconType = opts.defaultFolderIcon
+  }
+  const iconPath = hasIcon ? `${opts.iconFolderPath}/${iconType}.svg` : ""
   return (
     <>
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
-          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
+          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug} data-hasicon={hasIcon} data-icon={iconPath}>
             {node.displayName}
           </a>
         </li>
@@ -208,6 +217,8 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                   <a
                     href={resolveRelative(fileData.slug!, folderPath as SimpleSlug)}
                     data-for={node.name}
+                    data-hasicon={hasIcon}
+                    data-icon={iconPath}
                     class="folder-title"
                   >
                     {node.displayName}
