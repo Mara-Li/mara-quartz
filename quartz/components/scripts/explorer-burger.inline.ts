@@ -124,7 +124,7 @@ function setupExplorer() {
       explorerState.map((folderUl) => {
         // grab <li> element for matching folder path
         const folderLi = document.querySelector(
-          `[data-folderpath='${folderUl.path}']`,
+          `[data-folderpath='${folderUl.path.replace("'", "-")}']`,
         ) as HTMLElement
 
         // Get corresponding content <ul> tag and set state
