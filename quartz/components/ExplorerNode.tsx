@@ -7,8 +7,9 @@ import {
   simplifySlug,
   SimpleSlug,
   FilePath,
-  sluggify,
 } from "../util/path"
+import fs from "fs"
+import path from "path"
 
 type OrderEntries = "sort" | "filter" | "map"
 
@@ -51,13 +52,15 @@ export class FileNode {
   displayName: string
   file: QuartzPluginData | null
   depth: number
+  icon?: string
 
-  constructor(slugSegment: string, displayName?: string, file?: QuartzPluginData, depth?: number) {
+  constructor(slugSegment: string, displayName?: string, file?: QuartzPluginData, depth?: number, icon?: string) {
     this.children = []
     this.name = slugSegment
     this.displayName = displayName ?? file?.frontmatter?.title ?? slugSegment
     this.file = file ? clone(file) : null
     this.depth = depth ?? 0
+    this.icon = icon ?? file?.frontmatter?.icon as string ?? undefined
   }
 
   private insert(fileData: DataWrapper) {
@@ -72,6 +75,7 @@ export class FileNode {
       if (nextSegment === "") {
         // index case (we are the root and we just found index.md), set our data appropriately
         const title = fileData.file.frontmatter?.title
+        this.icon = fileData.file.frontmatter?.icon as string ?? undefined
         if (title && title !== "index") {
           this.displayName = title
         }
@@ -180,13 +184,32 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   if (node.name !== "") {
     folderPath = joinSegments(fullPath ?? "", node.name)
   }
-  let hasIcon = node.file?.frontmatter?.icon !== undefined || opts.defaultFileIcon !== undefined
-  let iconType = node.file?.frontmatter?.icon ?? opts.defaultFileIcon
-  if (!node.file) {
-    hasIcon = opts.defaultFolderIcon !== undefined
+  let hasIcon = false
+  let iconType = ""
+  let defaultIcon = node.file ? opts.defaultFileIcon : opts.defaultFolderIcon;
+  if (node.icon) {
+    hasIcon = true
+    iconType = node.icon
+  } else if (opts.defaultFileIcon && node.file) {
+    hasIcon = true
+    iconType = opts.defaultFileIcon
+  } else if (opts.defaultFolderIcon && !node.file) {
+    hasIcon = true
     iconType = opts.defaultFolderIcon
+    defaultIcon = opts.defaultFolderIcon
   }
+
+
   const iconPath = hasIcon ? `${opts.iconFolderPath}/${iconType}.svg` : ""
+  let iconAsSVG : string | null = null
+  if (hasIcon){
+    try {
+      iconAsSVG = fs.readFileSync(path.join(process.cwd(), iconPath), "utf8")
+    } catch (e) {
+      iconAsSVG = defaultIcon ? fs.readFileSync(path.join(process.cwd(), `${opts.iconFolderPath}/${defaultIcon}.svg`), "utf8") : null;
+      hasIcon = defaultIcon ? true : false;
+    }
+  }
   const dataForSanitized = sanitizeText(node.file?.slug ?? node.name)
   return (
     <>
@@ -199,6 +222,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
             data-hasicon={hasIcon}
             data-icon={iconPath}
           >
+            {iconAsSVG && <div class="file-title-icon" dangerouslySetInnerHTML={{ __html: iconAsSVG }} />}
             {node.displayName}
           </a>
         </li>
@@ -219,9 +243,11 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="folder-icon"
+                data-hasicon={hasIcon}
               >
-                <polyline points="6 9 12 15 18 9"></polyline>
+                <polyline points="6 9 12 15 18 9" />
               </svg>
+              {hasIcon && iconAsSVG && (<div class="folder-title-icon" dangerouslySetInnerHTML={{ __html: iconAsSVG }} />)}
               {/* render <a> tag if folderBehavior is "link", otherwise render <button> with collapse click event */}
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" ? (

@@ -126,12 +126,21 @@ svg {
   cursor: pointer;
   transition: transform 0.3s ease;
   backface-visibility: visible;
+  &[data-hasicon="true"] {
+    opacity: 0;
+    left: -0.2rem;
+    position: relative;
+    width: 1em;
+  }
 }
 
 li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   transform: rotate(-90deg);
 }
 
+.folder-title-icon:hover {
+  color: yellow !important;
+}
 .folder-icon:hover {
   color: var(--tertiary);
 }
@@ -147,7 +156,14 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   margin: 0;
 }
 
-.folder-title-icon {
+#explorer-content ul li > a[data-hasicon="true"],
+.folder-container div > a[data-hasicon="true"] {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.folder-title-icon > svg {
   margin-right: 5px;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -155,11 +171,16 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   width: 1em;
   height: 1em;
   vertical-align: middle;
+  color: var(--secondary);
 }
 
-.file-title-icon {
+.file-title-icon > svg {
   width: 1em;
   height: 1em;
   margin-right: 5px;
   vertical-align: middle;
+}
+
+.folder-title-icon {
+  margin-left: -1.5rem;
 }

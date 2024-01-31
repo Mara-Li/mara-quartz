@@ -9,8 +9,7 @@ export const sharedPageComponents: SharedLayout = {
       Component.ExplorerBurger({
         folderDefaultState: "open",
         folderClickBehavior: "link",
-        iconFolderPath: "static/icons",
-        defaultFolderIcon: "folder-open",
+        iconFolderPath: "quartz/static/icons",
         defaultFileIcon: "file",
       }),
     ),
@@ -32,7 +31,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
-    Component.ArticleTitle({ iconFolderPath: "static/icons", defaultIcon: "file" }),
+    Component.ArticleTitle({ iconFolderPath: "quartz/static/icons", defaultIcon: "file" }),
     Component.ContentMeta({ showReadingTime: false }),
     Component.TagList(),
   ],
@@ -44,8 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
         folderDefaultState: "collapsed",
         useSavedState: true,
         title: "",
-        iconFolderPath: "static/icons",
-        defaultFolderIcon: "folder-open",
+        iconFolderPath: "quartz/static/icons",
         defaultFileIcon: "file",
       }),
     ),
