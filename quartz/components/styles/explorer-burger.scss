@@ -85,6 +85,7 @@
   
 .no-scroll {
 	opacity: 0;
+  overflow: hidden;
 }
 
 html:has(.no-scroll) {
