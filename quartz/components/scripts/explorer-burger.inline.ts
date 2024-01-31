@@ -157,6 +157,7 @@ function setupExplorer() {
     svg.then((svg) => {
       if (!svg?.startsWith("<svg")) return
       svg = svg.replace(/<svg/g, `<svg class="${iconClass}"`)
+      console.log(fileWithIcon.firstChild)
       //don't insert if the adjacent element is already an svg
       if (fileWithIcon.firstChild?.nodeName === "svg") return
       fileWithIcon.insertAdjacentHTML("afterbegin", svg)
