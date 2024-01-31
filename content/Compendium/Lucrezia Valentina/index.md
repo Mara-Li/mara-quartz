@@ -22,6 +22,8 @@ disabled rules:
   - heading-blank-lines
 share_link: https://share.note.sx/r14llir7
 share_updated: 2024-01-28T20:10:13+01:00
+icon_file: "[[_assets/_PLUGINS/icons/rpg-awesome/Knife.svg|Knife]]"
+icon: rpg-awesome/Knife
 ---
 > [!wiki]
 > # Lucrezia Valentina
