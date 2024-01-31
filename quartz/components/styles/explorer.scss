@@ -167,7 +167,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   backface-visibility: visible;
   width: 1em;
   height: 1em;
-  vertical-align: middle;
+  vertical-align: -2px;
   color: var(--secondary);
 }
 
@@ -175,7 +175,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   width: 1em;
   height: 1em;
   margin-right: 5px;
-  vertical-align: middle;
+  vertical-align: -2px;
 }
 
 .folder-title-icon {
