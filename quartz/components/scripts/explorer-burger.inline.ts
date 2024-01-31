@@ -1,8 +1,11 @@
-import exp from "constants"
 import { FolderState } from "../ExplorerNode"
 
 // Current state of folders
 let explorerState: FolderState[]
+
+function escapeCharacters(str: string) {
+  return str.replace(/'/g, "\\'").replace(/"/g, '\\"')
+}
 
 const observer = new IntersectionObserver((entries) => {
   // If last element is observed, remove gradient of "overflow" class so element is visible

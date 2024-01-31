@@ -7,6 +7,7 @@ import {
   simplifySlug,
   SimpleSlug,
   FilePath,
+  sluggify,
 } from "../util/path"
 
 type OrderEntries = "sort" | "filter" | "map"
@@ -165,6 +166,10 @@ type ExplorerNodeProps = {
   fullPath?: string
 }
 
+function sanitizeText(text: string) {
+  return text.replace(/'/g, "-")
+}
+
 export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodeProps) {
   // Get options
   const folderBehavior = opts.folderClickBehavior
@@ -182,6 +187,8 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
     iconType = opts.defaultFolderIcon
   }
   const iconPath = hasIcon ? `${opts.iconFolderPath}/${iconType}.svg` : ""
+  const dataForSanitized = sanitizeText(node.file?.slug ?? node.name)
+  console.log(dataForSanitized)
   return (
     <>
       {node.file ? (
@@ -189,7 +196,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
         <li key={node.file.slug}>
           <a
             href={resolveRelative(fileData.slug!, node.file.slug!)}
-            data-for={node.file.slug}
+            data-for={dataForSanitized}
             data-hasicon={hasIcon}
             data-icon={iconPath}
           >
@@ -221,7 +228,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                 {folderBehavior === "link" ? (
                   <a
                     href={resolveRelative(fileData.slug!, folderPath as SimpleSlug)}
-                    data-for={node.name}
+                    data-for={dataForSanitized}
                     data-hasicon={hasIcon}
                     data-icon={iconPath}
                     class="folder-title"
