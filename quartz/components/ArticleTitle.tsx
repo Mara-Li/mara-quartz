@@ -33,11 +33,12 @@ export default ((userOpts?: Partial<Options>) => {
 
   ArticleTitle.css = `
   .article-title {
-    margin: 0;
+    margin: 2rem 0 0 0;
   }
   .article-title[data-hasicon="true"] {
     display: flex;
     align-items: center;
+    margin: 0 !important;
   }
   .article-title-icon {
     margin-right: 1rem;
