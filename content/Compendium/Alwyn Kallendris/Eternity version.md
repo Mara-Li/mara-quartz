@@ -27,7 +27,7 @@ icon: tabler-icons/Radioactive
 ➤ **Classe Sociale** : Aisée
 
 ➤ **Apparence** : *Anko Uguisu : Call of the Night*
-![[Alwyn Kallendris-1685399749952.png|+side]]
+![[../../img/Alwyn Kallendris-full.png|+side]]
 - *Yeux* : Marron
 - *Cheveux* : Châtain clair, certaines mèches sont grises et d'autres blanches, mi-long attaché en une queue de cheval ou un chignon bas.
 - *Taille :* 1.80m
