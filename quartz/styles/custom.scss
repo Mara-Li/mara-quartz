@@ -15,20 +15,14 @@ header {
   gap: 1vw;
 }
 
-@media all and (min-width: $mobileBreakpoint) {
-  .page .page-header {
-    padding: 2rem;
-    padding-bottom: 0.5rem;
-    width: auto !important;
-  }
+.page .page-header {
+  padding: 1px;
+  width: auto !important;
 }
 
 @media all and (max-width: $mobileBreakpoint) {
-  .page .page-header {
-    padding: 1rem;
-    & .page-title.mobile-only a {
-      font-size: 5vw;
-    }
+  .page-title.mobile-only a {
+    font-size: 5vw;
   }
 }
 
