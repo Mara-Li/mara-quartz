@@ -5,16 +5,16 @@ aliases:
   - index
 category:
   - Compendium/Ashling May
-cover: https://www.mara-li.fr/assets/img/Commission%20Feilyn.png
 date: 2020-06-12
 description: Ashling May, mon premier et meilleur des OC. Une étudiante douée d'untalent certains en informatique, fan de jeux vidéos et doté d'un énorme égo. Lâche et égoïste, ainsi que très vénale.
-dg-publish: true
 image: Commission Feilyn.png
 name: Ashling May
 share: true
 title: Ashling May
 type:
   - OC
+icon_file: "[[_assets/_PLUGINS/icons/remix-icons/GamepadLine.svg|GamepadLine]]"
+icon: remix-icons/GamepadLine
 ---
 
 
