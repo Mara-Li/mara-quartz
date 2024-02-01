@@ -5,8 +5,18 @@ import script from "./scripts/search.inline"
 import { i18n } from "../i18n/i18next"
 import { classNames } from "../util/lang"
 
-export default (() => {
+export interface SearchOptions {
+  enablePreview: boolean
+}
+
+const defaultOptions: SearchOptions = {
+  enablePreview: true,
+}
+
+export default ((userOpts?: Partial<SearchOptions>) => {
   function Search({ displayClass, cfg }: QuartzComponentProps) {
+    const opts = { ...defaultOptions, ...userOpts }
+
     return (
       <div class={classNames(displayClass, "search")}>
         <div id="search-icon">
@@ -37,7 +47,7 @@ export default (() => {
               aria-label="Search for something"
               placeholder="Search for something"
             />
-            <div id="results-container"></div>
+            <div id="search-layout" data-preview={opts.enablePreview}></div>
           </div>
         </div>
       </div>
