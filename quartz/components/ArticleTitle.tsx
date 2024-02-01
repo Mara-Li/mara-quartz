@@ -1,7 +1,6 @@
-import { IconFolderOptions, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import * as fs from "fs"
-import * as path from "path"
+import { getIconAsSVG, IconFolderOptions } from "../util/FileIcons"
 
 export default ((userOpts?: Partial<IconFolderOptions>) => {
   const opts = {...userOpts }
@@ -12,17 +11,8 @@ export default ((userOpts?: Partial<IconFolderOptions>) => {
       if (!opts.rootIconFolder || !iconType) {
         return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
       }
-      const iconFullPath = `${opts.rootIconFolder}/${iconType}.svg`
-      let iconAsSVG = ""
-      try {
-        iconAsSVG = fs.readFileSync(path.join(process.cwd(), iconFullPath), "utf8")
-      } catch (e) {
-        iconAsSVG = fs.readFileSync(
-          path.join(process.cwd(), `${opts.rootIconFolder}/${opts.default?.file}.svg`),
-          "utf8",
-        )
-      }
-
+      const {iconAsSVG, iconFullPath} = getIconAsSVG(opts, iconType as string)
+      
       return (
         <div
           class={classNames(displayClass, "article-title")}

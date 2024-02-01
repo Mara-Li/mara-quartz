@@ -10,7 +10,7 @@ import {
 } from "../util/path"
 import fs from "fs"
 import path from "path"
-import { IconFolderOptions } from "./types"
+import { IconFolderOptions } from "../util/FileIcons"
 
 type OrderEntries = "sort" | "filter" | "map"
 
