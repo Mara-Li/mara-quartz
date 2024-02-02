@@ -7,10 +7,6 @@
 
 // Put your custom CSS here!
 
-ul.overflow {
-  max-height: 90vh;
-}
-
 header {
   gap: 1vw;
 }
@@ -20,7 +16,7 @@ header {
   width: auto;
 }
 
-@media all and (max-width: $mobileBreakpoint) {
+@media all and (max-width: $fullPageWidth) {
   .page-title.mobile-only {
     max-width: fit-content;
     a {
@@ -103,4 +99,9 @@ footer {
 
 .page-header .spacer.mobile-only {
   max-width: 1vw;
+}
+
+ul.overflow:after,
+ol.overflow:after {
+  background: none;
 }
