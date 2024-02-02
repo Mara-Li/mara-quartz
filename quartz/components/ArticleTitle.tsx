@@ -4,7 +4,7 @@ import * as fs from "fs"
 import * as path from "path"
 
 export default ((userOpts?: Partial<IconFolderOptions>) => {
-  const opts = {...userOpts }
+  const opts = { ...userOpts }
   function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
     const title = fileData.frontmatter?.title
     const iconType = fileData.frontmatter?.icon || opts.default?.file
@@ -43,17 +43,6 @@ export default ((userOpts?: Partial<IconFolderOptions>) => {
   ArticleTitle.css = `
   .article-title {
     margin: 2rem 0 0 0;
-  }
-  .article-title[data-hasicon="true"] {
-    display: flex;
-    align-items: center;
-    margin: 0 !important;
-  }
-  .article-title-icon {
-    margin-right: 1rem;
-  }
-  .article-title[data-hasicon="true"] > h1 {
-    margin: 0;
   }
   `
   return ArticleTitle

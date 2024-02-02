@@ -2,12 +2,13 @@
 @use "./custom/callouts.scss";
 @use "./custom/image_grid_float.scss";
 @use "./custom/grid_callouts.scss";
+@use "./custom/file_icon.scss";
 @use "./variables.scss" as *;
 
 // Put your custom CSS here!
 
 ul.overflow {
-  max-height: 80vh;
+  max-height: 90vh;
 }
 
 header {
@@ -20,11 +21,14 @@ header {
 }
 
 @media all and (max-width: $mobileBreakpoint) {
-  .page-title.mobile-only a {
-    font-size: 5vw;
-  }
-  .page .page-header {
-    width: 96vw;
+  .page-title.mobile-only {
+    max-width: fit-content;
+    a {
+      font-size: 5vw;
+    }
+    .page .page-header {
+      width: 96vw;
+    }
   }
 }
 
@@ -95,4 +99,8 @@ footer {
   .no-folder-list & {
     display: none;
   }
+}
+
+.page-header .spacer.mobile-only {
+  max-width: 1vw;
 }
