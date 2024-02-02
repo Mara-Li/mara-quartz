@@ -11,6 +11,11 @@ header {
   gap: 1vw;
 }
 
+ul.overflow,
+ol.overflow {
+  max-height: 80dvh;
+}
+
 .page .page-header {
   padding: 1px;
   width: auto;

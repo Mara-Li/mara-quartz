@@ -54,14 +54,14 @@
       z-index: 100;
       max-height: max-content !important;
       transition: all 300ms ease;
-      //margin-top: 1rem;
+      margin-top: 5dvh;
       overflow: hidden;
       top: 5rem;
     }
 
-    ul.overflow {
-      max-height: -webkit-fill-available;
-    }
+    /* ul.overflow {
+      max-height: 70dvh;
+    } */
 
     &.collapsed {
       left: 0;
