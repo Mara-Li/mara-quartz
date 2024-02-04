@@ -25,11 +25,17 @@ ol.overflow {
   .page-title.mobile-only {
     max-width: fit-content;
     a {
-      font-size: 5vw;
+      font-size: 4dvw;
     }
     .page .page-header {
       width: 96vw;
     }
+  }
+}
+
+@media all and (min-width: $tabletBreakpoint) {
+  .page-title.mobile-only a {
+    font-size: 2.5vw;
   }
 }
 
