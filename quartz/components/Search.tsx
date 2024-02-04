@@ -4,6 +4,7 @@ import style from "./styles/search.scss"
 import script from "./scripts/search.inline"
 import { i18n } from "../i18n/i18next"
 import { classNames } from "../util/lang"
+import { i18n } from "../i18n/i18next"
 
 export interface SearchOptions {
   enablePreview: boolean
