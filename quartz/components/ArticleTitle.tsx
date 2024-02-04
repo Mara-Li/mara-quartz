@@ -1,39 +1,19 @@
-import { IconFolderOptions, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import * as fs from "fs"
-import * as path from "path"
+import { IconFolderOptions } from "../plugins/components/FileIcons"
+import { FileTitleIcon } from "../plugins/components/FileIcons"
 
-export default ((userOpts?: Partial<IconFolderOptions>) => {
-  const opts = { ...userOpts }
-  function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
+export default ((opts?: Partial<IconFolderOptions>) => {
+  function ArticleTitle(props: QuartzComponentProps) {
+    const { displayClass, fileData } = props
     const title = fileData.frontmatter?.title
-    const iconType = fileData.frontmatter?.icon || opts.default?.file
+    const iconType = (fileData.frontmatter?.icon as string) || opts?.default?.file
     if (title) {
-      if (!opts.rootIconFolder || !iconType) {
+      if (!opts?.rootIconFolder || !iconType) {
         return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
       }
-      const iconFullPath = `${opts.rootIconFolder}/${iconType}.svg`
-      let iconAsSVG = ""
-      try {
-        iconAsSVG = fs.readFileSync(path.join(process.cwd(), iconFullPath), "utf8")
-      } catch (e) {
-        iconAsSVG = fs.readFileSync(
-          path.join(process.cwd(), `${opts.rootIconFolder}/${opts.default?.file}.svg`),
-          "utf8",
-        )
-      }
-
       return (
-        <div
-          class={classNames(displayClass, "article-title")}
-          data-icon={iconFullPath}
-          data-hasIcon={true}
-        >
-          {iconAsSVG && (
-            <div class="article-title-icon" dangerouslySetInnerHTML={{ __html: iconAsSVG }} />
-          )}
-          <h1>{title}</h1>
-        </div>
+        <FileTitleIcon displayClass={displayClass} opts={opts} iconType={iconType} title={title} />
       )
     } else {
       return null

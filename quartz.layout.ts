@@ -1,15 +1,15 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { IconFolderOptions } from "./quartz/components/types";
+import { IconFolderOptions } from "./quartz/plugins/components/FileIcons";
 
 // components shared across all pages
 
-const iconsOptions = {
+const iconsOptions: IconFolderOptions = {
   rootIconFolder: "quartz/static/icons",
   default: {
     file: "file",
   },
-} as IconFolderOptions;
+};
 
 
 export const sharedPageComponents: SharedLayout = {
