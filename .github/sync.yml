@@ -7,5 +7,5 @@ group:
           sync_file.yml
           ci.yaml
     repos: |
-      ObsidianPublisher/quartz-port
+      ObsidianPublisher/quartz-publisher
 
