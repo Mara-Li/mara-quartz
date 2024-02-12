@@ -1,13 +1,13 @@
-import { i18n } from "../i18n/i18next"
-import { FullSlug, _stripSlashes, joinSegments, pathToRoot } from "../util/path"
+import { i18n } from "../i18n"
+import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 export default (() => {
   function Head({ cfg, fileData, externalResources }: QuartzComponentProps) {
-    const title = fileData.frontmatter?.title ?? i18n(cfg.locale, "head.untitled")
+    const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
     const description =
-      fileData.description?.trim() ?? i18n(cfg.locale, "head.noDescriptionProvided")
+      fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description
     const { css, js } = externalResources
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
@@ -30,8 +30,12 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        {cfg.theme.cdnCaching && (
+          <>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+          </>
+        )}
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
