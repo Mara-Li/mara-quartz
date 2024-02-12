@@ -8,7 +8,6 @@ import {
   SimpleSlug,
   FilePath,
 } from "../util/path"
-import { IconFolderOptions, NodesIcons, getIconForNodes } from "../plugins/components/FileIcons"
 
 type OrderEntries = "sort" | "filter" | "map"
 
@@ -17,7 +16,6 @@ export interface Options {
   folderDefaultState: "collapsed" | "open"
   folderClickBehavior: "collapse" | "link"
   useSavedState: boolean
-  iconSettings?: IconFolderOptions
   sortFn: (a: FileNode, b: FileNode) => number
   filterFn: (node: FileNode) => boolean
   mapFn: (node: FileNode) => void
@@ -49,21 +47,13 @@ export class FileNode {
   displayName: string
   file: QuartzPluginData | null
   depth: number
-  icon?: string
 
-  constructor(
-    slugSegment: string,
-    displayName?: string,
-    file?: QuartzPluginData,
-    depth?: number,
-    icon?: string,
-  ) {
+  constructor(slugSegment: string, displayName?: string, file?: QuartzPluginData, depth?: number) {
     this.children = []
     this.name = slugSegment
     this.displayName = displayName ?? file?.frontmatter?.title ?? slugSegment
     this.file = file ? clone(file) : null
     this.depth = depth ?? 0
-    this.icon = icon ?? (file?.frontmatter?.icon as string) ?? undefined
   }
 
   private insert(fileData: DataWrapper) {
@@ -78,7 +68,6 @@ export class FileNode {
       if (nextSegment === "") {
         // index case (we are the root and we just found index.md), set our data appropriately
         const title = fileData.file.frontmatter?.title
-        this.icon = (fileData.file.frontmatter?.icon as string) ?? undefined
         if (title && title !== "index") {
           this.displayName = title
         }
@@ -173,10 +162,6 @@ type ExplorerNodeProps = {
   fullPath?: string
 }
 
-function sanitizeText(text: string) {
-  return text.replace(/'/g, "-")
-}
-
 export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodeProps) {
   // Get options
   const folderBehavior = opts.folderClickBehavior
@@ -187,20 +172,13 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   if (node.name !== "") {
     folderPath = joinSegments(fullPath ?? "", node.name)
   }
-  const { iconAsSVG, hasIcon, iconPath } = getIconForNodes(node, opts.iconSettings)
-  const dataForSanitized = sanitizeText(node.file?.slug ?? node.name)
+
   return (
     <>
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
-          <a
-            href={resolveRelative(fileData.slug!, node.file.slug!)}
-            data-for={dataForSanitized}
-            data-hasicon={hasIcon}
-            data-icon={iconPath}
-          >
-            <NodesIcons iconAsSVG={iconAsSVG} hasIcon={hasIcon} nodeType="file" />
+          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
             {node.displayName}
           </a>
         </li>
@@ -221,19 +199,15 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 class="folder-icon"
-                data-hasicon={hasIcon}
               >
-                <polyline points="6 9 12 15 18 9" />
+                <polyline points="6 9 12 15 18 9"></polyline>
               </svg>
-              <NodesIcons iconAsSVG={iconAsSVG} hasIcon={hasIcon} nodeType="folder" />
               {/* render <a> tag if folderBehavior is "link", otherwise render <button> with collapse click event */}
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" ? (
                   <a
                     href={resolveRelative(fileData.slug!, folderPath as SimpleSlug)}
-                    data-for={dataForSanitized}
-                    data-hasicon={hasIcon}
-                    data-icon={iconPath}
+                    data-for={node.name}
                     class="folder-title"
                   >
                     {node.displayName}

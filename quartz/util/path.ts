@@ -47,7 +47,7 @@ export function getFullSlug(window: Window): FullSlug {
   return res
 }
 
-export function sluggify(s: string): string {
+function sluggify(s: string): string {
   return s
     .split("/")
     .map((segment) =>
